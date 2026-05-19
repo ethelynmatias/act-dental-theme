@@ -142,6 +142,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   padding: var(--pad-full) 0;
   text-align: center;
   position: relative;
@@ -160,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 .v2-hero__inner {
   position: relative;
   z-index: 1;
+  width: 100%;
 }
 
 .v2-hero__inner {

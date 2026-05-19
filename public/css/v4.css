@@ -46,11 +46,15 @@
    ================================================================ */
 .v4-hero {
   background: var(--white);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   padding: 88px 0 0;
   border-bottom: 1px solid var(--border);
   overflow: hidden;
 }
 
+.v4-hero .container { width: 100%; }
 .v4-hero-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;

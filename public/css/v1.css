@@ -103,7 +103,10 @@
    ============================================================ */
 .cp-hero {
   background: linear-gradient(to left, rgba(0,164,189,.12) 0%, rgba(12,99,255,.07) 40%, #fff 100%);
-  padding: 96px 0 80px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 0 50px;
   border-bottom: 1px solid var(--cp-border);
   overflow: hidden;
 }
@@ -124,7 +127,7 @@
 
 /* ── Hero background layer ── */
 .cp-hero { position: relative; }
-.cp-hero .container { position: relative; z-index: 1; }
+.cp-hero .container { position: relative; z-index: 1; width: 100%; }
 
 .cp-hero-bg {
   position: absolute;
