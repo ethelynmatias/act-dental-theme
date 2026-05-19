@@ -2,10 +2,11 @@
 
   {{-- ===== ANNOUNCEMENT BAR ===== --}}
   <div class="v1-announce">
-    <a href="/v1/exchange-2026">
+    <a href="/v1/exchange-2026" class="v1-announce-msg">
       Join Us at The Exchange 2026 &nbsp;|&nbsp; San Antonio, TX &nbsp;·&nbsp; September 9–12, 2026
       <span class="announce-arrow">→</span>
     </a>
+    <a href="#" class="v1-announce-login">Member Login</a>
   </div>
 
   {{-- ===== MAIN NAV ===== --}}
@@ -196,7 +197,6 @@
 
       {{-- Desktop CTAs --}}
       <div class="v1-nav-cta">
-        <a href="#" class="v1-login-link">Member Login</a>
         <a href="/v1/join" class="v1-btn-start">Join Now</a>
       </div>
 

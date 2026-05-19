@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ $metaDesc ?? 'ACT Dental — Exceptional care for your entire family. General, cosmetic, and orthodontic dentistry.' }}">
-  <title>{{ $title ?? 'ACT Dental' }} | ACT Dental</title>
+  <title>{{ $title ?? 'Smile Source' }} | Smile Source</title>
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">

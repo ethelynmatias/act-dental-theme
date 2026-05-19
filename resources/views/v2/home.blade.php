@@ -6,68 +6,63 @@
 
 @section('content')
 
-{{-- ================================================================
-     HERO — bg-black, centered (sr-one-col-01 bg-black text-white)
-     ================================================================ --}}
+{{-- ===== HERO ===== --}}
 <section class="v2-hero">
   <div class="sr-container">
     <div class="v2-hero__inner">
 
-      <span class="v2-hero__lead">Phoenix's Premier Family Dental Practice</span>
+      <span class="v2-hero__lead">Dental Practice Coaching &amp; Consulting</span>
 
-      <h1>Stunning Smiles,<br><em>Effortlessly.</em></h1>
+      <h1>Better Practice,<br><em>Better Life.</em></h1>
 
       <p class="v2-hero__sub">
-        Comprehensive dental care for your whole family — delivered with warmth,
-        precision, and technology that makes every visit comfortable.
+        Are you a dentist seeking to elevate your practice, boost profitability,
+        and enhance your work-life balance? ACT Dental coaches help you build
+        the practice — and the life — you've always wanted.
       </p>
 
       <div class="v2-hero__cta">
-        <a href="#" class="sr-btn sr-btn-primary">Book Now — It's Easy</a>
-        <a href="#" class="sr-btn sr-btn-outline-white">See Our Services</a>
+        <a href="#" class="sr-btn sr-btn-primary">Get Started Today</a>
+        <a href="#" class="sr-btn sr-btn-outline-white">Learn About Coaching</a>
       </div>
 
     </div>
 
-    {{-- Product visual / hero image block --}}
     <div class="v2-hero__visual">
       <div class="v2-media-img v2-media-img--dark">
-        <i class="fas fa-tooth"></i>
+        <i class="fas fa-chart-line"></i>
       </div>
     </div>
 
   </div>
 </section>
 
-{{-- ================================================================
-     FEATURE BADGES — 3-col, still on black
-     (150+ Modules | Drag and Drop Builder | Google CoreWeb Vitals)
-     ================================================================ --}}
+{{-- ===== FEATURE BADGES ===== --}}
 <section class="v2-badges">
   <div class="sr-container">
     <div class="v2-badges__grid">
 
       <div class="v2-badge-item">
-        <div class="v2-badge-item__icon"><i class="fas fa-calendar-check"></i></div>
+        <div class="v2-badge-item__icon"><i class="fas fa-bullseye"></i></div>
         <div>
-          <h4>Same-Day Appointments</h4>
-          <p>We keep slots open daily — no week-long waits when you need care.</p>
+          <h4>Clarify Your Vision</h4>
+          <p>Define a clear roadmap for your practice with strategic goals and proven systems.</p>
         </div>
       </div>
 
       <div class="v2-badge-item">
-        <div class="v2-badge-item__icon"><i class="fas fa-mobile-alt"></i></div>
+        <div class="v2-badge-item__icon"><i class="fas fa-users"></i></div>
         <div>
-          <h4>Online Booking & Patient Portal</h4>
-          <p>Schedule, message your team, and manage care from your phone 24/7.</p>
+          <h4>Build Your Dream Team</h4>
+          <p>Hire, train, and retain top talent with best-practice team management strategies.</p>
         </div>
       </div>
 
       <div class="v2-badge-item">
-        <div class="v2-badge-item__icon"><i class="fas fa-star"></i></div>
+        <div class="v2-badge-item__icon"><i class="fas fa-dollar-sign"></i></div>
         <div>
-          <h4>Optimized for Patient Experience</h4>
-          <p>4.9-star rated across 1,200+ Google reviews from real patients.</p>
+          <h4>Maximize Profitability</h4>
+          <p>Reduce write-offs, optimize reimbursements, and grow your financial margin.</p>
         </div>
       </div>
 
@@ -75,85 +70,82 @@
   </div>
 </section>
 
-{{-- ================================================================
-     TRUST BAR — logo scroll strip (srco-logos-01 bg-black text-white)
-     ================================================================ --}}
+{{-- ===== TRUST BAR ===== --}}
 <section class="v2-trust">
   <div class="sr-container">
-    <p class="v2-trust__label">Trusted by patients insured by more than 7 major carriers.</p>
+    <p class="v2-trust__label">Trusted by dentists across all 50 states and counting.</p>
     <div class="v2-trust__logos">
-      <div class="v2-trust__pill">Delta Dental</div>
-      <div class="v2-trust__pill">Cigna</div>
-      <div class="v2-trust__pill">Aetna</div>
-      <div class="v2-trust__pill">MetLife</div>
-      <div class="v2-trust__pill">Humana</div>
-      <div class="v2-trust__pill">United Healthcare</div>
-      <div class="v2-trust__pill">Guardian</div>
+      <div class="v2-trust__pill">Best Practices Association</div>
+      <div class="v2-trust__pill">TTT Group Coaching</div>
+      <div class="v2-trust__pill">Pro Coaching</div>
+      <div class="v2-trust__pill">GAPs Calculator</div>
+      <div class="v2-trust__pill">Study Clubs</div>
+      <div class="v2-trust__pill">Podcast</div>
+      <div class="v2-trust__pill">Magazine</div>
     </div>
   </div>
 </section>
 
-{{-- ================================================================
-     MEET THE PRACTICE — two-col, white bg (sr-two-col-01 bg-white)
-     ================================================================ --}}
+{{-- ===== ABOUT ACT DENTAL ===== --}}
 <section class="v2-meet">
   <div class="sr-container">
     <div class="v2-two-col">
 
       <div class="v2-media-col">
         <div class="v2-media-img v2-media-img--blue">
-          <i class="fas fa-user-md"></i>
+          <i class="fas fa-user-tie"></i>
         </div>
       </div>
 
       <div class="v2-text-col">
         <span class="v2-section-tag">About ACT Dental</span>
-        <h2 class="v2-section-title">Meet ACT Dental — Your Family's Smile Partner.</h2>
+        <h2 class="v2-section-title">Why Every Great Practice Needs a Coach.</h2>
         <p class="v2-section-body">
-          Go from anxious to confident in minutes. Our practice was built around the patient experience —
-          from our gentle approach and advanced technology to our transparent pricing and flexible scheduling.
-          We help Phoenix families smile better, faster.
+          ACT Dental is uniquely positioned to address the challenges faced by dentists today.
+          Our expert coaches possess the experience, knowledge, and tools to provide tailored
+          solutions that transform your dental practice and enhance your personal and professional life.
+          At ACT Dental, we believe every successful practice should operate under best practices —
+          the question is, who's teaching yours?
         </p>
         <ul class="v2-list">
-          <li><i class="fas fa-check-circle"></i> Board-certified dentists with 20+ years combined experience</li>
-          <li><i class="fas fa-check-circle"></i> CEREC same-day crowns, 3D imaging & digital impressions</li>
-          <li><i class="fas fa-check-circle"></i> Early morning, evening & Saturday hours</li>
-          <li><i class="fas fa-check-circle"></i> Sedation dentistry for anxious patients</li>
-          <li><i class="fas fa-check-circle"></i> Most major insurance accepted + flexible financing</li>
+          <li><i class="fas fa-check-circle"></i> Personalized coaching tailored to your practice's unique needs</li>
+          <li><i class="fas fa-check-circle"></i> Proven systems for team building, leadership, and operations</li>
+          <li><i class="fas fa-check-circle"></i> Financial strategies to reduce write-offs and boost profitability</li>
+          <li><i class="fas fa-check-circle"></i> Work-life balance frameworks so you love going to work again</li>
+          <li><i class="fas fa-check-circle"></i> Community of like-minded practice owners across the country</li>
         </ul>
-        <a href="#" class="sr-btn sr-btn-primary">Meet Our Team</a>
+        <a href="#" class="sr-btn sr-btn-primary">Meet Our Coaches</a>
       </div>
 
     </div>
   </div>
 </section>
 
-{{-- ================================================================
-     GENERAL DENTISTRY — two-col reversed, light bg
-     ================================================================ --}}
+{{-- ===== CHALLENGE #1: BURNOUT ===== --}}
 <section class="v2-meet" style="background:var(--off-white);">
   <div class="sr-container">
     <div class="v2-two-col v2-two-col--reversed">
 
       <div class="v2-text-col">
-        <span class="v2-section-tag">General & Preventive</span>
-        <h2 class="v2-section-title">A Healthy Foundation for Every Smile.</h2>
+        <span class="v2-section-tag">Challenge #1 — Burnout</span>
+        <h2 class="v2-section-title">54.9% of Dentists Experience Burnout. Let's Change That.</h2>
         <p class="v2-section-body">
-          Regular exams and professional cleanings are the most powerful investment you can make
-          in your long-term health. Our thorough approach catches small issues before they become expensive ones.
+          A study in the Journal of the American Dental Association found that over half of dentists
+          experience burnout symptoms. ACT Dental coaches help you clarify your vision, set strategic goals,
+          and implement systems that restore your passion and energy for dentistry.
         </p>
         <ul class="v2-list">
-          <li><i class="fas fa-check-circle"></i> Comprehensive exams with digital X-rays</li>
-          <li><i class="fas fa-check-circle"></i> Professional cleanings & periodontal care</li>
-          <li><i class="fas fa-check-circle"></i> Sealants, fluoride treatment & cavity prevention</li>
-          <li><i class="fas fa-check-circle"></i> Nightguards, mouthguards & TMJ treatment</li>
+          <li><i class="fas fa-check-circle"></i> Develop stress management and self-care strategies</li>
+          <li><i class="fas fa-check-circle"></i> Set goals that align with what matters most to you</li>
+          <li><i class="fas fa-check-circle"></i> Build efficient systems that reduce daily friction</li>
+          <li><i class="fas fa-check-circle"></i> Achieve a more fulfilling, balanced career</li>
         </ul>
-        <a href="#" class="sr-btn sr-btn-primary">Explore Preventive Care</a>
+        <a href="#" class="sr-btn sr-btn-primary">Discover How Coaching Helps</a>
       </div>
 
       <div class="v2-media-col">
         <div class="v2-media-img v2-media-img--light">
-          <i class="fas fa-teeth"></i>
+          <i class="fas fa-heart"></i>
         </div>
       </div>
 
@@ -161,138 +153,132 @@
   </div>
 </section>
 
-{{-- ================================================================
-     COSMETIC — two-col, white bg
-     ================================================================ --}}
+{{-- ===== CHALLENGE #2: PPOS & PROFITABILITY ===== --}}
 <section class="v2-meet">
   <div class="sr-container">
     <div class="v2-two-col">
 
       <div class="v2-media-col">
         <div class="v2-media-img v2-media-img--blue" style="background:linear-gradient(135deg,#ede9fe,#ddd6fe); color:#7c3aed;">
-          <i class="fas fa-smile"></i>
+          <i class="fas fa-chart-bar"></i>
         </div>
       </div>
 
       <div class="v2-text-col">
-        <span class="v2-section-tag">Cosmetic Dentistry</span>
-        <h2 class="v2-section-title">Your Dream Smile is Closer Than You Think.</h2>
+        <span class="v2-section-tag">Challenge #2 — PPO Reimbursements</span>
+        <h2 class="v2-section-title">82.4% of Dentists Are in PPOs. We Help You Thrive Anyway.</h2>
         <p class="v2-section-body">
-          Whether you want a subtle refresh or a complete transformation, our cosmetic services
-          are designed around your vision. We make the process feel exciting, not intimidating.
+          ACT Dental coaches analyze your practice performance, identify opportunities for improvement,
+          and provide tailored solutions to increase efficiency and maximize profitability — even within
+          the complex world of insurance reimbursement.
         </p>
         <ul class="v2-list">
-          <li><i class="fas fa-check-circle"></i> Professional whitening — in-office & take-home</li>
-          <li><i class="fas fa-check-circle"></i> Porcelain veneers & composite bonding</li>
-          <li><i class="fas fa-check-circle"></i> Invisalign clear aligner therapy</li>
-          <li><i class="fas fa-check-circle"></i> Full smile makeovers with digital preview</li>
+          <li><i class="fas fa-check-circle"></i> Navigate PPO complexity with expert guidance</li>
+          <li><i class="fas fa-check-circle"></i> Reduce write-offs and increase collections</li>
+          <li><i class="fas fa-check-circle"></i> Explore alternative income streams and fee-for-service strategies</li>
+          <li><i class="fas fa-check-circle"></i> Optimize scheduling to maximize production per day</li>
         </ul>
-        <a href="#" class="sr-btn sr-btn-primary">Explore Cosmetic Care</a>
+        <a href="#" class="sr-btn sr-btn-primary">Meet Our Expert Coaches</a>
       </div>
 
     </div>
   </div>
 </section>
 
-{{-- ================================================================
-     SERVICES MODULE GRID — 3-col cards, light gray bg
-     ================================================================ --}}
+{{-- ===== COACHING PROGRAMS GRID ===== --}}
 <section class="v2-modules">
   <div class="sr-container">
     <div class="v2-modules__header">
-      <span class="v2-section-tag">150+ Services & Treatments</span>
-      <h2 class="v2-section-title">Infinite Possibilities for Your Smile.</h2>
+      <span class="v2-section-tag">Our Coaching Programs</span>
+      <h2 class="v2-section-title">Find the Right Program for Your Practice.</h2>
       <p class="v2-section-body" style="margin:0;">
-        From routine cleanings to full mouth reconstructions, our practice covers every
-        aspect of your oral health with the same exceptional standard of care.
+        Whether you're looking for a community, group coaching, or one-on-one guidance,
+        ACT Dental has a program designed to meet you exactly where you are.
       </p>
     </div>
 
     <div class="v2-modules__grid">
 
       <div class="v2-module-card">
-        <div class="v2-module-card__icon"><i class="fas fa-teeth"></i></div>
-        <h3>General Dentistry</h3>
-        <p>Preventive cleanings, fillings, and comprehensive exams that keep your smile healthy for life.</p>
+        <div class="v2-module-card__icon"><i class="fas fa-users"></i></div>
+        <h3>Best Practices Association</h3>
+        <p>Join a community of driven dentists committed to best practices, continuous learning, and lasting success.</p>
       </div>
 
       <div class="v2-module-card">
-        <div class="v2-module-card__icon"><i class="fas fa-smile"></i></div>
-        <h3>Cosmetic Dentistry</h3>
-        <p>Veneers, bonding, whitening, and smile makeovers that transform your confidence.</p>
+        <div class="v2-module-card__icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <h3>TTT Group Coaching</h3>
+        <p>Small-group coaching with like-minded dentists. Shared accountability, real strategies, and measurable results.</p>
       </div>
 
       <div class="v2-module-card">
-        <div class="v2-module-card__icon"><i class="fas fa-tooth"></i></div>
-        <h3>Dental Implants</h3>
-        <p>Permanent tooth replacement that looks, feels, and functions just like natural teeth.</p>
+        <div class="v2-module-card__icon"><i class="fas fa-user-tie"></i></div>
+        <h3>Pro Coaching</h3>
+        <p>One-on-one personalized coaching with an expert ACT Dental coach dedicated to your specific goals and practice.</p>
       </div>
 
       <div class="v2-module-card">
-        <div class="v2-module-card__icon"><i class="fas fa-magic"></i></div>
-        <h3>Invisalign</h3>
-        <p>Custom clear aligners with monthly check-ins and a digital preview of your result.</p>
+        <div class="v2-module-card__icon"><i class="fas fa-calculator"></i></div>
+        <h3>GAPs Calculator</h3>
+        <p>Identify the gaps between where your practice is and where it should be with our powerful diagnostic tool.</p>
       </div>
 
       <div class="v2-module-card">
-        <div class="v2-module-card__icon"><i class="fas fa-child"></i></div>
-        <h3>Children's Dentistry</h3>
-        <p>Gentle, fear-free visits that give kids a lifelong positive view of dental care.</p>
+        <div class="v2-module-card__icon"><i class="fas fa-podcast"></i></div>
+        <h3>Best Practices Podcast</h3>
+        <p>Weekly insights from top dental coaches and industry leaders to keep your thinking sharp and current.</p>
       </div>
 
       <div class="v2-module-card">
-        <div class="v2-module-card__icon"><i class="fas fa-heartbeat"></i></div>
-        <h3>Emergency Care</h3>
-        <p>Same-day slots for toothaches, broken teeth, and lost restorations — we're here.</p>
+        <div class="v2-module-card__icon"><i class="fas fa-calendar-alt"></i></div>
+        <h3>Events &amp; Study Clubs</h3>
+        <p>Live events and study club meetings where you connect, learn, and grow alongside your peers.</p>
       </div>
 
     </div>
   </div>
 </section>
 
-{{-- ================================================================
-     PERSONAS — "Complete Design Control" / "Created for Everyone"
-     4-col grid, white bg
-     ================================================================ --}}
+{{-- ===== WHO WE SERVE ===== --}}
 <section class="v2-personas">
   <div class="sr-container">
 
     <div class="v2-personas__header">
-      <span class="v2-section-tag">Complete Care Control</span>
-      <h2 class="v2-section-title">Created for Every Patient.</h2>
+      <span class="v2-section-tag">Created for Every Dentist</span>
+      <h2 class="v2-section-title">Wherever You Are, We Meet You There.</h2>
       <p class="v2-section-body" style="margin:0;">
-        No matter where you're starting from, we have a clear path to the smile you deserve.
+        No matter where your practice is today, ACT Dental has a clear path to the practice and life you deserve.
       </p>
     </div>
 
     <div class="v2-personas__tabs">
 
       <div class="v2-persona">
-        <span class="v2-persona__type">Families</span>
-        <h3>Everyone Under One Roof</h3>
-        <p>Kids, teens, adults, and seniors — coordinate appointments so your whole family comes in together.</p>
-        <p class="v2-persona__quote">"We bring all four kids here. The staff knows each one by name." — The Martinez Family</p>
+        <span class="v2-persona__type">Burned-Out Dentists</span>
+        <h3>Rediscover Your Passion</h3>
+        <p>Restore your energy, set boundaries, and build systems that let you love dentistry again — without working more.</p>
+        <p class="v2-persona__quote">"ACT helped me transform my practice from dysfunctional to high-performing." — Dr. Kristen Donohue</p>
       </div>
 
       <div class="v2-persona">
-        <span class="v2-persona__type">Anxious Patients</span>
-        <h3>Nervous? You're Safe Here.</h3>
-        <p>Sedation options, noise-canceling headphones, and a team trained in anxiety-free dental techniques.</p>
-        <p class="v2-persona__quote">"I hadn't been to the dentist in 12 years. ACT Dental changed that." — David K.</p>
+        <span class="v2-persona__type">Growth-Minded Owners</span>
+        <h3>Scale Smarter, Not Harder</h3>
+        <p>Implement proven systems, optimize your schedule, and build the team that takes your practice to the next level.</p>
+        <p class="v2-persona__quote">"Our practice revenues have grown three-fold since I started with ACT." — Dr. Sapna Chandra</p>
       </div>
 
       <div class="v2-persona">
-        <span class="v2-persona__type">New Patients</span>
-        <h3>A Fresh Start Begins Here</h3>
-        <p>New patient specials, easy online paperwork, and time to understand your goals before recommending anything.</p>
-        <p class="v2-persona__quote">"The first visit felt like meeting friends who happened to be great dentists." — Priya S.</p>
+        <span class="v2-persona__type">New Practice Owners</span>
+        <h3>Start Strong From Day One</h3>
+        <p>Get the roadmap, systems, and community that new owners need — before the costly mistakes happen.</p>
+        <p class="v2-persona__quote">"Smartest practice decision I made in 22 years." — Dr. Christopher Altadonna</p>
       </div>
 
       <div class="v2-persona">
-        <span class="v2-persona__type">Smile Seekers</span>
-        <h3>Ready for Your Glow-Up?</h3>
-        <p>Invisalign, veneers, or whitening — we design the smile of your dreams with a digital preview first.</p>
-        <p class="v2-persona__quote">"I always hated my smile in photos. After veneers, I can't stop smiling." — Jessica T.</p>
+        <span class="v2-persona__type">Established Practices</span>
+        <h3>Break Through Your Ceiling</h3>
+        <p>Identify gaps, eliminate inefficiencies, and unlock the growth that's been right in front of you all along.</p>
+        <p class="v2-persona__quote">"Our office culture is healthier than ever and profitability is hitting new records." — Dr. Emily Stancato</p>
       </div>
 
     </div>
@@ -300,55 +286,53 @@
   </div>
 </section>
 
-{{-- ================================================================
-     TESTIMONIALS — 3-col reviews, light gray bg
-     ================================================================ --}}
+{{-- ===== TESTIMONIALS ===== --}}
 <section class="v2-reviews">
   <div class="sr-container">
 
     <div class="v2-reviews__header">
-      <span class="v2-section-tag">Patient Reviews</span>
-      <h2 class="v2-section-title">Trusted by More Than 12,000 Patients.</h2>
-      <p class="v2-section-body" style="margin:0;">127 five-star Google reviews and counting. Here's what our community says.</p>
+      <span class="v2-section-tag">Dentist Reviews</span>
+      <h2 class="v2-section-title">What Dentists Are Saying About ACT Dental.</h2>
+      <p class="v2-section-body" style="margin:0;">Real results from real dentists across the country who partnered with ACT Dental.</p>
     </div>
 
     <div class="v2-reviews__grid">
 
       <div class="v2-review-card">
         <div class="v2-review-card__stars">★★★★★</div>
-        <h4>A Necessary Practice</h4>
-        <blockquote>"ACT Dental is in a league of its own. The technology is cutting-edge, the staff is brilliant, and my family has never felt so well cared for. We won't go anywhere else."</blockquote>
+        <h4>Changed My Practice and My Life</h4>
+        <blockquote>"ACT Dental has helped me change my practice which changed my life! The focus really is 'Better Practice Better Life.' If you are dreaming about a practice you want to drive to everyday, ACT will help you get there."</blockquote>
         <div class="v2-review-author">
-          <div class="v2-review-avatar">CK</div>
+          <div class="v2-review-avatar">AH</div>
           <div>
-            <strong>Caleb K.</strong>
-            <span>Patient for 6 years</span>
+            <strong>Dr. Alice Hale</strong>
+            <span>Aiken, SC</span>
           </div>
         </div>
       </div>
 
       <div class="v2-review-card">
         <div class="v2-review-card__stars">★★★★★</div>
-        <h4>ACT Dental Makes It Simple</h4>
-        <blockquote>"Booking is effortless, reminders come automatically, and the team always picks up right where we left off. I've recommended ACT Dental to everyone I know."</blockquote>
+        <h4>Revenues Grew Three-Fold</h4>
+        <blockquote>"Our practice revenues have grown three-fold since I started working with ACT. My team is now more aligned than ever, and this has given me greater peace of mind. Highly recommend!"</blockquote>
         <div class="v2-review-author">
-          <div class="v2-review-avatar">JB</div>
+          <div class="v2-review-avatar">SC</div>
           <div>
-            <strong>Josh B.</strong>
-            <span>Invisalign Patient</span>
+            <strong>Dr. Sapna Chandra</strong>
+            <span>Fairfax, CA</span>
           </div>
         </div>
       </div>
 
       <div class="v2-review-card">
         <div class="v2-review-card__stars">★★★★★</div>
-        <h4>Incredibly Supportive Team</h4>
-        <blockquote>"I needed emergency care on a Saturday and ACT Dental got me in within the hour. The dentist was calm and thorough — I was feeling better before I even left the chair."</blockquote>
+        <h4>Best Decision in 22 Years</h4>
+        <blockquote>"I'm a new coaching client, now 3 months in. What an invigorating, cohesive experience for our entire team! We now have a clear vision and a path to achieve our goals. Smartest practice decision I made in 22 years."</blockquote>
         <div class="v2-review-author">
-          <div class="v2-review-avatar">MH</div>
+          <div class="v2-review-avatar">CA</div>
           <div>
-            <strong>Maria H.</strong>
-            <span>Emergency Patient</span>
+            <strong>Dr. Christopher Altadonna</strong>
+            <span>Stowe, VT</span>
           </div>
         </div>
       </div>
@@ -357,34 +341,32 @@
   </div>
 </section>
 
-{{-- ================================================================
-     GUARANTEE STRIP — white bg, 3 guarantees
-     ================================================================ --}}
+{{-- ===== GUARANTEE STRIP ===== --}}
 <section class="v2-guarantee">
   <div class="sr-container">
     <div class="v2-guarantee__inner">
 
       <div class="v2-guarantee-item">
-        <i class="fas fa-undo-alt"></i>
+        <i class="fas fa-hand-holding-heart"></i>
         <div>
-          <h4>100% Satisfaction Promise</h4>
-          <p>If you're not completely happy with your visit, we'll make it right — no questions asked.</p>
+          <h4>Personalized Coaching</h4>
+          <p>Every coaching engagement is tailored to your specific practice, goals, and challenges — no cookie-cutter programs.</p>
         </div>
       </div>
 
       <div class="v2-guarantee-item">
         <i class="fas fa-headset"></i>
         <div>
-          <h4>Unlimited Support</h4>
-          <p>Call or message our team any time. We're available beyond office hours for urgent questions.</p>
+          <h4>Ongoing Support</h4>
+          <p>Your coach is with you through every challenge — not just scheduled calls, but real partnership when it matters most.</p>
         </div>
       </div>
 
       <div class="v2-guarantee-item">
         <i class="fas fa-sync-alt"></i>
         <div>
-          <h4>Lifetime Preventive Updates</h4>
-          <p>Annual check-ups and cleanings keep your smile current with the latest preventive standards.</p>
+          <h4>Proven Systems</h4>
+          <p>Tried-and-tested frameworks for team building, scheduling, finance, and leadership — implemented step by step.</p>
         </div>
       </div>
 
@@ -392,18 +374,16 @@
   </div>
 </section>
 
-{{-- ================================================================
-     CTA — bg-black, centered (sr-one-col-01 bg-black)
-     ================================================================ --}}
+{{-- ===== CTA ===== --}}
 <section class="v2-cta">
   <div class="sr-container">
     <div class="v2-cta__inner">
-      <h2>Start Building a Healthier Smile Today.</h2>
-      <p>New patients receive a complimentary comprehensive exam and X-rays. No insurance required.</p>
+      <h2>Start Building a Better Practice Today.</h2>
+      <p>Schedule a free practice discovery call and find out which ACT Dental program is the right fit for you.</p>
       <div class="v2-cta__row">
-        <a href="#" class="sr-btn sr-btn-primary">Book Your Free Exam</a>
-        <a href="tel:+15550123456" class="sr-btn sr-btn-outline-white">
-          <i class="fas fa-phone"></i>&nbsp; (555) 012-3456
+        <a href="#" class="sr-btn sr-btn-primary">Get Started Today</a>
+        <a href="tel:+18008518186" class="sr-btn sr-btn-outline-white">
+          <i class="fas fa-phone"></i>&nbsp; 800-851-8186
         </a>
       </div>
     </div>
