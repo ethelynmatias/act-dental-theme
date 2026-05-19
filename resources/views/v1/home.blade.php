@@ -246,7 +246,7 @@
           <div class="cp-check-item"><i class="fas fa-check-circle"></i> Corporate competition — 86% of the dental market is still independent</div>
           <div class="cp-check-item"><i class="fas fa-check-circle"></i> One member grew gross revenues 25% &amp; net income 50% — in less than a year</div>
         </div>
-        <a href="/v1/why-smile-source/our-story" class="cp-btn cp-btn-primary">Learn Our Story</a>
+        <a href="{{ $vp }}/why-smile-source/about-us" class="cp-btn cp-btn-primary">Learn Our Story</a>
       </div>
 
     </div>
