@@ -95,7 +95,7 @@
         <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
           Become a Member
         </a>
-        <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--long">
+        <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">
           <i class="fas fa-arrow-right"></i>&ensp;Join Now
         </a>
       </div>
@@ -236,75 +236,92 @@
   </div>
 </section>
 
-{{-- ===== BENEFIT SHOWCASE ===== --}}
+{{-- ===== RESOURCES & EDUCATION ===== --}}
 <section class="pwr-sec-image-boxes">
   <div class="pwr-container">
+
     <div class="pwr-sec-image-boxes__intro">
-      <span class="pwr-sec-image-boxes__eyebrow">Why Members Join</span>
-      <h2 class="pwr-sec-image-boxes__title">More Thrive, Less Strive</h2>
-      <p class="pwr-sec-image-boxes__desc">
-        Smile Source addresses the real challenges private practice dentists face every day —
-        so you can focus on great dentistry and a great life.
-      </p>
+      <span class="pwr-sec-image-boxes__eyebrow">Resources &amp; Education</span>
+      <h2 class="pwr-sec-image-boxes__title">Practice-Building Resources and Education</h2>
+      <p class="pwr-sec-image-boxes__desc">Stay up-to-date on how independent dentists like you are tackling the challenges of private practice dentistry.</p>
     </div>
 
     <div class="pwr-image-boxes-grid">
 
       <div class="pwr-image-box pwr-image-box--tall">
-        <div class="pwr-image-box__img pwr-img--indigo"><img src="{{ asset('images/v3/hero-home.gif') }}" alt="Reduce Overhead"></div>
+        <div class="pwr-image-box__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_cherry.png" alt="Restoring Wellness Through Financial Empathy">
+        </div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--hot">TOP BENEFIT</span>
-          <h3>Reduce Overhead</h3>
-          <p>Save up to 40% on supplies, 30% on lab work, and 45% with manufacturers. Over $1 billion in purchasing power means negotiated discounts that directly impact your bottom line — immediately upon joining.</p>
+          <span class="pwr-image-box__cat">Dental Technology</span>
+          <h3>Restoring Wellness Through Financial Empathy</h3>
+          <p>How financial empathy in your practice can restore patient confidence and drive treatment acceptance.</p>
+          <span class="pwr-image-box__date">Apr 24, 2026 &nbsp;·&nbsp; 2 min read</span>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--purple"><img src="{{ asset('images/v3/challenges.png') }}" alt="Practice Growth"></div>
+        <div class="pwr-image-box__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_curve.png" alt="Curve's Practice Management Platform">
+        </div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--trending">POPULAR</span>
-          <h3>Practice Growth</h3>
-          <p>Recruiting, benefits, payroll, patient financing, and strategic consulting — proven systems that helped one member grow from $500K to nearly $2 million annually.</p>
+          <span class="pwr-image-box__cat">Practice Management</span>
+          <h3>Curve's Practice Management Platform Streamlines Workflows</h3>
+          <span class="pwr-image-box__date">Apr 17, 2026 &nbsp;·&nbsp; 3 min read</span>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--dark"><img src="{{ asset('images/v3/dentist-1.png') }}" alt="Expert Marketing"></div>
+        <div class="pwr-image-box__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_ergonomics.png" alt="Ergonomics">
+        </div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--hot">HIGH VALUE</span>
-          <h3>Expert Marketing</h3>
-          <p>Geodemographic targeting, consumer travel analysis, digital presence optimization, and high-intent Google Ads — built specifically for private dental practices.</p>
+          <span class="pwr-image-box__cat">Dental Education</span>
+          <h3>Ergonomics: Protecting Your Greatest Asset — Yourself</h3>
+          <span class="pwr-image-box__date">Apr 6, 2026 &nbsp;·&nbsp; 4 min read</span>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--navy"><img src="{{ asset('images/v3/dentist-2.png') }}" alt="Peer Networking"></div>
+        <div class="pwr-image-box__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_anxiety.png" alt="Dental Care for Patients with Autism and Dental Anxiety">
+        </div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--new">COMMUNITY</span>
-          <h3>Peer Networking</h3>
-          <p>In-person meetings in cities across America, online forums, virtual fireside chats — crowdsource 1,100+ peers 24/7 in the true spirit of community over competition.</p>
+          <span class="pwr-image-box__cat">Dental Education</span>
+          <h3>Dental Care for Patients with Autism and Dental Anxiety</h3>
+          <span class="pwr-image-box__date">Apr 6, 2026 &nbsp;·&nbsp; 3 min read</span>
         </div>
       </div>
 
       <div class="pwr-image-box pwr-image-box--tall">
-        <div class="pwr-image-box__img pwr-img--purple"><img src="{{ asset('images/v3/hero-home.gif') }}" alt="Continuing Education"></div>
+        <div class="pwr-image-box__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_BolaAI.png" alt="BOLA AI">
+        </div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--hot">INCLUDED</span>
-          <h3>Continuing Education</h3>
-          <p>Hundreds of CE courses annually for dentists, hygienists, assistants, and front office staff. Practice management, case planning, new procedures, 3D technology — available in-person and online.</p>
+          <span class="pwr-image-box__cat">Dental Technology</span>
+          <h3>Why Smile Source and Private Practices Are Partnering with BOLA AI</h3>
+          <p>AI-powered tools are reshaping what's possible for independent practices — here's why members are making the move.</p>
+          <span class="pwr-image-box__date">Mar 27, 2026 &nbsp;·&nbsp; 3 min read</span>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--dark"><img src="{{ asset('images/v3/challenges.png') }}" alt="The Exchange 2026"></div>
+        <div class="pwr-image-box__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_oralcancer.png" alt="Oral Cancer Awareness Month">
+        </div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--trending">LIVE EVENT</span>
-          <h3>The Exchange 2026</h3>
-          <p>San Antonio, TX · Sept 9–12, 2026. Inspiration, connection, and innovation for independent dentists.</p>
+          <span class="pwr-image-box__cat">Dental Marketing</span>
+          <h3>Elevating the Standard of Care During Oral Cancer Awareness Month</h3>
+          <span class="pwr-image-box__date">Mar 18, 2026 &nbsp;·&nbsp; 3 min read</span>
         </div>
       </div>
 
     </div>
+
+    <div style="text-align:center; margin-top:40px;">
+      <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">View All Articles</a>
+    </div>
+
   </div>
 </section>
 
@@ -418,7 +435,7 @@
         <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
           Let's Talk
         </a>
-        <a href="#" class="pwr-btn pwr-btn--outline-primary pwr-btn--long">
+        <a href="#" class="pwr-btn pwr-btn--outline-primary pwr-btn--large pwr-btn--long">
           Learn More
         </a>
       </div>

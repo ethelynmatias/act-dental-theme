@@ -1,3 +1,7 @@
+@php
+  $seg = request()->segment(1);
+  $vp  = in_array($seg, ['v2','v3','v4']) ? '/'.$seg : '/v2';
+@endphp
 <nav class="site-nav">
   <!-- Top bar -->
   <div class="nav-topbar">

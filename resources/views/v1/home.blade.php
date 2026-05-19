@@ -19,9 +19,9 @@
         </h1>
         <p>Save time, money, and headaches. Smile Source connects you to the right people, products, and services to boost profitability and accelerate your growth.</p>
         <ul class="cp-hero-checks">
-          <li><i class="fas fa-check-circle"></i> Reduce your overhead</li>
-          <li><i class="fas fa-check-circle"></i> Connect with top dentists</li>
-          <li><i class="fas fa-check-circle"></i> Accelerate your practice growth</li>
+          <li><i class="fas fa-check-circle"></i> Reduce overhead — up to 40% off supplies &amp; 30% off lab</li>
+          <li><i class="fas fa-check-circle"></i> Keep 100% ownership — not a DSO, never will be</li>
+          <li><i class="fas fa-check-circle"></i> Accelerate growth with mentorship, marketing &amp; CE</li>
         </ul>
         <div class="cp-hero-cta">
           <a href="/v1/join" class="cp-btn cp-btn-primary cp-btn-lg">Join Now</a>
@@ -65,25 +65,25 @@
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-piggy-bank"></i></div>
         <h3>Supercharge Your Savings</h3>
-        <p>Save up to 40% on dental supplies, up to 30% on lab work, and up to 45% with manufacturers. Vetted vendor rates negotiated with the industry's largest partners go straight to your bottom line.</p>
+        <p>Save up to 40% on dental supplies, up to 30% on lab work, and up to 45% with manufacturers. Members earn over $6 million in rebates annually — rates vetted and negotiated with the industry's largest partners.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-chart-line"></i></div>
         <h3>Practice Growth</h3>
-        <p>Access recruiting, benefits, payroll, patient financing, strategic consulting, and proven technology solutions — the same support DSOs give their dentists, without giving up your ownership.</p>
+        <p>Access recruiting, benefits, payroll, patient financing, strategic consulting, and proven technology — all the DSO-level support without giving up ownership. Affinity groups like Dental CEO and Million Dollar Club accelerate your path.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-users"></i></div>
         <h3>Powerful Networking</h3>
-        <p>Local group leaders organize in-person meetings in cities across America. Crowdsource the knowledge of hundreds of highly qualified peers online 24/7 through forums and virtual fireside chats.</p>
+        <p>Local group leaders hold in-person member meetings in cities across America. Online webinars, forum conversations, and national meetings give you frequent opportunities to share, learn, and grow alongside peers on the same journey.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-graduation-cap"></i></div>
         <h3>Continuing Education</h3>
-        <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff. Topics span practice management, new procedures, 3D technology, and more.</p>
+        <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff. Topics span practice management, marketing, new procedures, 3D technology, and more. Earn up to 17 CE credits at The Exchange.</p>
       </div>
 
     </div>
@@ -133,13 +133,13 @@
       <div class="cp-about-content">
         <div class="cp-eyebrow">Our Story</div>
         <h2>Helping Private Practice Dentists Make More Money with Less Stress.</h2>
-        <p>Since 2006, we've grown our network to 1,100+ dentists helping dentists across 650 member locations. With over a billion dollars of purchasing power, Smile Source delivers deep discounts and rebates that increase profitability — without sacrificing your independence.</p>
-        <p>Smile Source is not a DSO. We offer DSO-level support services — group purchasing, staff recruiting, in-house dental plans, patient financing, dental practice marketing, and strategic practice consulting — while you maintain 100% ownership and complete autonomy.</p>
+        <p>Since 2006, we've grown our network to 1,100+ dentists across 650 member locations. With over a billion dollars of purchasing power, Smile Source delivers deep discounts and rebates that increase profitability — without sacrificing your independence.</p>
+        <p>Smile Source is not a DSO. You get all the support that a DSO offers — group purchasing, staff recruiting, in-house dental plans, patient financing, dental practice marketing, and strategic practice consulting — while you maintain 100% ownership and complete autonomy.</p>
         <div class="cp-check-list">
-          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Rising overhead — up to 40% off supplies, 30% off lab work</div>
-          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Dental team retention — recruiting, benefits &amp; payroll support</div>
+          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Rising overhead — up to 40% off supplies, 30% off lab, $6M+ in member rebates annually</div>
+          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Team retention — group health insurance, recruiting, benefits &amp; payroll support</div>
           <div class="cp-check-item"><i class="fas fa-check-circle"></i> Corporate competition — 86% of the dental market is still independent</div>
-          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Practice consolidation — stay strong with 1,100+ peers behind you</div>
+          <div class="cp-check-item"><i class="fas fa-check-circle"></i> One member grew gross revenues 25% &amp; net income 50% — in less than a year</div>
         </div>
         <a href="/v1/why-smile-source/our-story" class="cp-btn cp-btn-primary">Learn Our Story</a>
       </div>
@@ -195,7 +195,8 @@
       <div class="cp-guarantee-content">
         <div class="cp-eyebrow">Our Promise</div>
         <h2>You'll be freakin' thrilled you joined Smile Source.</h2>
-        <p>Not seeing results? Let's talk. Our dedicated Member Success Specialists are committed to ensuring you get full value from your membership — or we'll make it right.</p>
+        <p>Not seeing results? Let's talk. Your dedicated Member Success Specialist will connect you with top consultants and vendors, help you navigate every benefit, and ensure you're getting full value from your membership — or we'll make it right.</p>
+        <p class="cp-guarantee-story">"Since joining, one member's production soared by $800,000 — allowing them to welcome a full-time associate and an additional hygienist."</p>
         <div class="cp-guarantee-badges">
           <div class="cp-g-badge"><i class="fas fa-shield-alt"></i> Member Success Specialist</div>
           <div class="cp-g-badge"><i class="fas fa-headset"></i> Dedicated Support</div>
@@ -217,7 +218,12 @@
           <span><i class="fas fa-map-marker-alt"></i> San Antonio, TX</span>
           <span><i class="fas fa-calendar"></i> September 9–12, 2026</span>
         </div>
-        <p>The Smile Source Exchange is where private practice dentists ignite their passion, sparking unparalleled growth and learning in a vibrant atmosphere. It's the ultimate hub for inspiration, connection, and innovation.</p>
+        <p>The Smile Source Exchange is where private practice dentists ignite their passion, sparking unparalleled growth and learning in a vibrant atmosphere. It's the ultimate hub for inspiration, connection, and innovation — featuring exclusive vendor deals, CE courses designed for your entire team, and networking with private practice leaders from across the country.</p>
+        <ul class="cp-hero-checks" style="margin-bottom:24px;">
+          <li><i class="fas fa-check-circle"></i> Earn up to 17 CE credits</li>
+          <li><i class="fas fa-check-circle"></i> Exclusive vendor pricing &amp; deals</li>
+          <li><i class="fas fa-check-circle"></i> Network with 1,100+ independent dentists</li>
+        </ul>
         <a href="/v1/exchange-2026" class="cp-btn cp-btn-primary cp-btn-lg">Register Now</a>
       </div>
       <div class="cp-event-badge">

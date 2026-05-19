@@ -144,7 +144,7 @@
     <div class="v4-showcase-scroll">
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--1">
-          <img src="{{ asset('images/v4/challenges.png') }}" alt="Rising Overhead">
+          <i class="fas fa-coins"></i>
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #1</div>
@@ -154,7 +154,7 @@
       </div>
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--2">
-          <img src="{{ asset('images/v4/challenges.png') }}" alt="Team Retention">
+          <i class="fas fa-users"></i>
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #2</div>
@@ -164,7 +164,7 @@
       </div>
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--3">
-          <img src="{{ asset('images/v4/challenges.png') }}" alt="Practice Consolidation">
+          <i class="fas fa-shield-alt"></i>
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #3</div>
@@ -174,7 +174,7 @@
       </div>
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--4">
-          <img src="{{ asset('images/v4/challenges.png') }}" alt="Corporate Competition">
+          <i class="fas fa-bullseye"></i>
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #4</div>
@@ -299,68 +299,82 @@
 <section class="v4-gallery">
   <div class="container">
     <div class="v4-section-intro">
-      <div class="v4-overline">The Network</div>
+      <div class="v4-overline">Resources &amp; Education</div>
       <div class="v4-divider"></div>
-      <h2>1,100+ Independent Practices Thriving Together</h2>
-      <p>From solo practitioners to multi-provider practices — the Smile Source network spans the country and every type of independent dental practice.</p>
+      <h2>Practice-Building Resources and Education</h2>
+      <p>Stay up-to-date on how independent dentists like you are tackling the challenges of private practice dentistry.</p>
     </div>
     <div class="v4-gallery-grid">
+
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--1"><img src="{{ asset('images/v4/hero-home.gif') }}" alt="Savings Program"></div>
+        <div class="v4-gallery-card__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_cherry.png" alt="Restoring Wellness Through Financial Empathy">
+        </div>
         <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">Savings Program</div>
-          <div class="v4-gallery-card__sub">Discounts · Rebates · Vetted vendors</div>
+          <div class="v4-gallery-card__cat">Dental Technology</div>
+          <div class="v4-gallery-card__name">Restoring Wellness Through Financial Empathy</div>
+          <div class="v4-gallery-card__sub">Apr 24, 2026 &nbsp;·&nbsp; 2 min read</div>
         </div>
       </div>
+
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--2"><img src="{{ asset('images/v4/challenges.png') }}" alt="Practice Growth"></div>
+        <div class="v4-gallery-card__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_curve.png" alt="Curve's Practice Management Platform">
+        </div>
         <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">Practice Growth</div>
-          <div class="v4-gallery-card__sub">Technology · Staffing · Strategy</div>
+          <div class="v4-gallery-card__cat">Practice Management</div>
+          <div class="v4-gallery-card__name">Curve's Practice Management Platform Streamlines Workflows</div>
+          <div class="v4-gallery-card__sub">Apr 17, 2026 &nbsp;·&nbsp; 3 min read</div>
         </div>
       </div>
+
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--3"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Marketing Support"></div>
+        <div class="v4-gallery-card__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_ergonomics.png" alt="Ergonomics">
+        </div>
         <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">Marketing Support</div>
-          <div class="v4-gallery-card__sub">Brand specialists · Patient growth</div>
+          <div class="v4-gallery-card__cat">Dental Education</div>
+          <div class="v4-gallery-card__name">Ergonomics: Protecting Your Greatest Asset — Yourself</div>
+          <div class="v4-gallery-card__sub">Apr 6, 2026 &nbsp;·&nbsp; 4 min read</div>
         </div>
       </div>
+
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--4"><img src="{{ asset('images/v4/dentist-2.png') }}" alt="Peer Networking"></div>
+        <div class="v4-gallery-card__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_anxiety.png" alt="Dental Care for Patients with Autism and Dental Anxiety">
+        </div>
         <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">Peer Networking</div>
-          <div class="v4-gallery-card__sub">1,100+ colleagues · Community</div>
+          <div class="v4-gallery-card__cat">Dental Education</div>
+          <div class="v4-gallery-card__name">Dental Care for Patients with Autism and Dental Anxiety</div>
+          <div class="v4-gallery-card__sub">Apr 6, 2026 &nbsp;·&nbsp; 3 min read</div>
         </div>
       </div>
+
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--5"><img src="{{ asset('images/v4/hero-home.gif') }}" alt="Education and CE"></div>
+        <div class="v4-gallery-card__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_BolaAI.png" alt="BOLA AI">
+        </div>
         <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">Education &amp; CE</div>
-          <div class="v4-gallery-card__sub">Clinical &amp; business · Whole team</div>
+          <div class="v4-gallery-card__cat">Dental Technology</div>
+          <div class="v4-gallery-card__name">Why Smile Source and Private Practices Are Partnering with BOLA AI</div>
+          <div class="v4-gallery-card__sub">Mar 27, 2026 &nbsp;·&nbsp; 3 min read</div>
         </div>
       </div>
+
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--6"><img src="{{ asset('images/v4/challenges.png') }}" alt="The Exchange 2026"></div>
+        <div class="v4-gallery-card__img">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_oralcancer.png" alt="Oral Cancer Awareness Month">
+        </div>
         <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">The Exchange 2026</div>
-          <div class="v4-gallery-card__sub">San Antonio · Sept 9–12, 2026</div>
+          <div class="v4-gallery-card__cat">Dental Marketing</div>
+          <div class="v4-gallery-card__name">Elevating the Standard of Care During Oral Cancer Awareness Month</div>
+          <div class="v4-gallery-card__sub">Mar 18, 2026 &nbsp;·&nbsp; 3 min read</div>
         </div>
       </div>
-      <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--7"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Member Success Specialist"></div>
-        <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">Member Success Specialist</div>
-          <div class="v4-gallery-card__sub">Dedicated support · Personalized</div>
-        </div>
-      </div>
-      <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--8"><img src="{{ asset('images/v4/dentist-2.png') }}" alt="Your Independence"></div>
-        <div class="v4-gallery-card__body">
-          <div class="v4-gallery-card__name">Your Independence</div>
-          <div class="v4-gallery-card__sub">DSO benefits · Zero sacrifice</div>
-        </div>
-      </div>
+
+    </div>
+    <div class="v4-gallery-footer">
+      <a href="#" class="btn-outline-light">View All Articles</a>
     </div>
   </div>
 </section>
@@ -386,16 +400,18 @@
 {{-- ===== CTA ===== --}}
 <section class="v4-cta">
   <div class="container">
-    <div class="v4-cta-inner">
-      <div>
-        <h2>Ready to Thrive as an Independent Dentist?</h2>
-        <p>Join 1,100+ independent dentists already thriving with Smile Source. Let's talk about what membership looks like for your practice.</p>
-      </div>
-      <div class="v4-cta-buttons">
-        <a href="#" class="btn-accent btn-lg"><i class="fas fa-comments"></i> Let's Talk</a>
-        <a href="#" class="btn-outline-light">
-          <i class="fas fa-arrow-right"></i> Join Now
-        </a>
+    <div class="v4-cta-card">
+      <div class="v4-cta-inner">
+        <div>
+          <h2>Ready to Thrive as an Independent Dentist?</h2>
+          <p>Join 1,100+ independent dentists already thriving with Smile Source. Let's talk about what membership looks like for your practice.</p>
+        </div>
+        <div class="v4-cta-buttons">
+          <a href="#" class="btn-accent btn-cta"><i class="fas fa-comments"></i> Let's Talk</a>
+          <a href="#" class="btn-outline-light btn-cta">
+            <i class="fas fa-arrow-right"></i> Join Now
+          </a>
+        </div>
       </div>
     </div>
   </div>
