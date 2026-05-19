@@ -1,0 +1,421 @@
+/* =============================================================
+   V1 NAV — Spear Education Layout
+   ============================================================= */
+
+/* ---- Reset shared nav overrides ---- */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: none;
+}
+
+/* ---- Announcement Bar ---- */
+.v1-announce {
+  background: #212355;
+  color: #fff;
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 10px 24px;
+  letter-spacing: 0.01em;
+}
+
+.v1-announce a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.2s;
+}
+
+.v1-announce a:hover { opacity: 0.85; }
+
+.v1-announce .announce-arrow {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* ---- Main Nav Bar ---- */
+.v1-nav-main {
+  background: #fff;
+  padding: 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.v1-nav-inner {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  gap: 0;
+  overflow: hidden;
+}
+
+/* ---- Logo ---- */
+.v1-nav-logo {
+  flex-shrink: 0;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+/* logo is now an <img>, mark/text classes kept for fallback */
+.v1-logo-mark { display: none; }
+.v1-logo-text { display: none; }
+
+/* ---- Desktop Menu ---- */
+
+/* Needed so the full-width mega-menu is positioned relative to the nav bar */
+.v1-nav-main { position: relative; }
+
+.v1-nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.v1-nav-item {
+  position: static;
+}
+
+.v1-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 11px;
+  height: 72px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e2d40;
+  cursor: pointer;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.v1-nav-link svg {
+  width: 10px;
+  height: 10px;
+  transition: transform 0.2s;
+  fill: currentColor;
+}
+
+.v1-nav-item:hover > .v1-nav-link {
+  color: #f37057;
+  border-bottom-color: #f37057;
+}
+
+.v1-nav-item:hover > .v1-nav-link svg { transform: rotate(180deg); }
+
+/* ---- Nav CTAs ---- */
+.v1-nav-cta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.v1-login-link {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1e2d40;
+  text-decoration: none;
+  padding: 0 4px;
+  transition: color 0.2s;
+}
+
+.v1-login-link:hover { color: #f37057; }
+
+.v1-btn-start {
+  background: #f37057;
+  color: #fff;
+  border: 2px solid #f37057;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+}
+
+.v1-btn-start:hover { background: #d95a42; border-color: #d95a42; }
+
+.v1-btn-call {
+  background: transparent;
+  color: #f37057;
+  border: 2px solid #f37057;
+  border-radius: 6px;
+  padding: 9px 20px;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+}
+
+.v1-btn-call:hover { background: #f37057; color: #fff; }
+
+/* ---- Hamburger ---- */
+.v1-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: auto;
+  background: none;
+  border: none;
+}
+
+.v1-hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #1e2d40;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.v1-hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.v1-hamburger.open span:nth-child(2) { opacity: 0; }
+.v1-hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+/* =============================================================
+   MEGA-MENU DROPDOWNS
+   ============================================================= */
+.v1-mega {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border-top: 2px solid #f37057;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px);
+  transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
+  z-index: 500;
+}
+
+.v1-nav-item:hover .v1-mega {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.v1-mega-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 36px 32px;
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 48px;
+}
+
+/* Left — links column */
+.v1-mega-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.v1-mega-section-label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7a8fa8;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.v1-mega-link {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.18s;
+  gap: 2px;
+}
+
+.v1-mega-link:hover { background: #fef5f3; }
+
+.v1-mega-link strong {
+  font-size: 14px;
+  font-weight: 600;
+  color: #212355;
+}
+
+.v1-mega-link span {
+  font-size: 12.5px;
+  color: #7a8fa8;
+  font-weight: 400;
+}
+
+/* Multi-column link grids */
+.v1-mega-links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 24px;
+}
+
+/* Right — promo panel */
+.v1-mega-promo {
+  background: #fef5f3;
+  border-radius: 12px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.v1-mega-promo-label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f37057;
+  margin-bottom: 10px;
+}
+
+.v1-mega-promo h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #212355;
+  line-height: 1.35;
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.v1-mega-promo p {
+  font-size: 13px;
+  color: #4a6080;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.v1-mega-promo-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #f37057;
+  text-decoration: none;
+  transition: gap 0.2s;
+}
+
+.v1-mega-promo-cta:hover { gap: 10px; }
+
+/* =============================================================
+   MOBILE MENU
+   ============================================================= */
+.v1-mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: #fff;
+  border-top: 2px solid #f37057;
+  padding: 0 24px 24px;
+  list-style: none;
+  margin: 0;
+}
+
+.v1-mobile-nav.open { display: flex; }
+
+.v1-mobile-toggle {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e2d40;
+  border-bottom: 1px solid #e2e8f0;
+  font-family: 'Inter', sans-serif;
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 100%;
+  text-align: left;
+}
+
+.v1-mobile-toggle svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.v1-mobile-toggle.active svg { transform: rotate(180deg); }
+
+.v1-mobile-sub {
+  display: none;
+  flex-direction: column;
+  padding: 8px 0 8px 16px;
+  list-style: none;
+}
+
+.v1-mobile-sub.open { display: flex; }
+
+.v1-mobile-sub a {
+  display: block;
+  padding: 9px 0;
+  font-size: 14px;
+  color: #4a6080;
+  text-decoration: none;
+  border-bottom: 1px solid #f0f4f8;
+  transition: color 0.18s;
+}
+
+.v1-mobile-sub a:hover { color: #f37057; }
+
+.v1-mobile-cta {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.v1-mobile-cta a { flex: 1; text-align: center; justify-content: center; }
+
+/* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .v1-nav-menu { display: none; }
+  .v1-nav-cta { display: none; }
+  .v1-hamburger { display: flex; }
+  .v1-nav-inner { height: 68px; }
+}
+
+@media (max-width: 480px) {
+  .v1-nav-inner { padding: 0 16px; }
+  .v1-announce { font-size: 12px; padding: 10px 16px; }
+}
