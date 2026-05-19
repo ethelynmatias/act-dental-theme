@@ -102,9 +102,71 @@
    HERO
    ============================================================ */
 .cp-hero {
-  background: var(--cp-white);
+  background: linear-gradient(to left, rgba(0,164,189,.12) 0%, rgba(12,99,255,.07) 40%, #fff 100%);
   padding: 96px 0 80px;
   border-bottom: 1px solid var(--cp-border);
+  overflow: hidden;
+}
+
+/* ── Hero background layer ── */
+.cp-hero { position: relative; }
+.cp-hero .container { position: relative; z-index: 1; }
+
+.cp-hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Dot grid */
+.cp-hero-dots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(0,22,60,.1) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Soft gradient orbs */
+.cp-hero-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(72px);
+  animation: cpOrbDrift 10s ease-in-out infinite;
+}
+.cp-hero-orb--1 {
+  width: 480px;
+  height: 480px;
+  top: -120px;
+  right: -80px;
+  background: radial-gradient(circle, rgba(0,164,189,.13) 0%, transparent 70%);
+  animation-duration: 12s;
+  animation-delay: 0s;
+}
+.cp-hero-orb--2 {
+  width: 360px;
+  height: 360px;
+  bottom: -80px;
+  left: -60px;
+  background: radial-gradient(circle, rgba(12,99,255,.1) 0%, transparent 70%);
+  animation-duration: 15s;
+  animation-delay: -4s;
+}
+.cp-hero-orb--3 {
+  width: 260px;
+  height: 260px;
+  top: 40%;
+  left: 40%;
+  background: radial-gradient(circle, rgba(0,164,189,.07) 0%, transparent 70%);
+  animation-duration: 18s;
+  animation-delay: -8s;
+}
+
+@keyframes cpOrbDrift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%       { transform: translate(24px, -20px) scale(1.06); }
+  66%       { transform: translate(-16px, 18px) scale(.95); }
 }
 
 .cp-hero-inner {
@@ -258,6 +320,27 @@
   background: var(--cp-bg);
   padding: 72px 0;
   border-bottom: 1px solid var(--cp-border);
+  position: relative;
+  overflow: hidden;
+}
+.cp-features .container { position: relative; z-index: 1; }
+
+.cp-features-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.cp-feat-icon {
+  position: absolute;
+  color: var(--cp-navy);
+  opacity: .045;
+  animation: cpFeatFloat 8s ease-in-out infinite;
+}
+@keyframes cpFeatFloat {
+  0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); }
+  40%       { transform: translateY(-18px) rotate(5deg) scale(1.05); }
+  70%       { transform: translateY(10px) rotate(-4deg) scale(.96); }
 }
 
 .cp-features-grid {
@@ -318,12 +401,20 @@
 
 .cp-logos-label {
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: .1em;
+  letter-spacing: .04em;
   text-transform: uppercase;
-  color: rgba(255,255,255,.5);
-  margin-bottom: 28px;
+  color: rgba(255,255,255,.9);
+  margin-bottom: 8px;
+}
+.cp-logos-sub {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255,255,255,.55);
+  max-width: 560px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
 }
 
 .cp-logos-row {
@@ -333,7 +424,6 @@
   gap: 48px;
   flex-wrap: wrap;
 }
-
 .cp-logos-row img {
   height: 32px;
   width: auto;
@@ -341,8 +431,55 @@
   filter: brightness(0) invert(1);
   transition: opacity .2s;
 }
-
 .cp-logos-row img:hover { opacity: 1; }
+
+/* Carousel */
+.cp-logos-carousel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cp-logos-track-wrap {
+  flex: 1;
+  overflow: hidden;
+}
+.cp-logos-track {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 8px 0;
+}
+.cp-logos-track::-webkit-scrollbar { display: none; }
+.cp-logos-track img {
+  height: 32px;
+  width: auto;
+  flex-shrink: 0;
+  opacity: .6;
+  filter: brightness(0) invert(1);
+  transition: opacity .25s;
+}
+.cp-logos-track img:hover { opacity: 1; }
+.cp-logos-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.25);
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s, opacity .2s;
+}
+.cp-logos-btn:hover { background: rgba(255,255,255,.22); }
+.cp-logos-btn:disabled { opacity: .25; cursor: default; }
 
 /* ============================================================
    ABOUT / STORY
@@ -632,10 +769,26 @@
    EVENT
    ============================================================ */
 .cp-event {
-  background: var(--cp-bg);
-  padding: 96px 0;
-  border-top: 1px solid var(--cp-border);
+  position: relative;
+  background: url('https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/The%20Exchange/2025%20Exchange%20-%20Strength%20Through%20Connection/SMILE_840_706_Kentucky-International-Convention-Center_2F9DD235-5056-BF65-D609826D9F86DECB-2f9dc19e5056bf6_2f9dda22-5056-bf65-d6e4d38d17088c96_ae9217944f0738f696c093bccdcb3e55.jpg') center center / cover no-repeat;
+  padding: 120px 0 140px;
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  margin: -60px 0;
+  z-index: 1;
 }
+.cp-event::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(0,15,50,.92) 0%, rgba(0,50,90,.78) 60%, rgba(0,100,160,.55) 100%);
+}
+.cp-event .container {
+  position: relative;
+  z-index: 1;
+}
+.cp-event .cp-eyebrow { color: rgba(255,255,255,.7); background: rgba(255,255,255,.12); }
+.cp-event .cp-hero-checks li { color: rgba(255,255,255,.85); }
+.cp-event .cp-hero-checks li i { color: rgba(255,255,255,.7); }
 
 .cp-event-inner {
   display: grid;
@@ -647,7 +800,7 @@
 .cp-event-content h2 {
   font-size: clamp(1.7rem, 3vw, 2.4rem);
   font-weight: 800;
-  color: var(--cp-navy);
+  color: #fff;
   line-height: 1.2;
   margin-bottom: 16px;
 }
@@ -665,12 +818,13 @@
   gap: 7px;
   font-size: 14px;
   font-weight: 600;
-  color: var(--cp-primary);
+  color: rgba(255,255,255,.8);
 }
+.cp-event-meta span i { color: rgba(255,255,255,.6); }
 
 .cp-event-content p {
   font-size: 15.5px;
-  color: var(--cp-text-mid);
+  color: rgba(255,255,255,.78);
   line-height: 1.7;
   margin-bottom: 28px;
   max-width: 560px;

@@ -9,6 +9,15 @@
 
 {{-- ===== HERO ===== --}}
 <section class="cp-hero">
+
+  {{-- Background decorative layer --}}
+  <div class="cp-hero-bg" aria-hidden="true">
+    <div class="cp-hero-orb cp-hero-orb--1"></div>
+    <div class="cp-hero-orb cp-hero-orb--2"></div>
+    <div class="cp-hero-orb cp-hero-orb--3"></div>
+    <div class="cp-hero-dots"></div>
+  </div>
+
   <div class="container">
     <div class="cp-hero-inner">
 
@@ -60,6 +69,16 @@
 
 {{-- ===== 4-FEATURE STRIP ===== --}}
 <section class="cp-features">
+  <div class="cp-features-bg" aria-hidden="true">
+    <i class="fas fa-piggy-bank  cp-feat-icon" style="top:10%;left:3%;font-size:56px;animation-delay:0s;"></i>
+    <i class="fas fa-chart-line  cp-feat-icon" style="top:65%;left:8%;font-size:44px;animation-delay:1.4s;"></i>
+    <i class="fas fa-users       cp-feat-icon" style="top:15%;right:5%;font-size:60px;animation-delay:0.7s;"></i>
+    <i class="fas fa-graduation-cap cp-feat-icon" style="top:70%;right:4%;font-size:48px;animation-delay:2s;"></i>
+    <i class="fas fa-dollar-sign cp-feat-icon" style="top:45%;left:22%;font-size:36px;animation-delay:1s;"></i>
+    <i class="fas fa-handshake   cp-feat-icon" style="top:30%;right:22%;font-size:40px;animation-delay:1.8s;"></i>
+    <i class="fas fa-tooth       cp-feat-icon" style="top:80%;left:45%;font-size:32px;animation-delay:0.4s;"></i>
+    <i class="fas fa-star        cp-feat-icon" style="top:8%;left:55%;font-size:28px;animation-delay:2.4s;"></i>
+  </div>
   <div class="container">
     <div class="cp-features-grid" data-stagger>
 
@@ -91,19 +110,80 @@
   </div>
 </section>
 
-{{-- ===== TRUSTED BY (vendor logo strip) ===== --}}
+{{-- ===== TRUSTED BY (vendor logo carousel) ===== --}}
 <section class="cp-logos" data-animate="fade-up">
   <div class="container">
-    <p class="cp-logos-label">Preferred Vendor Partners — Vetted &amp; Negotiated for Members</p>
-    <div class="cp-logos-row">
-      <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/ClearCorrect_Logo_2023_Left_Align_white.png?width=150&height=60" alt="ClearCorrect">
-      <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/DENTSPLYSIRONA_white.png?width=150&height=44" alt="DENTSPLY SIRONA">
-      <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/Envista%20Logo_white.png?width=150&height=50" alt="Envista">
-      <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/Henry%20Schein%20Dental%20logo%20white-01%20copy.png?width=150&height=28" alt="Henry Schein">
-      <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/microdental_logoWhite@4x.png?width=150&height=22" alt="microdental">
+    <p class="cp-logos-label">Save on supplies and services with top-tier vendors to cover all facets of your business</p>
+    <p class="cp-logos-sub">Smile Source has vetted and negotiated rates with the industry's largest vendors to save on dental technology, supplies, labs, and services.</p>
+    <div class="cp-logos-carousel">
+      <button class="cp-logos-btn cp-logos-btn--prev" id="logosPrev" aria-label="Previous">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <div class="cp-logos-track-wrap">
+        <div class="cp-logos-track" id="logosTrack">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/ClearCorrect_Logo_2023_Left_Align_white.png?width=150&height=60" alt="ClearCorrect">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/DENTSPLYSIRONA_white.png?width=150&height=44" alt="DENTSPLY SIRONA">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/Envista%20Logo_white.png?width=150&height=50" alt="Envista">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/Henry%20Schein%20Dental%20logo%20white-01%20copy.png?width=150&height=28" alt="Henry Schein">
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Vendors/Elite%20Vendors/Logos/microdental_logoWhite@4x.png?width=150&height=22" alt="microdental">
+        </div>
+      </div>
+      <button class="cp-logos-btn cp-logos-btn--next" id="logosNext" aria-label="Next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
     </div>
   </div>
 </section>
+<script>
+(function(){
+  const track = document.getElementById('logosTrack');
+  const prev  = document.getElementById('logosPrev');
+  const next  = document.getElementById('logosNext');
+  if (!track || !prev || !next) return;
+  const step = 220;
+  const delay = 2500;   // pause between each batch scroll (ms)
+  let autoTimer = null;
+  let paused = false;
+
+  // Duplicate logos for seamless infinite loop
+  track.innerHTML += track.innerHTML;
+
+  function scrollNext() {
+    if (track.scrollLeft >= track.scrollWidth / 2) {
+      track.scrollLeft = 0;
+    }
+    track.scrollBy({ left: step, behavior: 'smooth' });
+  }
+
+  function startAuto() {
+    if (autoTimer) clearInterval(autoTimer);
+    autoTimer = setInterval(() => {
+      if (!paused) scrollNext();
+    }, delay);
+  }
+
+  function stopAuto() {
+    clearInterval(autoTimer);
+    autoTimer = null;
+  }
+
+  prev.addEventListener('click', () => {
+    stopAuto();
+    track.scrollBy({ left: -step, behavior: 'smooth' });
+    setTimeout(startAuto, 3000);
+  });
+  next.addEventListener('click', () => {
+    stopAuto();
+    scrollNext();
+    setTimeout(startAuto, 3000);
+  });
+
+  track.addEventListener('mouseenter', () => { paused = true; });
+  track.addEventListener('mouseleave', () => { paused = false; });
+
+  startAuto();
+})();
+</script>
 
 {{-- ===== ABOUT / STORY ===== --}}
 <section class="cp-about">
