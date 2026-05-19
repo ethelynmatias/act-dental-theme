@@ -160,9 +160,9 @@
 
       <div class="cp-testimonial-card">
         <div class="cp-stars">★★★★★</div>
-        <blockquote>"We are dentists helping dentists, in the true spirit of community over competition. Joining Smile Source was the single best business decision I've made for my practice."</blockquote>
+        <blockquote>"I would have never thought about my dental practice as the business it is today. It's exciting to be connected with other colleagues struggling and succeeding in similar ways. To know I have a professional family to lean on or be leaned on is priceless."</blockquote>
         <div class="cp-testimonial-author">
-          <div class="cp-avatar">JH</div>
+          <img src="{{ asset('images/v1/dentist-1.png') }}" alt="Jeff Henneberg, DDS" class="cp-avatar-img">
           <div>
             <strong>Jeff Henneberg, DDS</strong>
             <span>Smile Source Spokane</span>
@@ -172,27 +172,16 @@
 
       <div class="cp-testimonial-card">
         <div class="cp-stars">★★★★★</div>
-        <blockquote>"The vendor savings alone paid for the membership many times over in our first year. The network of colleagues and the CE resources are incredible bonuses on top of that."</blockquote>
+        <blockquote>"I now enjoy dentistry so much more. I have more appreciation for the team, the patients, and the colleagues I have. Smile Source has given me the support, confidence, and desire to be my best by surrounding myself with the best dentists and humans in the industry."</blockquote>
         <div class="cp-testimonial-author">
-          <div class="cp-avatar">BF</div>
+          <img src="{{ asset('images/v1/dentist-2.png') }}" alt="Dr. Kyle Benton" class="cp-avatar-img">
           <div>
-            <strong>Dr. Lisa Benton</strong>
+            <strong>Dr. Kyle Benton</strong>
             <span>Benton Family Dentistry</span>
           </div>
         </div>
       </div>
 
-      <div class="cp-testimonial-card">
-        <div class="cp-stars">★★★★★</div>
-        <blockquote>"As an independent dentist going up against corporate groups, Smile Source gives me the buying power and support I need to compete and win. I wouldn't go back to practicing alone."</blockquote>
-        <div class="cp-testimonial-author">
-          <div class="cp-avatar">MK</div>
-          <div>
-            <strong>Dr. Mark Kaplan</strong>
-            <span>Kaplan Dental Group</span>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>
@@ -255,39 +244,57 @@
     <div class="cp-blog-grid">
 
       <a href="#" class="cp-blog-card">
-        <div class="cp-blog-cat">Dental Technology</div>
-        <h4>Restoring Wellness Through Financial Empathy</h4>
-        <div class="cp-blog-date">Apr 24, 2026 &nbsp;·&nbsp; 2 min read</div>
+        <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_cherry.png" alt="Restoring Wellness Through Financial Empathy" class="cp-blog-img">
+        <div class="cp-blog-body">
+          <div class="cp-blog-cat">Dental Technology</div>
+          <h4>Restoring Wellness Through Financial Empathy</h4>
+          <div class="cp-blog-date">Apr 24, 2026 &nbsp;·&nbsp; 2 min read</div>
+        </div>
       </a>
 
       <a href="#" class="cp-blog-card">
-        <div class="cp-blog-cat">Practice Management</div>
-        <h4>Curve's Practice Management Platform Streamlines Workflows</h4>
-        <div class="cp-blog-date">Apr 17, 2026 &nbsp;·&nbsp; 3 min read</div>
+        <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_curve.png" alt="Curve's Practice Management Platform" class="cp-blog-img">
+        <div class="cp-blog-body">
+          <div class="cp-blog-cat">Practice Management</div>
+          <h4>Curve's Practice Management Platform Streamlines Workflows</h4>
+          <div class="cp-blog-date">Apr 17, 2026 &nbsp;·&nbsp; 3 min read</div>
+        </div>
       </a>
 
       <a href="#" class="cp-blog-card">
-        <div class="cp-blog-cat">Dental Education</div>
-        <h4>Ergonomics: Protecting Your Greatest Asset — Yourself</h4>
-        <div class="cp-blog-date">Apr 6, 2026 &nbsp;·&nbsp; 4 min read</div>
+        <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_ergonomics.png" alt="Ergonomics" class="cp-blog-img">
+        <div class="cp-blog-body">
+          <div class="cp-blog-cat">Dental Education</div>
+          <h4>Ergonomics: Protecting Your Greatest Asset — Yourself</h4>
+          <div class="cp-blog-date">Apr 6, 2026 &nbsp;·&nbsp; 4 min read</div>
+        </div>
       </a>
 
       <a href="#" class="cp-blog-card">
-        <div class="cp-blog-cat">Dental Education</div>
-        <h4>Dental Care for Patients with Autism and Dental Anxiety</h4>
-        <div class="cp-blog-date">Apr 6, 2026 &nbsp;·&nbsp; 3 min read</div>
+        <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_anxiety.png" alt="Dental Care for Patients with Autism and Dental Anxiety" class="cp-blog-img">
+        <div class="cp-blog-body">
+          <div class="cp-blog-cat">Dental Education</div>
+          <h4>Dental Care for Patients with Autism and Dental Anxiety</h4>
+          <div class="cp-blog-date">Apr 6, 2026 &nbsp;·&nbsp; 3 min read</div>
+        </div>
       </a>
 
       <a href="#" class="cp-blog-card">
-        <div class="cp-blog-cat">Dental Technology</div>
-        <h4>Why Smile Source and Private Practices Are Partnering with BOLA AI</h4>
-        <div class="cp-blog-date">Mar 27, 2026 &nbsp;·&nbsp; 3 min read</div>
+        <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_BolaAI.png" alt="BOLA AI" class="cp-blog-img">
+        <div class="cp-blog-body">
+          <div class="cp-blog-cat">Dental Technology</div>
+          <h4>Why Smile Source and Private Practices Are Partnering with BOLA AI</h4>
+          <div class="cp-blog-date">Mar 27, 2026 &nbsp;·&nbsp; 3 min read</div>
+        </div>
       </a>
 
       <a href="#" class="cp-blog-card">
-        <div class="cp-blog-cat">Dental Marketing</div>
-        <h4>Elevating the Standard of Care During Oral Cancer Awareness Month</h4>
-        <div class="cp-blog-date">Mar 18, 2026 &nbsp;·&nbsp; 3 min read</div>
+        <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_oralcancer.png" alt="Oral Cancer Awareness Month" class="cp-blog-img">
+        <div class="cp-blog-body">
+          <div class="cp-blog-cat">Dental Marketing</div>
+          <h4>Elevating the Standard of Care During Oral Cancer Awareness Month</h4>
+          <div class="cp-blog-date">Mar 18, 2026 &nbsp;·&nbsp; 3 min read</div>
+        </div>
       </a>
 
     </div>
