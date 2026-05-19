@@ -615,7 +615,20 @@
    ============================================================ */
 .cp-testimonials {
   background: linear-gradient(to left, rgba(0,164,189,.12) 0%, rgba(12,99,255,.07) 40%, #f7f9fc 100%);
-  padding: 96px 0;
+  padding: 96px 0 136px;
+  position: relative;
+  overflow: hidden;
+}
+.cp-testimonials::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: -2%;
+  width: 104%;
+  height: 80px;
+  background: var(--cp-navy);
+  transform: skewY(-3deg);
+  transform-origin: bottom right;
 }
 
 .cp-testimonials-grid {
@@ -960,8 +973,7 @@
   padding: 120px 0 96px;
   text-align: center;
   overflow: hidden;
-  clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
-  margin-top: -70px;
+  margin-top: 0;
 }
 .cp-cta-band::before {
   content: '';
