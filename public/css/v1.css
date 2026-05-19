@@ -568,9 +568,18 @@
 }
 
 .cp-guarantee-icon {
-  font-size: 72px;
-  line-height: 1;
   flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--cp-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cp-guarantee-icon i {
+  font-size: 34px;
+  color: #fff;
 }
 
 .cp-guarantee-content h2 {

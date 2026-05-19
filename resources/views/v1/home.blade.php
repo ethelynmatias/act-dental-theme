@@ -192,7 +192,7 @@
 <section class="cp-guarantee" data-animate="zoom-in">
   <div class="container">
     <div class="cp-guarantee-inner">
-      <div class="cp-guarantee-icon">🤝</div>
+      <div class="cp-guarantee-icon"><i class="fas fa-handshake"></i></div>
       <div class="cp-guarantee-content">
         <div class="cp-eyebrow">Our Promise</div>
         <h2>You'll be freakin' thrilled you joined Smile Source.</h2>

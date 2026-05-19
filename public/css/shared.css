@@ -521,3 +521,32 @@ ul { list-style: none; }
 @media (max-width: 600px) {
   .scroll-top-btn { bottom: 20px; right: 20px; width: 42px; height: 42px; font-size: 16px; }
 }
+
+/* ============================================================
+   ANNOUNCEMENT BAR (shared across all versions)
+   ============================================================ */
+.v1-announce {
+  background: #212355;
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 10px 24px;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.v1-announce-msg {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.2s;
+}
+.v1-announce-msg:hover { opacity: 0.85; }
+.v1-announce .announce-arrow { font-size: 15px; font-weight: 700; }
+@media (max-width: 600px) {
+  .v1-announce { font-size: 12px; padding: 10px 16px; }
+}

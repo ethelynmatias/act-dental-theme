@@ -3,13 +3,13 @@
   $vp  = in_array($seg, ['v2','v3','v4']) ? '/'.$seg : '/v2';
 @endphp
 <nav class="site-nav">
-  <!-- Top bar -->
-  <div class="nav-topbar">
-    <div class="container">
-      <a href="https://smilesource.com" class="phone-link">smilesource.com</a>
-      <a href="#">Member Login</a>
-      <a href="#">Let's Talk</a>
-    </div>
+
+  <!-- Announcement bar -->
+  <div class="v1-announce">
+    <a href="{{ $vp }}/exchange-2026" class="v1-announce-msg">
+      Join Us at The Exchange 2026 &nbsp;|&nbsp; San Antonio, TX &nbsp;·&nbsp; September 9–12, 2026
+      <span class="announce-arrow">→</span>
+    </a>
   </div>
 
   <!-- Main nav -->
@@ -64,6 +64,10 @@
             <a href="{{ $vp }}/blog" class="nav-link">Blog</a>
           </li>
 
+          <li class="nav-item">
+            <a href="{{ $vp }}/lets-talk" class="nav-link">Let's Talk</a>
+          </li>
+
         </ul>
 
         <!-- Desktop CTA -->
@@ -116,6 +120,7 @@
         </ul>
       </li>
       <li><a href="{{ $vp }}/blog" style="display:block; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">Blog</a></li>
+      <li><a href="{{ $vp }}/lets-talk" style="display:block; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">Let's Talk</a></li>
       <li style="padding-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
         <a href="https://members.smilesource.com/login" class="btn btn-outline btn-sm" style="flex:1; justify-content:center;">Member Login</a>
         <a href="{{ $vp }}/join" class="btn btn-primary btn-sm" style="flex:1; justify-content:center;">Join Now</a>
