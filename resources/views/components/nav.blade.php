@@ -2,11 +2,9 @@
   <!-- Top bar -->
   <div class="nav-topbar">
     <div class="container">
-      <a href="tel:+15550123456" class="phone-link">
-        <i class="fas fa-phone"></i> (555) 012-3456
-      </a>
-      <a href="#">Patient Portal</a>
-      <a href="#">Pay Online</a>
+      <a href="https://smilesource.com" class="phone-link">smilesource.com</a>
+      <a href="#">Member Login</a>
+      <a href="#">Let's Talk</a>
     </div>
   </div>
 
@@ -17,11 +15,8 @@
 
         <!-- Logo -->
         <a href="/" class="nav-logo">
-          <div class="logo-icon">A</div>
-          <div class="logo-text">
-            ACT Dental
-            <span>Your Family's Smile Partner</span>
-          </div>
+          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/Smile%20Source%202024%20Logo.png"
+               alt="Smile Source" height="38" style="height:38px; width:auto; display:block;">
         </a>
 
         <!-- Desktop Menu -->
@@ -29,68 +24,48 @@
 
           <li class="nav-item">
             <span class="nav-link">
-              Our Practice <i class="fas fa-chevron-down arrow"></i>
+              Why Smile Source <i class="fas fa-chevron-down arrow"></i>
             </span>
             <ul class="nav-dropdown">
-              <li><a href="#">Meet the Team</a></li>
-              <li><a href="#">Our Technology</a></li>
-              <li><a href="#">Office Tour</a></li>
-              <li><a href="#">Patient Reviews</a></li>
-              <li><a href="#">Community Involvement</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Foundation</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
             <span class="nav-link">
-              Services <i class="fas fa-chevron-down arrow"></i>
+              Membership Benefits <i class="fas fa-chevron-down arrow"></i>
             </span>
             <ul class="nav-dropdown">
-              <li><a href="#">General Dentistry</a></li>
-              <li><a href="#">Cosmetic Dentistry</a></li>
-              <li><a href="#">Dental Implants</a></li>
-              <li><a href="#">Orthodontics &amp; Invisalign</a></li>
-              <li><a href="#">Emergency Dental Care</a></li>
-              <li><a href="#">Children's Dentistry</a></li>
-              <li><a href="#">Teeth Whitening</a></li>
-              <li><a href="#">Veneers</a></li>
+              <li><a href="#">Savings</a></li>
+              <li><a href="#">Practice Growth</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Networking</a></li>
+              <li><a href="#">Education</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
             <span class="nav-link">
-              Patient Info <i class="fas fa-chevron-down arrow"></i>
+              Events <i class="fas fa-chevron-down arrow"></i>
             </span>
             <ul class="nav-dropdown">
-              <li><a href="#">New Patients</a></li>
-              <li><a href="#">Patient Forms</a></li>
-              <li><a href="#">Insurance &amp; Billing</a></li>
-              <li><a href="#">Financing Options</a></li>
-              <li><a href="#">FAQs</a></li>
+              <li><a href="#">The Exchange 2026</a></li>
+              <li><a href="#">Webinars &amp; Live Events</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
-            <span class="nav-link">
-              About Us <i class="fas fa-chevron-down arrow"></i>
-            </span>
-            <ul class="nav-dropdown">
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Our Philosophy</a></li>
-              <li><a href="#">Awards &amp; Recognition</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Blog</a>
           </li>
 
         </ul>
 
         <!-- Desktop CTA -->
         <div class="nav-cta">
-          <a href="#" class="btn btn-outline btn-sm">Patient Login</a>
-          <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
+          <a href="#" class="btn btn-outline btn-sm">Member Login</a>
+          <a href="#" class="btn btn-primary btn-sm">Join Now</a>
         </div>
 
         <!-- Hamburger -->
@@ -107,44 +82,39 @@
     <ul class="nav-mobile" id="mobileNav">
       <li>
         <span class="mobile-toggle" style="cursor:pointer; display:flex; justify-content:space-between; align-items:center; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">
-          Our Practice <i class="fas fa-chevron-down" style="font-size:12px;"></i>
+          Why Smile Source <i class="fas fa-chevron-down" style="font-size:12px;"></i>
         </span>
         <ul class="sub-links">
-          <li><a href="#">Meet the Team</a></li>
-          <li><a href="#">Our Technology</a></li>
-          <li><a href="#">Office Tour</a></li>
-          <li><a href="#">Patient Reviews</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Leadership</a></li>
+          <li><a href="#">Foundation</a></li>
         </ul>
       </li>
       <li>
         <span class="mobile-toggle" style="cursor:pointer; display:flex; justify-content:space-between; align-items:center; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">
-          Services <i class="fas fa-chevron-down" style="font-size:12px;"></i>
+          Membership Benefits <i class="fas fa-chevron-down" style="font-size:12px;"></i>
         </span>
         <ul class="sub-links">
-          <li><a href="#">General Dentistry</a></li>
-          <li><a href="#">Cosmetic Dentistry</a></li>
-          <li><a href="#">Dental Implants</a></li>
-          <li><a href="#">Orthodontics &amp; Invisalign</a></li>
-          <li><a href="#">Emergency Dental Care</a></li>
-          <li><a href="#">Children's Dentistry</a></li>
+          <li><a href="#">Savings</a></li>
+          <li><a href="#">Practice Growth</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Networking</a></li>
+          <li><a href="#">Education</a></li>
         </ul>
       </li>
       <li>
         <span class="mobile-toggle" style="cursor:pointer; display:flex; justify-content:space-between; align-items:center; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">
-          Patient Info <i class="fas fa-chevron-down" style="font-size:12px;"></i>
+          Events <i class="fas fa-chevron-down" style="font-size:12px;"></i>
         </span>
         <ul class="sub-links">
-          <li><a href="#">New Patients</a></li>
-          <li><a href="#">Patient Forms</a></li>
-          <li><a href="#">Insurance &amp; Billing</a></li>
-          <li><a href="#">Financing Options</a></li>
+          <li><a href="#">The Exchange 2026</a></li>
+          <li><a href="#">Webinars &amp; Live Events</a></li>
         </ul>
       </li>
-      <li><a href="#" style="display:block; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">About Us</a></li>
-      <li><a href="#" style="display:block; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">Contact</a></li>
+      <li><a href="#" style="display:block; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">Blog</a></li>
       <li style="padding-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
-        <a href="#" class="btn btn-outline btn-sm" style="flex:1; justify-content:center;">Patient Login</a>
-        <a href="#" class="btn btn-primary btn-sm" style="flex:1; justify-content:center;">Book Appointment</a>
+        <a href="#" class="btn btn-outline btn-sm" style="flex:1; justify-content:center;">Member Login</a>
+        <a href="#" class="btn btn-primary btn-sm" style="flex:1; justify-content:center;">Join Now</a>
       </li>
     </ul>
 

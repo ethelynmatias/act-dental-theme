@@ -4,13 +4,9 @@
 
       <!-- Brand col -->
       <div class="footer-brand">
-        <div class="logo-text">ACT Dental</div>
-        <p>Exceptional dental care for your entire family. We combine advanced technology with a warm, welcoming approach to give you a smile you'll love.</p>
-        <div class="footer-contact">
-          <a href="tel:+15550123456"><i class="fas fa-phone" style="width:16px;"></i> (555) 012-3456</a>
-          <a href="mailto:hello@actdental.com"><i class="fas fa-envelope" style="width:16px;"></i> hello@actdental.com</a>
-          <a href="#"><i class="fas fa-map-marker-alt" style="width:16px;"></i> 123 Smile Ave, Suite 200, Phoenix, AZ 85001</a>
-        </div>
+        <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/SS_full_rev.png"
+             alt="Smile Source" style="height:36px; width:auto; margin-bottom:16px; display:block;">
+        <p>Smile Source connects independent dentists to the right people, products, and services to boost profitability and accelerate growth. Community over competition.</p>
         <div class="footer-social">
           <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -19,45 +15,39 @@
         </div>
       </div>
 
-      <!-- Services -->
+      <!-- Why Smile Source -->
       <div class="footer-col">
-        <h4>Services</h4>
+        <h4>Why Smile Source</h4>
         <ul>
-          <li><a href="#">General Dentistry</a></li>
-          <li><a href="#">Cosmetic Dentistry</a></li>
-          <li><a href="#">Dental Implants</a></li>
-          <li><a href="#">Orthodontics</a></li>
-          <li><a href="#">Invisalign</a></li>
-          <li><a href="#">Teeth Whitening</a></li>
-          <li><a href="#">Veneers</a></li>
-          <li><a href="#">Emergency Care</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Leadership</a></li>
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Member Success</a></li>
         </ul>
       </div>
 
-      <!-- Patient Info -->
+      <!-- Membership -->
       <div class="footer-col">
-        <h4>Patient Info</h4>
+        <h4>Membership Benefits</h4>
         <ul>
-          <li><a href="#">New Patients</a></li>
-          <li><a href="#">Patient Forms</a></li>
-          <li><a href="#">Insurance &amp; Billing</a></li>
-          <li><a href="#">Financing Options</a></li>
-          <li><a href="#">Patient Portal</a></li>
-          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Savings</a></li>
+          <li><a href="#">Practice Growth</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Networking</a></li>
+          <li><a href="#">Education</a></li>
+        </ul>
+      </div>
+
+      <!-- Events & Resources -->
+      <div class="footer-col">
+        <h4>Events &amp; Resources</h4>
+        <ul>
+          <li><a href="#">The Exchange 2026</a></li>
+          <li><a href="#">Webinars &amp; Live Events</a></li>
           <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
-      </div>
-
-      <!-- Hours -->
-      <div class="footer-col">
-        <h4>Office Hours</h4>
-        <ul>
-          <li style="color:rgba(255,255,255,.6); font-size:14px; margin-bottom:8px;"><strong style="color:rgba(255,255,255,.85);">Mon – Thu</strong><br>7:00 AM – 5:00 PM</li>
-          <li style="color:rgba(255,255,255,.6); font-size:14px; margin-bottom:8px;"><strong style="color:rgba(255,255,255,.85);">Friday</strong><br>7:00 AM – 2:00 PM</li>
-          <li style="color:rgba(255,255,255,.6); font-size:14px; margin-bottom:8px;"><strong style="color:rgba(255,255,255,.85);">Saturday</strong><br>By Appointment</li>
-          <li style="color:rgba(255,255,255,.6); font-size:14px;"><strong style="color:rgba(255,255,255,.85);">Sunday</strong><br>Closed</li>
-        </ul>
-        <a href="#" class="btn btn-primary btn-sm" style="margin-top:20px;">Book Appointment</a>
+        <a href="#" class="btn btn-primary btn-sm" style="margin-top:20px;">Join Now</a>
       </div>
 
     </div><!-- /footer-grid -->
@@ -65,11 +55,10 @@
 
   <div class="footer-bottom">
     <div class="container" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;">
-      <span>&copy; {{ date('Y') }} ACT Dental. All rights reserved.</span>
+      <span>&copy; {{ date('Y') }} Smile Source, LP. All rights reserved.</span>
       <div class="footer-bottom-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Accessibility</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
         <a href="#">Sitemap</a>
       </div>
     </div>
