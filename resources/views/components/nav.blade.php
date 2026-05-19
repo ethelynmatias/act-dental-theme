@@ -21,7 +21,9 @@
         <a href="{{ $vp }}/home" class="nav-logo">
           @if($seg === 'v2')
             <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/SS_full_rev.png"
-                 alt="Smile Source" height="38" style="height:38px; width:auto; display:block;">
+                 alt="Smile Source" height="38" class="nav-logo__white" style="height:38px; width:auto;">
+            <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/Smile%20Source%202024%20Logo.png?width=300&height=47"
+                 alt="Smile Source" height="38" class="nav-logo__color" style="height:38px; width:auto;">
           @else
             <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/Smile%20Source%202024%20Logo.png"
                  alt="Smile Source" height="38" style="height:38px; width:auto; display:block;">

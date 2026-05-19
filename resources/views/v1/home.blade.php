@@ -66,25 +66,25 @@
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-piggy-bank"></i></div>
         <h3>Supercharge Your Savings</h3>
-        <p>Save up to 40% on dental supplies, up to 30% on lab work, and up to 45% with manufacturers. Members earn over $6 million in rebates annually — rates vetted and negotiated with the industry's largest partners.</p>
+        <p>Up to 40% off supplies, 30% off lab, and $6M+ in member rebates annually.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-chart-line"></i></div>
         <h3>Practice Growth</h3>
-        <p>Access recruiting, benefits, payroll, patient financing, strategic consulting, and proven technology — all the DSO-level support without giving up ownership. Affinity groups like Dental CEO and Million Dollar Club accelerate your path.</p>
+        <p>DSO-level support — recruiting, consulting, technology — while keeping 100% ownership.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-users"></i></div>
         <h3>Powerful Networking</h3>
-        <p>Local group leaders hold in-person member meetings in cities across America. Online webinars, forum conversations, and national meetings give you frequent opportunities to share, learn, and grow alongside peers on the same journey.</p>
+        <p>In-person meetings, webinars, and a national conference connecting you with peers on the same journey.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-graduation-cap"></i></div>
         <h3>Continuing Education</h3>
-        <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff. Topics span practice management, marketing, new procedures, 3D technology, and more. Earn up to 17 CE credits at The Exchange.</p>
+        <p>Hundreds of in-person and online courses for your whole team. Earn up to 17 CE credits at The Exchange.</p>
       </div>
 
     </div>

@@ -1,0 +1,325 @@
+/* ============================================================
+   EXCHANGE 2026 — shared page styles (all versions)
+   ============================================================ */
+
+/* Hero */
+.cp-ex-hero {
+  background: #0a0f1e url('https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/chub_backup/yankee%20congress%204-1.jpg') center center / cover no-repeat;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cp-ex-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(0,0,0,.78) 0%, rgba(10,20,60,.72) 100%);
+}
+.cp-ex-hero__inner {
+  position: relative;
+  z-index: 1;
+  padding: 100px 20px 80px;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.cp-ex-hero__logo {
+  max-width: 420px;
+  width: 90%;
+  display: block;
+  margin: 0 auto 28px;
+}
+.cp-ex-hero__date {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 700;
+  color: rgba(255,255,255,.9);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.cp-ex-hero__sub {
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  color: rgba(255,255,255,.75);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.cp-ex-hero__cta {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+/* Full-width photo band */
+.cp-ex-photo-band { line-height: 0; }
+.cp-ex-photo-band__img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Feature cards */
+.cp-ex-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+}
+.cp-ex-feature-card {
+  background: #f7f9fc;
+  border: 1px solid #e5e9f0;
+  border-radius: 16px;
+  padding: 32px 28px;
+  text-align: center;
+}
+.cp-ex-feature-card__icon {
+  width: 56px;
+  height: 56px;
+  background: var(--primary, #1a6fc4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+  font-size: 22px;
+  color: #fff;
+}
+.cp-ex-feature-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a2b4a;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+.cp-ex-feature-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.65;
+}
+
+/* Speakers grid */
+.cp-ex-speakers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 48px;
+}
+.cp-ex-speaker img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.cp-ex-speaker img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,.15);
+}
+
+/* Schedule */
+.cp-ex-schedule {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+}
+.cp-ex-schedule-day {
+  background: #f7f9fc;
+  border: 1px solid #e5e9f0;
+  border-top: 4px solid var(--primary, #1a6fc4);
+  border-radius: 12px;
+  padding: 28px 28px 24px;
+}
+.cp-ex-schedule-day__label {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--primary, #1a6fc4);
+  margin-bottom: 16px;
+}
+.cp-ex-schedule-day ul { list-style: none; padding: 0; margin: 0; }
+.cp-ex-schedule-day li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0;
+  font-size: 14px;
+  color: #1a2b4a;
+  border-bottom: 1px solid #e5e9f0;
+}
+.cp-ex-schedule-day li:last-child { border-bottom: none; }
+.cp-ex-schedule-day li i { color: var(--primary, #1a6fc4); font-size: 13px; flex-shrink: 0; }
+
+/* Not just a conference */
+.cp-ex-not-just {
+  background: #0f1e3a;
+  padding: 96px 0;
+}
+.cp-ex-not-just__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.cp-ex-not-just__img img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 24px 64px rgba(0,0,0,.4);
+}
+.cp-ex-not-just__eyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--primary, #1a6fc4);
+  display: block;
+  margin-bottom: 12px;
+}
+.cp-ex-not-just__content h2 { color: #fff; font-size: clamp(1.6rem, 2.5vw, 2.2rem); font-weight: 800; margin-bottom: 16px; }
+.cp-ex-not-just__content p { color: rgba(255,255,255,.78); margin-bottom: 24px; line-height: 1.7; }
+.cp-ex-not-just__checks { list-style: none; padding: 0; margin: 0 0 32px; display: flex; flex-direction: column; gap: 10px; }
+.cp-ex-not-just__checks li { display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: rgba(255,255,255,.85); }
+.cp-ex-not-just__checks li i { color: var(--primary, #1a6fc4); font-size: 16px; flex-shrink: 0; }
+
+/* Venue split */
+.cp-ex-venue {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 520px;
+}
+.cp-ex-venue__img-col { overflow: hidden; }
+.cp-ex-venue__img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cp-ex-venue__info-col {
+  background: #0f1e3a;
+  display: flex;
+  align-items: center;
+}
+.cp-ex-venue__info { padding: 64px 56px; }
+.cp-ex-venue__info h2 {
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.cp-ex-venue__info p {
+  font-size: 15px;
+  color: rgba(255,255,255,.72);
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+.cp-ex-venue__eyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--primary, #1a6fc4);
+  display: block;
+  margin-bottom: 12px;
+}
+.cp-ex-venue__details { display: flex; flex-direction: column; gap: 18px; margin-bottom: 32px; }
+.cp-ex-venue__detail-item { display: flex; align-items: center; gap: 16px; }
+.cp-ex-venue__detail-item i {
+  width: 42px;
+  height: 42px;
+  background: rgba(26,111,196,.2);
+  border: 1px solid rgba(26,111,196,.35);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary, #1a6fc4);
+  font-size: 16px;
+  flex-shrink: 0;
+}
+.cp-ex-venue__detail-item strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+  margin-bottom: 2px;
+}
+.cp-ex-venue__detail-item span { font-size: 15px; font-weight: 600; color: #fff; }
+
+/* Vendor logos dark row */
+.cp-ex-logos {
+  background: #0f1e3a;
+  padding: 48px 0;
+}
+.cp-ex-logos__label {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+  margin-bottom: 28px;
+}
+.cp-ex-logos__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  filter: brightness(0) invert(1);
+  opacity: .7;
+}
+.cp-ex-logos__row img { height: 28px; width: auto; }
+
+/* Testimonials on dark bg */
+.cp-ex-testimonials {
+  background: #f7f9fc;
+  padding: 80px 0;
+}
+.cp-ex-testimonials__head {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 48px;
+}
+.cp-ex-testimonials__eyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--primary, #1a6fc4);
+  display: block;
+  margin-bottom: 10px;
+}
+.cp-ex-testimonials__head h2 { font-size: clamp(1.6rem, 2.5vw, 2.2rem); font-weight: 800; color: #1a2b4a; }
+.cp-ex-testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+.cp-ex-testimonial {
+  background: #fff;
+  border: 1px solid #e5e9f0;
+  border-radius: 16px;
+  padding: 32px 28px;
+}
+.cp-ex-testimonial__stars { color: #f5a623; font-size: 18px; margin-bottom: 14px; }
+.cp-ex-testimonial blockquote {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.7;
+  font-style: italic;
+  margin: 0 0 20px;
+}
+.cp-ex-testimonial__author strong { display: block; font-size: 14px; font-weight: 700; color: #1a2b4a; }
+.cp-ex-testimonial__author span { font-size: 13px; color: #888; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cp-ex-not-just__grid { grid-template-columns: 1fr; gap: 40px; }
+  .cp-ex-speakers { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+  .cp-ex-venue { grid-template-columns: 1fr; }
+  .cp-ex-venue__img-col { min-height: 260px; }
+  .cp-ex-venue__info { padding: 40px 24px; }
+}

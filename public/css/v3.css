@@ -1128,3 +1128,14 @@
 /* Scroll-to-top button accent for v3 */
 .scroll-top-btn { background: var(--clr-primary, #3e35f1); }
 .scroll-top-btn:hover { background: var(--clr-primary-hover, #2d26cc); }
+
+/* ============================================================
+   V3 NAV — scroll animation (no color change, smooth transition only)
+   ============================================================ */
+.site-nav {
+  transition: box-shadow .35s ease, transform .35s ease;
+}
+
+.site-nav.is-scrolled {
+  box-shadow: 0 4px 24px rgba(0,0,0,.13);
+}

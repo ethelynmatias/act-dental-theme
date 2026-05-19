@@ -57,14 +57,18 @@
       });
     });
 
-    // Sticky nav shadow on scroll
+    // Sticky nav — shadow for default versions, scrolled class for v2 transparent nav
     const nav = document.querySelector('.site-nav');
     if (nav) {
-      window.addEventListener('scroll', () => {
-        nav.style.boxShadow = window.scrollY > 10
-          ? '0 4px 24px rgba(0,0,0,.12)'
-          : '0 2px 12px rgba(0,0,0,.06)';
-      });
+      const onScroll = () => {
+        const scrolled = window.scrollY > 60;
+        nav.classList.toggle('is-scrolled', scrolled);
+        if (!nav.classList.contains('is-scrolled')) {
+          nav.style.boxShadow = scrolled ? '0 4px 24px rgba(0,0,0,.12)' : '0 2px 12px rgba(0,0,0,.06)';
+        }
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
     }
 
     // Scroll-to-top button
