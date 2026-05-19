@@ -6,6 +6,10 @@
   <meta name="description" content="{{ $metaDesc ?? 'ACT Dental — Exceptional care for your entire family. General, cosmetic, and orthodontic dentistry.' }}">
   <title>{{ $title ?? 'Smile Source' }} | Smile Source</title>
 
+  <!-- Favicon -->
+  <link rel="icon" href="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Branding/Logos%20(2024)/Smile%20Source%202024%20Favicon.png">
+  <link rel="shortcut icon" href="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Branding/Logos%20(2024)/Smile%20Source%202024%20Favicon.png">
+
   <!-- Shared Global CSS -->
   <link rel="stylesheet" href="{{ asset('css/shared.css') }}">
 

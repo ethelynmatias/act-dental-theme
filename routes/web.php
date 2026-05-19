@@ -12,7 +12,7 @@ Route::get('/v1/home', function () {
 })->name('v1.home');
 
 // V1 — Why Smile Source
-Route::get('/v1/why-smile-source/our-story',  fn() => view('v1.empty-page', ['pageTitle' => 'Our Story']));
+Route::get('/v1/why-smile-source/about-us',   fn() => view('v1.empty-page', ['pageTitle' => 'About Us']));
 Route::get('/v1/why-smile-source/leadership', fn() => view('v1.empty-page', ['pageTitle' => 'Leadership']));
 Route::get('/v1/why-smile-source/foundation', fn() => view('v1.empty-page', ['pageTitle' => 'Foundation']));
 
@@ -38,6 +38,7 @@ Route::get('/v1/networking/webinars',     fn() => view('v1.empty-page', ['pageTi
 // V1 — Standalone pages
 Route::get('/v1/exchange-2026', fn() => view('v1.empty-page', ['pageTitle' => 'The Exchange 2026']));
 Route::get('/v1/webinars',      fn() => view('v1.empty-page', ['pageTitle' => 'Webinars & Live Events']));
+Route::get('/v1/blog',          fn() => view('v1.empty-page', ['pageTitle' => 'Blog']));
 Route::get('/v1/lets-talk',     fn() => view('v1.empty-page', ['pageTitle' => "Let's Talk"]));
 Route::get('/v1/join',          fn() => view('v1.empty-page', ['pageTitle' => 'Join Smile Source']));
 

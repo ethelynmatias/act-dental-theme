@@ -6,7 +6,6 @@
 
 @push('scripts')
 <script>
-  /* Tab switching */
   document.querySelectorAll('.pwr-tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const group = btn.closest('.pwr-sec-tabs');
@@ -17,7 +16,6 @@
     });
   });
 
-  /* Accordion */
   document.querySelectorAll('.pwr-accordion-trigger').forEach(trigger => {
     trigger.addEventListener('click', () => {
       const item = trigger.closest('.pwr-accordion-item');
@@ -27,7 +25,6 @@
     });
   });
 
-  /* Generate particle stars */
   (function() {
     const wrap = document.querySelector('.pwr-hero__particles');
     if (!wrap) return;
@@ -55,192 +52,183 @@
 {{-- ===== HERO ===== --}}
 <section class="pwr-hero">
   <div class="pwr-hero__particles" aria-hidden="true"></div>
-
   <div class="pwr-hero__inner">
     <div class="pwr-hero__eyebrow">
       <span class="dot"></span>
-      Dental Practice Coaching &amp; Consulting
+      Largest Private Dental Practice Network
     </div>
-
     <h1>
-      ACT Dental Ignites<br>
-      <span class="pwr-gradient-text">Your Full Potential</span>
+      Independent Dentists<br>
+      <span class="pwr-gradient-text">Thriving Together</span>
     </h1>
-
     <p class="pwr-hero__desc">
-      Elevate your practice, boost profitability, and enhance your work-life balance.
-      We help dentists across the country create a better practice and a better life
-      through proven coaching and best-practice systems.
+      Smile Source connects you to the right people, products, and services
+      to boost profitability and accelerate your growth — without sacrificing
+      the ownership you worked so hard to build.
     </p>
-
     <div class="pwr-hero__cta">
       <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
-        Get Started Today
+        Let's Talk
       </a>
       <a href="#" class="pwr-btn pwr-btn--outline-white">
-        <i class="fas fa-play-circle"></i>&ensp;Learn About Coaching
+        <i class="fas fa-play-circle"></i>&ensp;Why Smile Source
       </a>
     </div>
   </div>
 </section>
 
-{{-- ===== VERTICAL CTA STRIP ===== --}}
+{{-- ===== CTA STRIP ===== --}}
 <section class="pwr-sec-cta">
   <div class="pwr-container">
     <div class="pwr-sec-cta__inner">
-
       <div class="pwr-sec-cta__text">
         <h2 class="pwr-sec-cta__title">
-          Design the Best Practice — and the Best Life — for You
+          Benefits Like a DSO — Without Sacrificing Ownership
         </h2>
         <p class="pwr-sec-cta__desc">
-          Coaching programs available now. Get your free practice assessment and a
-          personalized coaching roadmap — all tailored to your specific goals and challenges.
+          Join 1,100+ independent dentists already thriving with Smile Source.
+          Over $1 billion in collective purchasing power, vetted vendors, and a
+          dedicated Member Success Specialist — all in one membership.
         </p>
       </div>
-
       <div class="pwr-sec-cta__actions">
         <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
-          Start With a Practice Coach
+          Become a Member
         </a>
-        <a href="tel:+18008518186" class="pwr-btn pwr-btn--outline-white pwr-btn--long">
-          <i class="fas fa-phone"></i>&ensp;800-851-8186
+        <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--long">
+          <i class="fas fa-arrow-right"></i>&ensp;Join Now
         </a>
       </div>
-
     </div>
   </div>
 </section>
 
-{{-- ===== PROGRAMS STRIP ===== --}}
+{{-- ===== ELITE VENDORS STRIP ===== --}}
 <section class="pwr-sec-clients">
   <div class="pwr-container">
-    <p class="pwr-sec-clients__label">Coaching programs and resources for every stage of your practice</p>
+    <p class="pwr-sec-clients__label">Save on supplies and services with our top-tier vetted vendor network</p>
     <div class="pwr-sec-clients__grid">
-      <div class="pwr-sec-clients__item">Best Practices Association</div>
-      <div class="pwr-sec-clients__item">TTT Group Coaching</div>
-      <div class="pwr-sec-clients__item">Pro Coaching</div>
-      <div class="pwr-sec-clients__item">GAPs Calculator</div>
-      <div class="pwr-sec-clients__item">Study Clubs</div>
-      <div class="pwr-sec-clients__item">Podcast</div>
-      <div class="pwr-sec-clients__item">Magazine</div>
-      <div class="pwr-sec-clients__item">Events</div>
+      <div class="pwr-sec-clients__item">ClearCorrect</div>
+      <div class="pwr-sec-clients__item">Dentsply Sirona</div>
+      <div class="pwr-sec-clients__item">Envista</div>
+      <div class="pwr-sec-clients__item">Henry Schein Dental</div>
+      <div class="pwr-sec-clients__item">MicroDental</div>
+      <div class="pwr-sec-clients__item">NDX</div>
     </div>
   </div>
 </section>
 
-{{-- ===== CHALLENGES TABS ===== --}}
+{{-- ===== MEMBERSHIP BENEFITS TABS ===== --}}
 <section class="pwr-sec-tabs">
   <div class="pwr-container">
-
     <div class="pwr-sec-tabs__intro">
-      <span class="pwr-sec-tabs__eyebrow">The Challenges We Solve</span>
-      <h2 class="pwr-sec-tabs__title">The Top Challenges Facing Dentists Today</h2>
+      <span class="pwr-sec-tabs__eyebrow">Membership Benefits</span>
+      <h2 class="pwr-sec-tabs__title">Everything Your Practice Needs to Thrive</h2>
       <p class="pwr-sec-tabs__desc">
-        ACT Dental coaching is designed around the real problems dentists face every day.
-        Here's how we address the most common — and most costly — challenges in the profession.
+        From savings and marketing to networking and education, Smile Source gives
+        independent dentists the complete toolkit to compete and win.
       </p>
     </div>
 
     <div class="pwr-tabs-nav">
-      <button class="pwr-tab-btn is-active" data-tab="tab-burnout">Burnout</button>
-      <button class="pwr-tab-btn" data-tab="tab-ppo">PPO &amp; Revenue</button>
-      <button class="pwr-tab-btn" data-tab="tab-team">Team Building</button>
-      <button class="pwr-tab-btn" data-tab="tab-growth">DSO &amp; Growth</button>
+      <button class="pwr-tab-btn is-active" data-tab="tab-savings">Savings</button>
+      <button class="pwr-tab-btn" data-tab="tab-growth">Practice Growth</button>
+      <button class="pwr-tab-btn" data-tab="tab-marketing">Marketing</button>
+      <button class="pwr-tab-btn" data-tab="tab-community">Networking &amp; Education</button>
     </div>
 
-    {{-- Burnout --}}
-    <div class="pwr-tab-panel is-active" id="tab-burnout">
+    {{-- Savings --}}
+    <div class="pwr-tab-panel is-active" id="tab-savings">
       <div class="pwr-tabs-grid">
         <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-heart"></i></div>
-          <h3>Clarify Your Vision</h3>
-          <p>Define what success and fulfillment look like for you — then build a practice that delivers it every day.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-balance-scale"></i></div>
-          <h3>Work-Life Balance Systems</h3>
-          <p>Implement structures that protect your time, reduce stress, and make your schedule work for you — not against you.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-spa"></i></div>
-          <h3>Sustainable Self-Care Strategies</h3>
-          <p>Our coaches work with you to prioritize wellness and avoid the burnout cycle that plagues 54.9% of dentists.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-    {{-- PPO & Revenue --}}
-    <div class="pwr-tab-panel" id="tab-ppo">
-      <div class="pwr-tabs-grid">
-        <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-chart-line"></i></div>
-          <h3>Optimize Reimbursements</h3>
-          <p>Navigate PPO complexities, reduce write-offs, and maximize collections — even in a crowded insurance landscape.</p>
+          <div class="pwr-service-card__icon"><i class="fas fa-tag"></i></div>
+          <h3>Vendor Discounts &amp; Rebates</h3>
+          <p>Negotiated rates with the industry's largest vendors — dental technology, supplies, labs, and services all at reduced cost.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-dollar-sign"></i></div>
-          <h3>Maximize Daily Production</h3>
-          <p>Schedule optimization, case acceptance, and treatment planning strategies that grow revenue per day worked.</p>
+          <h3>Over $1 Billion Purchasing Power</h3>
+          <p>No solo practice can negotiate what 1,100+ members can. Our collective buying power delivers savings that move the needle.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-calculator"></i></div>
-          <h3>GAPs Financial Analysis</h3>
-          <p>Use our proprietary GAPs Calculator to identify financial gaps and build a clear roadmap to your revenue goals.</p>
+          <div class="pwr-service-card__icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Vetted Vendors Only</h3>
+          <p>Every vendor in the Smile Source network has been carefully evaluated — only the best make the cut so you can buy with confidence.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
 
-    {{-- Team Building --}}
-    <div class="pwr-tab-panel" id="tab-team">
+    {{-- Practice Growth --}}
+    <div class="pwr-tab-panel" id="tab-growth">
       <div class="pwr-tabs-grid">
         <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-user-plus"></i></div>
-          <h3>Hiring Best Practices</h3>
-          <p>Find the right people for the right seats with proven hiring systems that attract top-quality candidates.</p>
+          <div class="pwr-service-card__icon"><i class="fas fa-laptop-medical"></i></div>
+          <h3>Technology Solutions</h3>
+          <p>Access the latest practice management, imaging, and clinical technology with member pricing and expert implementation support.</p>
+          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="pwr-service-card">
+          <div class="pwr-service-card__icon"><i class="fas fa-user-nurse"></i></div>
+          <h3>Staffing Solutions</h3>
+          <p>Get support hiring, training, and retaining your dental team with resources designed specifically for independent practices.</p>
+          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="pwr-service-card">
+          <div class="pwr-service-card__icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Proven Growth Strategies</h3>
+          <p>Position your practice for unstoppable growth with time-tested solutions used by 1,100+ successful independent practices.</p>
+          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    {{-- Marketing --}}
+    <div class="pwr-tab-panel" id="tab-marketing">
+      <div class="pwr-tabs-grid">
+        <div class="pwr-service-card">
+          <div class="pwr-service-card__icon"><i class="fas fa-bullhorn"></i></div>
+          <h3>Expert Marketing Strategies</h3>
+          <p>Access expert-driven marketing strategies designed to attract and retain more patients in your specific market.</p>
+          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="pwr-service-card">
+          <div class="pwr-service-card__icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Brand Specialists</h3>
+          <p>Work with brand specialists who understand private dental practices and help you stand out from corporate competition.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-users"></i></div>
-          <h3>Team Culture &amp; Retention</h3>
-          <p>Build the kind of culture where talented team members stay, grow, and perform at their very best.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-chalkboard-teacher"></i></div>
-          <h3>Leadership Development</h3>
-          <p>Become the confident, decisive leader your team needs — with coaching built around your personal leadership style.</p>
+          <h3>Patient Attraction &amp; Retention</h3>
+          <p>From digital presence to patient experience, get the tools and guidance to grow your patient base and keep them coming back.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
 
-    {{-- DSO & Growth --}}
-    <div class="pwr-tab-panel" id="tab-growth">
+    {{-- Community & Education --}}
+    <div class="pwr-tab-panel" id="tab-community">
       <div class="pwr-tabs-grid">
         <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-shield-alt"></i></div>
-          <h3>Compete With DSOs</h3>
-          <p>Differentiate your independent practice and win against corporate competition by playing to your unique strengths.</p>
+          <div class="pwr-service-card__icon"><i class="fas fa-handshake"></i></div>
+          <h3>Peer Networking</h3>
+          <p>Connect with knowledgeable, friendly colleagues committed to strengthening and promoting independent dentistry nationwide.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-rocket"></i></div>
-          <h3>Proven Growth Systems</h3>
-          <p>Tried-and-tested strategies for patient acquisition, referral growth, and expanding services that stick.</p>
+          <div class="pwr-service-card__icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Continuing Education</h3>
+          <p>Industry-leading CE and resources for your entire team — clinical, business, and leadership education all in one place.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
-          <div class="pwr-service-card__icon"><i class="fas fa-bullseye"></i></div>
-          <h3>Strategic Planning</h3>
-          <p>Quarterly priorities, 90-day sprints, and annual planning frameworks that keep your team aligned and moving forward.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <div class="pwr-service-card__icon"><i class="fas fa-calendar-alt"></i></div>
+          <h3>The Exchange 2026</h3>
+          <p>San Antonio, TX — September 9–12, 2026. The ultimate hub for inspiration, connection, and innovation for independent dentists.</p>
+          <a href="#" class="pwr-service-card__link">Register Now <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -248,72 +236,71 @@
   </div>
 </section>
 
-{{-- ===== COACHING PROGRAMS SHOWCASE ===== --}}
+{{-- ===== BENEFIT SHOWCASE ===== --}}
 <section class="pwr-sec-image-boxes">
   <div class="pwr-container">
-
     <div class="pwr-sec-image-boxes__intro">
-      <span class="pwr-sec-image-boxes__eyebrow">Our Coaching Programs</span>
-      <h2 class="pwr-sec-image-boxes__title">A Coaching Program for Every Stage of Your Journey</h2>
+      <span class="pwr-sec-image-boxes__eyebrow">Why Members Join</span>
+      <h2 class="pwr-sec-image-boxes__title">More Thrive, Less Strive</h2>
       <p class="pwr-sec-image-boxes__desc">
-        From community membership to one-on-one coaching, ACT Dental meets you where you are
-        and takes your practice — and your life — to the next level.
+        Smile Source addresses the real challenges private practice dentists face every day —
+        so you can focus on great dentistry and a great life.
       </p>
     </div>
 
     <div class="pwr-image-boxes-grid">
 
       <div class="pwr-image-box pwr-image-box--tall">
-        <div class="pwr-image-box__img pwr-img--indigo"><i class="fas fa-users"></i></div>
+        <div class="pwr-image-box__img pwr-img--indigo"><i class="fas fa-piggy-bank"></i></div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--hot">POPULAR</span>
-          <h3>Best Practices Association</h3>
-          <p>A community of dentists committed to best practices, accountability, and continuous improvement. Events, podcast, and resources included.</p>
+          <span class="pwr-image-box__badge badge--hot">TOP BENEFIT</span>
+          <h3>Reduce Overhead</h3>
+          <p>Over $1 billion in purchasing power means negotiated discounts across supplies, equipment, and services that directly impact your bottom line.</p>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--purple"><i class="fas fa-chalkboard-teacher"></i></div>
+        <div class="pwr-image-box__img pwr-img--purple"><i class="fas fa-chart-line"></i></div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--trending">TRENDING</span>
-          <h3>TTT Group Coaching</h3>
-          <p>Small-group coaching with like-minded dentists. Real accountability, shared wins, and strategies that work.</p>
+          <span class="pwr-image-box__badge badge--trending">POPULAR</span>
+          <h3>Practice Growth</h3>
+          <p>Technology, staffing, and proven strategies to position your practice for unstoppable growth.</p>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--dark"><i class="fas fa-user-tie"></i></div>
+        <div class="pwr-image-box__img pwr-img--dark"><i class="fas fa-bullhorn"></i></div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--hot">PREMIUM</span>
-          <h3>Pro Coaching</h3>
-          <p>One-on-one coaching with a dedicated ACT Dental expert. The most personalized, intensive path to transformation.</p>
+          <span class="pwr-image-box__badge badge--hot">HIGH VALUE</span>
+          <h3>Expert Marketing</h3>
+          <p>Brand specialists and marketing strategies to attract and retain more patients in your market.</p>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--navy"><i class="fas fa-calculator"></i></div>
+        <div class="pwr-image-box__img pwr-img--navy"><i class="fas fa-users"></i></div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--new">TOOL</span>
-          <h3>GAPs Calculator</h3>
-          <p>Diagnose the gaps between your current performance and your practice's full potential with this powerful tool.</p>
+          <span class="pwr-image-box__badge badge--new">COMMUNITY</span>
+          <h3>Peer Networking</h3>
+          <p>1,100+ colleagues who care, share experience, and help your practice grow faster together.</p>
         </div>
       </div>
 
       <div class="pwr-image-box pwr-image-box--tall">
-        <div class="pwr-image-box__img pwr-img--purple"><i class="fas fa-podcast"></i></div>
+        <div class="pwr-image-box__img pwr-img--purple"><i class="fas fa-graduation-cap"></i></div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--hot">FREE</span>
-          <h3>Best Practices Podcast</h3>
-          <p>Weekly episodes with Kirk Behrendt, top coaches, and dental industry leaders sharing actionable insights to help you grow.</p>
+          <span class="pwr-image-box__badge badge--hot">INCLUDED</span>
+          <h3>Continuing Education</h3>
+          <p>Industry-leading CE for your entire team — clinical excellence and business leadership, all under one membership roof.</p>
         </div>
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--dark"><i class="fas fa-calendar-alt"></i></div>
+        <div class="pwr-image-box__img pwr-img--dark"><i class="fas fa-calendar-star"></i></div>
         <div class="pwr-image-box__body">
-          <span class="pwr-image-box__badge badge--trending">LIVE</span>
-          <h3>Events &amp; Study Clubs</h3>
-          <p>In-person and virtual events where you connect with your community, learn from the best, and leave re-energized.</p>
+          <span class="pwr-image-box__badge badge--trending">LIVE EVENT</span>
+          <h3>The Exchange 2026</h3>
+          <p>San Antonio, TX · Sept 9–12, 2026. Inspiration, connection, and innovation for independent dentists.</p>
         </div>
       </div>
 
@@ -324,10 +311,9 @@
 {{-- ===== TESTIMONIALS ===== --}}
 <section class="pwr-sec-testimonials">
   <div class="pwr-container">
-
     <div class="pwr-sec-testimonials__intro">
-      <span class="pwr-sec-testimonials__eyebrow">Dentist Testimonials</span>
-      <h2 class="pwr-sec-testimonials__title">What Dentists Are Saying About ACT Dental</h2>
+      <span class="pwr-sec-testimonials__eyebrow">Member Stories</span>
+      <h2 class="pwr-sec-testimonials__title">What Smile Source Members Are Saying</h2>
     </div>
 
     <div class="pwr-testimonials-masonry">
@@ -335,16 +321,15 @@
       <div class="pwr-testimonial-card">
         <div class="pwr-testimonial-card__stars">★★★★★</div>
         <blockquote>
-          "ACT Dental has helped me change my practice which changed my life! The focus really
-          is 'Better Practice Better Life.' If you are dreaming about a practice you want to
-          drive to everyday, ACT will help you get there. Coaching with ACT will be the best
-          decision you can make for your dental practice and in turn for your life!"
+          "I would have never thought about my dental practice as the business it is today.
+          It's exciting to be connected with other colleagues struggling and succeeding in similar ways.
+          To know I have a professional family to lean on or be leaned on is priceless."
         </blockquote>
         <div class="pwr-testimonial-card__author">
-          <div class="pwr-testimonial-card__avatar">AH</div>
+          <div class="pwr-testimonial-card__avatar">JH</div>
           <div>
-            <strong>Dr. Alice Hale</strong>
-            <span>Aiken, SC</span>
+            <strong>Jeff Henneberg, DDS</strong>
+            <span>Smile Source Spokane</span>
           </div>
         </div>
       </div>
@@ -352,16 +337,16 @@
       <div class="pwr-testimonial-card">
         <div class="pwr-testimonial-card__stars">★★★★★</div>
         <blockquote>
-          "ACT helped me transform my practice from a dysfunctional, PPO practice to a
-          high-performing Fee-For-Service Practice! They gave me the tools to inspire my
-          team and lead with practical strategies. We have the right people in the right
-          seats and I love this company with all my heart."
+          "I now enjoy dentistry so much more. I have more appreciation for the team,
+          the patients, and the colleagues I have. Smile Source has given me the support,
+          confidence, and desire to be my best by surrounding myself with the best
+          dentists and humans in the industry."
         </blockquote>
         <div class="pwr-testimonial-card__author">
-          <div class="pwr-testimonial-card__avatar">KD</div>
+          <div class="pwr-testimonial-card__avatar">KB</div>
           <div>
-            <strong>Dr. Kristen A. Donohue</strong>
-            <span>Burke, VA</span>
+            <strong>Dr. Kyle Benton</strong>
+            <span>Benton Family Dentistry</span>
           </div>
         </div>
       </div>
@@ -369,16 +354,15 @@
       <div class="pwr-testimonial-card">
         <div class="pwr-testimonial-card__stars">★★★★★</div>
         <blockquote>
-          "This coaching company has the most refreshing and relevant philosophy. We've been
-          a client for just over a year. Our office culture is healthier than ever and our
-          practice profitability is hitting new records. We're all working better and
-          smarter, NOT harder."
+          "Smile Source connects you to the right people, products, and services to boost
+          profitability and accelerate your growth. The community here is unlike anything
+          else in dentistry — colleagues who genuinely want to see you succeed."
         </blockquote>
         <div class="pwr-testimonial-card__author">
-          <div class="pwr-testimonial-card__avatar">ES</div>
+          <div class="pwr-testimonial-card__avatar">SS</div>
           <div>
-            <strong>Dr. Emily Stancato</strong>
-            <span>Union Grove, WI</span>
+            <strong>Smile Source Member</strong>
+            <span>Independent Practice Owner</span>
           </div>
         </div>
       </div>
@@ -386,16 +370,15 @@
       <div class="pwr-testimonial-card">
         <div class="pwr-testimonial-card__stars">★★★★★</div>
         <blockquote>
-          "Our practice revenues have grown three-fold since I started working with ACT.
-          My team is now more aligned than ever, and this has given me greater peace of mind.
-          The systems ACT helped me develop allow me to introduce new concepts and implement
-          them more easily. Highly recommend!"
+          "The Smile Source Exchange is where private practice dentists ignite their passion,
+          sparking unparalleled growth and learning in a vibrant atmosphere. It's the ultimate
+          hub for inspiration, connection, and innovation for independent dentists."
         </blockquote>
         <div class="pwr-testimonial-card__author">
-          <div class="pwr-testimonial-card__avatar">SC</div>
+          <div class="pwr-testimonial-card__avatar">EX</div>
           <div>
-            <strong>Dr. Sapna Chandra</strong>
-            <span>Fairfax, CA</span>
+            <strong>The Exchange 2026</strong>
+            <span>San Antonio, TX · September 9–12</span>
           </div>
         </div>
       </div>
@@ -403,16 +386,15 @@
       <div class="pwr-testimonial-card">
         <div class="pwr-testimonial-card__stars">★★★★★</div>
         <blockquote>
-          "Their coaching program changed my life. I now have a practice that supports a
-          balanced lifestyle with my family as the focus, an amazing team that I love working
-          with, and a productive office that supports my short and long-term goals. So
-          grateful for Kirk and the rest of ACT Dental."
+          "When you join Smile Source, you'll find colleagues who care and are willing to
+          share their experience so your practice grows faster. Community over competition
+          is not just a slogan here — it's how every member operates every single day."
         </blockquote>
         <div class="pwr-testimonial-card__author">
-          <div class="pwr-testimonial-card__avatar">KG</div>
+          <div class="pwr-testimonial-card__avatar">SM</div>
           <div>
-            <strong>Dr. Kevin Groth</strong>
-            <span>Bingham Farms, MI</span>
+            <strong>Smile Source Network</strong>
+            <span>1,100+ Member Practices</span>
           </div>
         </div>
       </div>
@@ -426,18 +408,18 @@
   <div class="pwr-container">
     <div class="pwr-sec-cta-only__inner">
       <h2 class="pwr-sec-cta-only__title">
-        Ready to Design Your Best Practice?
+        Ready to Thrive as an Independent Dentist?
       </h2>
       <p class="pwr-sec-cta-only__desc">
-        Schedule a free practice discovery call and find out which ACT Dental coaching program
-        is the right fit for you. No pressure — just an honest conversation about your goals.
+        Join Smile Source and connect to the right people, products, and services to
+        boost profitability and accelerate your growth — without giving up ownership.
       </p>
       <div class="pwr-sec-cta-only__cta">
         <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
-          Get Started Today
+          Let's Talk
         </a>
         <a href="#" class="pwr-btn pwr-btn--outline-primary pwr-btn--long">
-          Browse Programs
+          Learn More
         </a>
       </div>
     </div>
@@ -447,7 +429,6 @@
 {{-- ===== FAQ ACCORDION ===== --}}
 <section class="pwr-sec-accordion">
   <div class="pwr-container">
-
     <div class="pwr-sec-accordion__intro">
       <span class="pwr-sec-accordion__eyebrow">Common Questions</span>
       <h2 class="pwr-sec-accordion__title">Frequently Asked Questions</h2>
@@ -457,77 +438,79 @@
 
       <div class="pwr-accordion-item is-open">
         <button class="pwr-accordion-trigger">
-          What is ACT Dental coaching?
+          What is Smile Source?
           <span class="pwr-accordion-icon"><i class="fas fa-plus"></i></span>
         </button>
         <div class="pwr-accordion-body">
-          ACT Dental is a dental practice coaching and consulting company based in Milwaukee, WI.
-          We help dentists create more profitable, efficient, and fulfilling practices through
-          personalized coaching programs, proven systems, and a community of like-minded dental professionals.
-          Our tagline says it all: Better Practice, Better Life.
+          Smile Source is the largest private dental practice network in the country. Founded in 2006,
+          we connect independent dentists to the right people, products, and services to boost
+          profitability and accelerate growth — all while preserving full practice ownership.
+          We operate under the belief that dentists are stronger together: community over competition.
         </div>
       </div>
 
       <div class="pwr-accordion-item">
         <button class="pwr-accordion-trigger">
-          What coaching programs do you offer?
+          What membership benefits does Smile Source offer?
           <span class="pwr-accordion-icon"><i class="fas fa-plus"></i></span>
         </button>
         <div class="pwr-accordion-body">
-          We offer three main coaching programs: the Best Practices Association (community membership),
-          TTT Group Coaching (small-group accountability), and Pro Coaching (one-on-one personalized coaching).
-          We also provide the GAPs Calculator, events, study clubs, a podcast, and a magazine.
+          Smile Source members enjoy five core benefit areas: Savings (discounts and rebates with top vendors),
+          Practice Growth (technology, staffing, and proven strategies), Marketing (expert strategies and brand
+          specialists), Networking (1,100+ peer colleagues), and Education (industry-leading CE for your whole team).
+          Every member also gets a dedicated Member Success Specialist.
         </div>
       </div>
 
       <div class="pwr-accordion-item">
         <button class="pwr-accordion-trigger">
-          How is ACT Dental different from other coaching companies?
+          How does Smile Source differ from a DSO?
           <span class="pwr-accordion-icon"><i class="fas fa-plus"></i></span>
         </button>
         <div class="pwr-accordion-body">
-          ACT Dental coaching is uniquely tailored to each practice — no cookie-cutter programs.
-          Our coaches genuinely care about you as a person, not just your production numbers.
-          We focus equally on your professional growth and personal wellbeing, because we believe
-          a better practice and a better life go hand in hand.
+          Unlike a DSO, Smile Source members retain 100% ownership and full control of their practices.
+          You get the buying power, vendor discounts, marketing resources, and community of a large
+          group — without giving up your independence, your brand, or your decision-making authority.
+          Benefits like a DSO, without the sacrifice.
         </div>
       </div>
 
       <div class="pwr-accordion-item">
         <button class="pwr-accordion-trigger">
-          How do I know which program is right for me?
+          How many dentists are in the Smile Source network?
           <span class="pwr-accordion-icon"><i class="fas fa-plus"></i></span>
         </button>
         <div class="pwr-accordion-body">
-          Start with a free practice discovery call with one of our coaches. We'll listen to
-          where you are, what your goals are, and what challenges you're facing — then recommend
-          the program that's the best fit. There's no pressure and no obligation.
+          Since launching in 2006, Smile Source has grown to 1,100+ member dentists across the country.
+          Our network has expanded every year, bringing more purchasing power, more vendor partnerships,
+          and more opportunities for every member. More than a billion dollars in collective purchasing
+          power flows through the network annually.
         </div>
       </div>
 
       <div class="pwr-accordion-item">
         <button class="pwr-accordion-trigger">
-          What results can I expect from ACT Dental coaching?
+          What is The Exchange 2026?
           <span class="pwr-accordion-icon"><i class="fas fa-plus"></i></span>
         </button>
         <div class="pwr-accordion-body">
-          Results vary by practice, but our clients commonly experience significant revenue growth,
-          reduced burnout, stronger teams, better work-life balance, and renewed passion for dentistry.
-          Dr. Sapna Chandra saw her revenues grow three-fold. Dr. Emily Stancato hit record profitability.
-          Dr. Kevin Groth built a practice that supports a fully balanced lifestyle. Your results depend
-          on your commitment, but the coaching framework is proven.
+          The Smile Source Exchange is our annual flagship event — the ultimate hub for inspiration,
+          connection, and innovation for independent dentists. The Exchange 2026 takes place in
+          San Antonio, TX from September 9–12, 2026. It's where private practice dentists ignite
+          their passion and spark unparalleled growth in a vibrant, community-driven atmosphere.
         </div>
       </div>
 
       <div class="pwr-accordion-item">
         <button class="pwr-accordion-trigger">
-          How do I get started?
+          How do I become a Smile Source member?
           <span class="pwr-accordion-icon"><i class="fas fa-plus"></i></span>
         </button>
         <div class="pwr-accordion-body">
-          Call us at 800-851-8186, email info@actdental.com, or click "Get Started Today" on this page
-          to schedule your free discovery call. We're located at 220 E. Buffalo Street, Suite 320,
-          Milwaukee, WI 53202 but we work with dentists across all 50 states.
+          Start by clicking "Let's Talk" or "Join Now" on this page. We'll set up a conversation
+          to learn about your practice, your goals, and your challenges — then walk you through
+          exactly what membership looks like and how it benefits your specific situation.
+          There's no pressure, just an honest conversation about whether Smile Source is the right fit.
         </div>
       </div>
 
