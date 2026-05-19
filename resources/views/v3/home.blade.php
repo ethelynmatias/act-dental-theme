@@ -47,6 +47,7 @@
 @endpush
 
 @section('content')
+@php $vp = '/'.request()->segment(1); @endphp
 <div class="pwr-page">
 
 {{-- ===== HERO ===== --}}
@@ -67,10 +68,10 @@
       the ownership you worked so hard to build.
     </p>
     <div class="pwr-hero__cta">
-      <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
+      <a href="{{ $vp }}/lets-talk" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
         Let's Talk
       </a>
-      <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">
+      <a href="{{ $vp }}/why-smile-source/about-us" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">
         <i class="fas fa-play-circle"></i>&ensp;Why Smile Source
       </a>
     </div>
@@ -92,10 +93,10 @@
         </p>
       </div>
       <div class="pwr-sec-cta__actions">
-        <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
+        <a href="{{ $vp }}/join" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
           Become a Member
         </a>
-        <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">
+        <a href="{{ $vp }}/join" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">
           <i class="fas fa-arrow-right"></i>&ensp;Join Now
         </a>
       </div>
@@ -144,19 +145,19 @@
           <div class="pwr-service-card__icon"><i class="fas fa-tag"></i></div>
           <h3>Vendor Discounts &amp; Rebates</h3>
           <p>Save up to 40% on dental supplies, 30% on laboratory work, and 45% with manufacturers. Vetted and negotiated rates with the industry's largest vendors — active from day one of membership.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/savings" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-dollar-sign"></i></div>
           <h3>Over $1 Billion Purchasing Power</h3>
           <p>No solo practice can negotiate what 1,100+ members across 650 locations can. Our collective buying power delivers savings on technology, supplies, labs, and services that directly move your bottom line.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/savings" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-shield-alt"></i></div>
           <h3>Over 90 Vetted Vendors</h3>
           <p>Every vendor in the Smile Source network has been carefully evaluated — only the best make the cut. Members also save thousands on medical coverage for their teams every year.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/savings" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -168,19 +169,19 @@
           <div class="pwr-service-card__icon"><i class="fas fa-laptop-medical"></i></div>
           <h3>Technology Solutions</h3>
           <p>Access the latest practice management, imaging, and clinical technology at member pricing — including 3D imaging, digital workflows, and implementation support from experts who know private practice.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/practice-growth" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-user-nurse"></i></div>
           <h3>Staffing &amp; HR Solutions</h3>
           <p>Group health insurance, recruiting, benefits, and payroll support help you attract, train, and retain your best team members — saving thousands annually on coverage alone.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/practice-growth" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-chart-line"></i></div>
           <h3>Strategic Practice Consulting</h3>
           <p>One Smile Source member grew their practice from $500K to nearly $2 million annually. Member Success Specialists connect you with top consultants and proven systems used by 1,100+ practices.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/practice-growth" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -192,19 +193,19 @@
           <div class="pwr-service-card__icon"><i class="fas fa-bullhorn"></i></div>
           <h3>Geodemographic Targeting</h3>
           <p>Smile Source studies where people live, work, and travel — then helps you target marketing using demographics, income data, and consumer spending patterns around your practice.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/marketing" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-paint-brush"></i></div>
           <h3>Brand &amp; Digital Presence</h3>
           <p>Identify opportunities in your website, SEO, and social media strategy. Expert brand specialists help you define your identity, win more new patients, and stand out from corporate dentistry.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/marketing" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-users"></i></div>
           <h3>High-Intent Patient Campaigns</h3>
           <p>Emergency and pain-driven Google Ads, SMS campaigns for existing patients, and targeted digital audiences that convert — practical marketing that generates real new-patient appointments.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/marketing" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -216,19 +217,19 @@
           <div class="pwr-service-card__icon"><i class="fas fa-handshake"></i></div>
           <h3>Peer Networking</h3>
           <p>Local group leaders organize in-person meetings in cities across America. Online forums, virtual fireside chats, and the ability to crowdsource the knowledge of hundreds of highly qualified peers online 24/7.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/networking" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-graduation-cap"></i></div>
           <h3>Continuing Education</h3>
           <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff. Topics include practice management, case planning, new procedures, and 3D technology.</p>
-          <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/membership/education" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-calendar-alt"></i></div>
           <h3>The Exchange 2026</h3>
           <p>San Antonio, TX — September 9–12, 2026. Where private practice dentists ignite their passion, learn about new products and procedures, get vendor deals, and connect with 1,100+ peers.</p>
-          <a href="#" class="pwr-service-card__link">Register Now <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ $vp }}/exchange-2026" class="pwr-service-card__link">Register Now <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -319,7 +320,7 @@
     </div>
 
     <div style="text-align:center; margin-top:40px;">
-      <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">View All Articles</a>
+      <a href="{{ $vp }}/blog" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">View All Articles</a>
     </div>
 
   </div>
@@ -432,10 +433,10 @@
         boost profitability and accelerate your growth — without giving up ownership.
       </p>
       <div class="pwr-sec-cta-only__cta">
-        <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
+        <a href="{{ $vp }}/lets-talk" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
           Let's Talk
         </a>
-        <a href="#" class="pwr-btn pwr-btn--outline-primary pwr-btn--large pwr-btn--long">
+        <a href="{{ $vp }}/why-smile-source/about-us" class="pwr-btn pwr-btn--outline-primary pwr-btn--large pwr-btn--long">
           Learn More
         </a>
       </div>

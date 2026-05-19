@@ -5,6 +5,7 @@
 @endpush
 
 @section('content')
+@php $vp = '/'.request()->segment(1); @endphp
 
 {{-- ===== HERO ===== --}}
 <section class="cp-hero">
@@ -249,7 +250,7 @@
     </div>
     <div class="cp-blog-grid" data-stagger>
 
-      <a href="#" class="cp-blog-card">
+      <a href="{{ $vp }}/blog" class="cp-blog-card">
         <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_cherry.png" alt="Restoring Wellness Through Financial Empathy" class="cp-blog-img">
         <div class="cp-blog-body">
           <div class="cp-blog-cat">Dental Technology</div>
@@ -258,7 +259,7 @@
         </div>
       </a>
 
-      <a href="#" class="cp-blog-card">
+      <a href="{{ $vp }}/blog" class="cp-blog-card">
         <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_curve.png" alt="Curve's Practice Management Platform" class="cp-blog-img">
         <div class="cp-blog-body">
           <div class="cp-blog-cat">Practice Management</div>
@@ -267,7 +268,7 @@
         </div>
       </a>
 
-      <a href="#" class="cp-blog-card">
+      <a href="{{ $vp }}/blog" class="cp-blog-card">
         <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_ergonomics.png" alt="Ergonomics" class="cp-blog-img">
         <div class="cp-blog-body">
           <div class="cp-blog-cat">Dental Education</div>
@@ -276,7 +277,7 @@
         </div>
       </a>
 
-      <a href="#" class="cp-blog-card">
+      <a href="{{ $vp }}/blog" class="cp-blog-card">
         <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_anxiety.png" alt="Dental Care for Patients with Autism and Dental Anxiety" class="cp-blog-img">
         <div class="cp-blog-body">
           <div class="cp-blog-cat">Dental Education</div>
@@ -285,7 +286,7 @@
         </div>
       </a>
 
-      <a href="#" class="cp-blog-card">
+      <a href="{{ $vp }}/blog" class="cp-blog-card">
         <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_BolaAI.png" alt="BOLA AI" class="cp-blog-img">
         <div class="cp-blog-body">
           <div class="cp-blog-cat">Dental Technology</div>
@@ -294,7 +295,7 @@
         </div>
       </a>
 
-      <a href="#" class="cp-blog-card">
+      <a href="{{ $vp }}/blog" class="cp-blog-card">
         <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_oralcancer.png" alt="Oral Cancer Awareness Month" class="cp-blog-img">
         <div class="cp-blog-body">
           <div class="cp-blog-cat">Dental Marketing</div>

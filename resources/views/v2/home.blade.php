@@ -5,6 +5,7 @@
 @endpush
 
 @section('content')
+@php $vp = '/'.request()->segment(1); @endphp
 
 {{-- ===== HERO ===== --}}
 <section class="v2-hero">
@@ -21,8 +22,8 @@
       </p>
 
       <div class="v2-hero__cta">
-        <a href="#" class="sr-btn sr-btn-primary">Let's Talk</a>
-        <a href="#" class="sr-btn sr-btn-outline-white">Why Smile Source</a>
+        <a href="{{ $vp }}/lets-talk" class="sr-btn sr-btn-primary">Let's Talk</a>
+        <a href="{{ $vp }}/why-smile-source/about-us" class="sr-btn sr-btn-outline-white">Why Smile Source</a>
       </div>
 
     </div>
@@ -132,7 +133,7 @@
           <li><i class="fas fa-check-circle"></i> Dedicated Member Success Specialist for every member</li>
           <li><i class="fas fa-check-circle"></i> 86% of the dental market is still independent — and thriving</li>
         </ul>
-        <a href="#" class="sr-btn sr-btn-primary">Learn More About Us</a>
+        <a href="{{ $vp }}/why-smile-source/about-us" class="sr-btn sr-btn-primary">Learn More About Us</a>
       </div>
 
     </div>
@@ -156,7 +157,7 @@
           <li><i class="fas fa-check-circle"></i> Practice consolidation — compete at scale without selling to a DSO</li>
           <li><i class="fas fa-check-circle"></i> Growing corporate competition — strength in 1,100+ independent peers</li>
         </ul>
-        <a href="#" class="sr-btn sr-btn-primary">See How We Help</a>
+        <a href="{{ $vp }}/membership/practice-growth" class="sr-btn sr-btn-primary">See How We Help</a>
       </div>
 
       <div class="v2-media-col">
@@ -236,7 +237,7 @@
           <li><i class="fas fa-check-circle"></i> Save up to 45% with dental manufacturers</li>
           <li><i class="fas fa-check-circle"></i> Over 90 vetted vendors — only the best make the cut</li>
         </ul>
-        <a href="#" class="sr-btn sr-btn-primary">Explore Member Savings</a>
+        <a href="{{ $vp }}/membership/savings" class="sr-btn sr-btn-primary">Explore Member Savings</a>
       </div>
 
     </div>
@@ -439,8 +440,8 @@
       <h2>Become a Smile Source Member Today.</h2>
       <p>Join 1,100+ independent dentists who are already thriving together. Let's talk about what membership looks like for your practice.</p>
       <div class="v2-cta__row">
-        <a href="#" class="sr-btn sr-btn-primary">Let's Talk</a>
-        <a href="#" class="sr-btn sr-btn-outline-white">
+        <a href="{{ $vp }}/lets-talk" class="sr-btn sr-btn-primary">Let's Talk</a>
+        <a href="{{ $vp }}/join" class="sr-btn sr-btn-outline-white">
           <i class="fas fa-arrow-right"></i>&nbsp; Join Now
         </a>
       </div>

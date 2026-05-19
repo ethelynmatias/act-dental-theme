@@ -8,6 +8,7 @@
 @endpush
 
 @section('content')
+@php $vp = '/'.request()->segment(1); @endphp
 
 {{-- ===== HERO ===== --}}
 <section class="v4-hero">
@@ -21,8 +22,8 @@
         <h1>We Help Independent Dentists <span class="accent">Thrive Together</span></h1>
         <p>Smile Source connects you to the right people, products, and services to boost profitability and accelerate your growth — without sacrificing the ownership you've worked so hard to build.</p>
         <div class="v4-hero-cta">
-          <a href="#" class="btn-accent"><i class="fas fa-comments"></i> Let's Talk</a>
-          <a href="#" class="btn-outline-dark">Why Smile Source</a>
+          <a href="{{ $vp }}/lets-talk" class="btn-accent"><i class="fas fa-comments"></i> Let's Talk</a>
+          <a href="{{ $vp }}/why-smile-source/about-us" class="btn-outline-dark">Why Smile Source</a>
         </div>
         <div class="v4-hero-proof">
           <div class="v4-proof-item"><i class="fas fa-check-circle"></i> Reduce Your Overhead</div>
@@ -96,37 +97,37 @@
         <div class="icon"><i class="fas fa-tag"></i></div>
         <h3>Savings</h3>
         <p>Save up to 40% on dental supplies, 30% on lab work, and 45% with manufacturers. Over 90 vetted vendors — negotiated rates on technology, supplies, labs, and services active from day one.</p>
-        <a href="#" class="link">Explore Savings <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ $vp }}/membership/savings" class="link">Explore Savings <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="v4-service-card">
         <div class="icon"><i class="fas fa-chart-line"></i></div>
         <h3>Practice Growth</h3>
         <p>Recruiting, benefits, payroll, patient financing, and strategic consulting — one Smile Source member grew from $500K to nearly $2 million annually using these same proven systems.</p>
-        <a href="#" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ $vp }}/membership/practice-growth" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="v4-service-card">
         <div class="icon"><i class="fas fa-bullhorn"></i></div>
         <h3>Marketing</h3>
         <p>Geodemographic targeting, consumer travel pattern analysis, digital presence optimization, high-intent Google Ads, and SMS campaigns — marketing built specifically for private dental practices.</p>
-        <a href="#" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ $vp }}/membership/marketing" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="v4-service-card">
         <div class="icon"><i class="fas fa-handshake"></i></div>
         <h3>Networking</h3>
         <p>Local group leaders organize in-person meetings in cities across America. Online forums, virtual fireside chats, and the ability to crowdsource 1,100+ highly qualified peers online 24/7 — community over competition.</p>
-        <a href="#" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ $vp }}/membership/networking" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="v4-service-card">
         <div class="icon"><i class="fas fa-graduation-cap"></i></div>
         <h3>Education</h3>
         <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff. Practice management, case planning, new procedures, 3D technology, and more.</p>
-        <a href="#" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ $vp }}/membership/education" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="v4-service-card">
         <div class="icon"><i class="fas fa-user-check"></i></div>
         <h3>Member Success Specialist</h3>
         <p>Your dedicated Member Success Specialist connects you with top consultants and vendors, helps you activate every benefit, and ensures you see real results from your membership from day one.</p>
-        <a href="#" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ $vp }}/lets-talk" class="link">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </div>
@@ -217,7 +218,7 @@
             <p>Not a DSO — 100% ownership, complete autonomy, full independence</p>
           </div>
         </div>
-        <a href="#" class="btn-accent">Learn More About Us</a>
+        <a href="{{ $vp }}/why-smile-source/about-us" class="btn-accent">Learn More About Us</a>
       </div>
       <div class="v4-about-img-col" data-animate="fade-left"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Dentists Helping Dentists"></div>
     </div>
@@ -374,7 +375,7 @@
 
     </div>
     <div class="v4-gallery-footer">
-      <a href="#" class="btn-outline-light">View All Articles</a>
+      <a href="{{ $vp }}/blog" class="btn-outline-light">View All Articles</a>
     </div>
   </div>
 </section>
@@ -407,8 +408,8 @@
           <p>Join 1,100+ independent dentists already thriving with Smile Source. Let's talk about what membership looks like for your practice.</p>
         </div>
         <div class="v4-cta-buttons">
-          <a href="#" class="btn-accent btn-cta"><i class="fas fa-comments"></i> Let's Talk</a>
-          <a href="#" class="btn-outline-light btn-cta">
+          <a href="{{ $vp }}/lets-talk" class="btn-accent btn-cta"><i class="fas fa-comments"></i> Let's Talk</a>
+          <a href="{{ $vp }}/join" class="btn-outline-light btn-cta">
             <i class="fas fa-arrow-right"></i> Join Now
           </a>
         </div>
