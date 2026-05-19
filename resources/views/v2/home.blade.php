@@ -9,7 +9,7 @@
 {{-- ===== HERO ===== --}}
 <section class="v2-hero">
   <div class="sr-container">
-    <div class="v2-hero__inner">
+    <div class="v2-hero__inner" data-animate="fade-up">
 
       <span class="v2-hero__lead">Largest Private Dental Practice Network</span>
 
@@ -34,7 +34,7 @@
 {{-- ===== FEATURE BADGES ===== --}}
 <section class="v2-badges">
   <div class="sr-container">
-    <div class="v2-badges__grid">
+    <div class="v2-badges__grid" data-stagger>
 
       <div class="v2-badge-item">
         <div class="v2-badge-item__icon"><i class="fas fa-arrow-down"></i></div>
@@ -65,7 +65,7 @@
 </section>
 
 {{-- ===== VENDOR LOGOS STRIP ===== --}}
-<section class="v2-trust">
+<section class="v2-trust" data-animate="fade-up">
   <div class="sr-container">
     <p class="v2-trust__label">Save on supplies and services with top-tier vetted vendors.</p>
     <div class="v2-trust__logos">
@@ -84,7 +84,7 @@
   <div class="sr-container">
     <div class="v2-two-col">
 
-      <div class="v2-media-col">
+      <div class="v2-media-col" data-animate="fade-right">
         <div class="v2-icon-grid">
           <div class="v2-icon-grid__item">
             <div class="v2-icon-grid__icon"><i class="fas fa-tooth"></i></div>
@@ -119,7 +119,7 @@
         </div>
       </div>
 
-      <div class="v2-text-col">
+      <div class="v2-text-col" data-animate="fade-left">
         <span class="v2-section-tag">About Smile Source</span>
         <h2 class="v2-section-title">Helping Private Practice Dentists Make More Money With Less Stress.</h2>
         <p class="v2-section-body">
@@ -144,7 +144,7 @@
   <div class="sr-container">
     <div class="v2-two-col v2-two-col--reversed">
 
-      <div class="v2-text-col">
+      <div class="v2-text-col" data-animate="fade-right">
         <span class="v2-section-tag">We Understand Your Challenges</span>
         <h2 class="v2-section-title">Owning a Private Dental Practice Is Challenging.</h2>
         <p class="v2-section-body">
@@ -160,7 +160,7 @@
       </div>
 
       <div class="v2-media-col">
-        <div class="v2-challenge-cards">
+        <div class="v2-challenge-cards" data-stagger>
           <div class="v2-challenge-card">
             <div class="v2-challenge-card__icon"><i class="fas fa-arrow-trend-up"></i></div>
             <div>
@@ -201,7 +201,7 @@
   <div class="sr-container">
     <div class="v2-two-col">
 
-      <div class="v2-media-col">
+      <div class="v2-media-col" data-animate="fade-right">
         <div class="v2-savings-panel">
           <div class="v2-savings-panel__label">Members Save On Average</div>
           <div class="v2-savings-stat">
@@ -224,7 +224,7 @@
         </div>
       </div>
 
-      <div class="v2-text-col">
+      <div class="v2-text-col" data-animate="fade-left">
         <span class="v2-section-tag">Membership Savings</span>
         <h2 class="v2-section-title">Supercharge Your Savings With Discounts That Move the Needle.</h2>
         <p class="v2-section-body">
@@ -255,7 +255,7 @@
       </p>
     </div>
 
-    <div class="v2-modules__grid">
+    <div class="v2-modules__grid" data-stagger>
 
       <div class="v2-module-card">
         <div class="v2-module-card__icon"><i class="fas fa-tag"></i></div>
@@ -309,7 +309,7 @@
       </p>
     </div>
 
-    <div class="v2-personas__tabs">
+    <div class="v2-personas__tabs" data-stagger>
 
       <div class="v2-persona">
         <span class="v2-persona__type">Solo Practitioners</span>
@@ -354,7 +354,7 @@
       <p class="v2-section-body" style="margin:0;">Here's what Smile Source members say about being part of the network.</p>
     </div>
 
-    <div class="v2-reviews__grid">
+    <div class="v2-reviews__grid" data-stagger>
 
       <div class="v2-review-card">
         <div class="v2-review-card__stars">★★★★★</div>
@@ -402,7 +402,7 @@
 {{-- ===== CORE PROMISES STRIP ===== --}}
 <section class="v2-guarantee">
   <div class="sr-container">
-    <div class="v2-guarantee__inner">
+    <div class="v2-guarantee__inner" data-stagger>
 
       <div class="v2-guarantee-item">
         <i class="fas fa-shield-alt"></i>
@@ -435,7 +435,7 @@
 {{-- ===== CTA ===== --}}
 <section class="v2-cta">
   <div class="sr-container">
-    <div class="v2-cta__inner">
+    <div class="v2-cta__inner" data-animate="zoom-in">
       <h2>Become a Smile Source Member Today.</h2>
       <p>Join 1,100+ independent dentists who are already thriving together. Let's talk about what membership looks like for your practice.</p>
       <div class="v2-cta__row">

@@ -14,7 +14,7 @@
   <div class="container">
     <div class="v4-hero-inner">
 
-      <div>
+      <div data-animate="fade-right">
         <div class="v4-hero-chip">
           <i class="fas fa-network-wired"></i> Largest Private Dental Practice Network
         </div>
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <div class="v4-hero-img-col">
+      <div class="v4-hero-img-col" data-animate="fade-left">
         <div class="v4-hero-img"><img src="{{ asset('images/v4/hero-home.gif') }}" alt="Smile Source Network"></div>
         <div class="v4-hero-overlay">
           <div class="icon"><i class="fas fa-users"></i></div>
@@ -49,7 +49,7 @@
 {{-- ===== FEATURE STRIP ===== --}}
 <section class="v4-trust-strip">
   <div class="container">
-    <div class="v4-trust-inner">
+    <div class="v4-trust-inner" data-stagger>
       <div class="v4-trust-item">
         <div class="icon"><i class="fas fa-tag"></i></div>
         <div>
@@ -91,7 +91,7 @@
       <h2>Everything Your Practice Needs.<br>One Membership. Real Results.</h2>
       <p>You'll enjoy access to a dedicated Member Success Specialist to help you optimize these benefits and more — all included in your Smile Source membership.</p>
     </div>
-    <div class="v4-service-grid">
+    <div class="v4-service-grid" data-stagger>
       <div class="v4-service-card">
         <div class="icon"><i class="fas fa-tag"></i></div>
         <h3>Savings</h3>
@@ -141,7 +141,7 @@
       <h2>Owning a Private Practice Is Hard. We Make It Easier.</h2>
       <p>We understand the pressures you're facing. Smile Source was built specifically to address the real challenges independent dentists deal with every day.</p>
     </div>
-    <div class="v4-showcase-scroll">
+    <div class="v4-showcase-scroll" data-stagger>
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--1">
           <i class="fas fa-coins"></i>
@@ -190,7 +190,7 @@
 <section class="v4-about-dark">
   <div class="container">
     <div class="v4-about-inner">
-      <div>
+      <div data-animate="fade-right">
         <div class="v4-overline">About Smile Source</div>
         <div class="v4-divider"></div>
         <h2>We Are Dentists Helping Dentists</h2>
@@ -219,7 +219,7 @@
         </div>
         <a href="#" class="btn-accent">Learn More About Us</a>
       </div>
-      <div class="v4-about-img-col"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Dentists Helping Dentists"></div>
+      <div class="v4-about-img-col" data-animate="fade-left"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Dentists Helping Dentists"></div>
     </div>
   </div>
 </section>
@@ -227,7 +227,7 @@
 {{-- ===== METRICS ===== --}}
 <section class="v4-metrics">
   <div class="container">
-    <div class="v4-metrics-inner">
+    <div class="v4-metrics-inner" data-stagger>
       <div class="v4-metric">
         <span class="num">2006</span>
         <span class="lbl">Founded</span>
@@ -257,7 +257,7 @@
       <h2>Inspiring Practices Thriving with Smile Source</h2>
       <p>Real members, real results — here's what independent dentists say about being part of the network.</p>
     </div>
-    <div class="v4-testimonial-grid">
+    <div class="v4-testimonial-grid" data-stagger>
       <div class="v4-testimonial-card">
         <div class="stars">★★★★★</div>
         <blockquote>"I would have never thought about my dental practice as the business it is today. It's exciting to be connected with other colleagues struggling and succeeding in similar ways. To know I have a professional family to lean on or be leaned on is priceless."</blockquote>
@@ -304,7 +304,7 @@
       <h2>Practice-Building Resources and Education</h2>
       <p>Stay up-to-date on how independent dentists like you are tackling the challenges of private practice dentistry.</p>
     </div>
-    <div class="v4-gallery-grid">
+    <div class="v4-gallery-grid" data-stagger>
 
       <div class="v4-gallery-card">
         <div class="v4-gallery-card__img">
@@ -400,7 +400,7 @@
 {{-- ===== CTA ===== --}}
 <section class="v4-cta">
   <div class="container">
-    <div class="v4-cta-card">
+    <div class="v4-cta-card" data-animate="zoom-in">
       <div class="v4-cta-inner">
         <div>
           <h2>Ready to Thrive as an Independent Dentist?</h2>

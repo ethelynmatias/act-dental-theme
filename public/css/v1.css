@@ -1036,3 +1036,7 @@
   .cp-features-grid { grid-template-columns: 1fr; }
   .cp-hero-graphic { display: none; }
 }
+
+/* Scroll-to-top button accent for v1 */
+.scroll-top-btn { background: var(--cp-primary, #0c63ff); }
+.scroll-top-btn:hover { background: var(--cp-primary-hover, #0a4fd4); }

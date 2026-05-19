@@ -1113,3 +1113,27 @@
 @media (max-width: 600px) {
   .v4-sub-grid-3, .v4-sub-grid-4 { grid-template-columns: 1fr; }
 }
+
+/* Blog cards */
+.v4-blog-card { display: block; text-decoration: none; color: inherit; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,.07); transition: box-shadow .2s, transform .2s; }
+.v4-blog-card:hover { box-shadow: 0 12px 40px rgba(0,0,0,.13); transform: translateY(-4px); }
+.v4-blog-img { width: 100%; height: 200px; object-fit: cover; display: block; }
+.v4-blog-body { padding: 22px 26px 26px; }
+.v4-blog-cat { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--v4-accent); margin-bottom: 8px; }
+.v4-blog-body h4 { font-size: 17px; font-weight: 700; line-height: 1.4; margin: 0 0 10px; color: var(--v4-dark); }
+.v4-blog-date { font-size: 13px; opacity: .6; }
+
+/* Forms */
+.v4-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.v4-form-group { margin-bottom: 18px; display: flex; flex-direction: column; gap: 6px; }
+.v4-form-group label { font-size: 13px; font-weight: 600; color: var(--v4-dark); }
+.v4-form-group input, .v4-form-group select, .v4-form-group textarea { padding: 12px 14px; border: 1.5px solid #d1d8e4; border-radius: 10px; font-size: 15px; font-family: inherit; background: #fff; color: var(--v4-dark); transition: border-color .2s; }
+.v4-form-group input:focus, .v4-form-group select:focus, .v4-form-group textarea:focus { border-color: var(--v4-accent); outline: none; }
+.v4-form-group textarea { resize: vertical; min-height: 110px; }
+@media (max-width: 768px) {
+  .v4-form-row { grid-template-columns: 1fr; }
+}
+
+/* Scroll-to-top button accent for v4 */
+.scroll-top-btn { background: var(--accent, #f65954); }
+.scroll-top-btn:hover { background: var(--accent-dark, #d93f3a); transform: translateY(-3px) scale(1.06); }

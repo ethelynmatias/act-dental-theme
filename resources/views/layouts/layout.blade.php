@@ -32,6 +32,11 @@
   <!-- ======= FOOTER ======= -->
   @include('components.footer')
 
+  <!-- Scroll-to-top button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
   <!-- Shared JS -->
   <script>
     // Mobile nav toggle
@@ -60,6 +65,34 @@
           ? '0 4px 24px rgba(0,0,0,.12)'
           : '0 2px 12px rgba(0,0,0,.06)';
       });
+    }
+
+    // Scroll-to-top button
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    if (scrollTopBtn) {
+      window.addEventListener('scroll', () => {
+        scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+      });
+      scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    // Scroll reveal animations (IntersectionObserver)
+    const animateEls = document.querySelectorAll('[data-animate], [data-stagger]');
+    if (animateEls.length && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      animateEls.forEach(el => observer.observe(el));
+    } else {
+      // Fallback: show all immediately
+      animateEls.forEach(el => el.classList.add('is-visible'));
     }
   </script>
 

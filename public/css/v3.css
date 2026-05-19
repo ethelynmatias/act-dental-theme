@@ -1104,3 +1104,27 @@
 @media (max-width: 600px) {
   .pwr-sub-grid-3, .pwr-sub-grid-4 { grid-template-columns: 1fr; }
 }
+
+/* Blog cards */
+.pwr-blog-card { display: block; text-decoration: none; color: inherit; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(26,43,74,.08); transition: box-shadow .2s, transform .2s; }
+.pwr-blog-card:hover { box-shadow: 0 12px 40px rgba(26,43,74,.14); transform: translateY(-4px); }
+.pwr-blog-img { width: 100%; height: 200px; object-fit: cover; display: block; }
+.pwr-blog-body { padding: 22px 26px 26px; }
+.pwr-blog-cat { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--pwr-accent); margin-bottom: 8px; }
+.pwr-blog-body h4 { font-size: 17px; font-weight: 700; line-height: 1.4; margin: 0 0 10px; color: var(--text-dark); }
+.pwr-blog-date { font-size: 13px; color: var(--text-mid); }
+
+/* Forms */
+.pwr-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.pwr-form-group { margin-bottom: 18px; display: flex; flex-direction: column; gap: 6px; }
+.pwr-form-group label { font-size: 13px; font-weight: 600; color: var(--text-dark); }
+.pwr-form-group input, .pwr-form-group select, .pwr-form-group textarea { padding: 12px 14px; border: 1.5px solid #d1d8e4; border-radius: 8px; font-size: 15px; font-family: inherit; background: #fff; color: var(--text-dark); transition: border-color .2s; }
+.pwr-form-group input:focus, .pwr-form-group select:focus, .pwr-form-group textarea:focus { border-color: var(--pwr-accent); outline: none; }
+.pwr-form-group textarea { resize: vertical; min-height: 110px; }
+@media (max-width: 768px) {
+  .pwr-form-row { grid-template-columns: 1fr; }
+}
+
+/* Scroll-to-top button accent for v3 */
+.scroll-top-btn { background: var(--clr-primary, #3e35f1); }
+.scroll-top-btn:hover { background: var(--clr-primary-hover, #2d26cc); }

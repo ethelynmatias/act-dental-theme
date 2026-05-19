@@ -52,7 +52,7 @@
 {{-- ===== HERO ===== --}}
 <section class="pwr-hero">
   <div class="pwr-hero__particles" aria-hidden="true"></div>
-  <div class="pwr-hero__inner">
+  <div class="pwr-hero__inner" data-animate="fade-up">
     <div class="pwr-hero__eyebrow">
       <span class="dot"></span>
       Largest Private Dental Practice Network
@@ -80,7 +80,7 @@
 {{-- ===== CTA STRIP ===== --}}
 <section class="pwr-sec-cta">
   <div class="pwr-container">
-    <div class="pwr-sec-cta__inner">
+    <div class="pwr-sec-cta__inner" data-animate="fade-up">
       <div class="pwr-sec-cta__text">
         <h2 class="pwr-sec-cta__title">
           Benefits Like a DSO — Without Sacrificing Ownership
@@ -107,7 +107,7 @@
 <section class="pwr-sec-clients">
   <div class="pwr-container">
     <p class="pwr-sec-clients__label">Save on supplies and services with our top-tier vetted vendor network</p>
-    <div class="pwr-sec-clients__grid">
+    <div class="pwr-sec-clients__grid" data-stagger>
       <div class="pwr-sec-clients__item">ClearCorrect</div>
       <div class="pwr-sec-clients__item">Dentsply Sirona</div>
       <div class="pwr-sec-clients__item">Envista</div>
@@ -121,7 +121,7 @@
 {{-- ===== MEMBERSHIP BENEFITS TABS ===== --}}
 <section class="pwr-sec-tabs">
   <div class="pwr-container">
-    <div class="pwr-sec-tabs__intro">
+    <div class="pwr-sec-tabs__intro" data-animate="fade-up">
       <span class="pwr-sec-tabs__eyebrow">Membership Benefits</span>
       <h2 class="pwr-sec-tabs__title">Everything Your Practice Needs to Thrive</h2>
       <p class="pwr-sec-tabs__desc">
@@ -246,7 +246,7 @@
       <p class="pwr-sec-image-boxes__desc">Stay up-to-date on how independent dentists like you are tackling the challenges of private practice dentistry.</p>
     </div>
 
-    <div class="pwr-image-boxes-grid">
+    <div class="pwr-image-boxes-grid" data-stagger>
 
       <div class="pwr-image-box pwr-image-box--tall">
         <div class="pwr-image-box__img">
@@ -333,7 +333,7 @@
       <h2 class="pwr-sec-testimonials__title">What Smile Source Members Are Saying</h2>
     </div>
 
-    <div class="pwr-testimonials-masonry">
+    <div class="pwr-testimonials-masonry" data-stagger>
 
       <div class="pwr-testimonial-card">
         <div class="pwr-testimonial-card__stars">★★★★★</div>
@@ -423,7 +423,7 @@
 {{-- ===== CTA ONLY ===== --}}
 <section class="pwr-sec-cta-only">
   <div class="pwr-container">
-    <div class="pwr-sec-cta-only__inner">
+    <div class="pwr-sec-cta-only__inner" data-animate="zoom-in">
       <h2 class="pwr-sec-cta-only__title">
         Ready to Thrive as an Independent Dentist?
       </h2>
@@ -451,7 +451,7 @@
       <h2 class="pwr-sec-accordion__title">Frequently Asked Questions</h2>
     </div>
 
-    <div class="pwr-accordion">
+    <div class="pwr-accordion" data-stagger>
 
       <div class="pwr-accordion-item is-open">
         <button class="pwr-accordion-trigger">

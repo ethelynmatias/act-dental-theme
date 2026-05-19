@@ -11,7 +11,7 @@
   <div class="container">
     <div class="cp-hero-inner">
 
-      <div class="cp-hero-content">
+      <div class="cp-hero-content" data-animate="fade-right">
         <div class="cp-hero-eyebrow">#1 Network for Independent Dentists</div>
         <h1>
           We Help Independent Dentists
@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <div class="cp-hero-graphic">
+      <div class="cp-hero-graphic" data-animate="fade-left">
         <div class="cp-hero-card cp-hero-card--main">
           <div class="cp-hero-card-icon"><i class="fas fa-tooth"></i></div>
           <div class="cp-hero-card-stat">
@@ -60,7 +60,7 @@
 {{-- ===== 4-FEATURE STRIP ===== --}}
 <section class="cp-features">
   <div class="container">
-    <div class="cp-features-grid">
+    <div class="cp-features-grid" data-stagger>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-piggy-bank"></i></div>
@@ -91,7 +91,7 @@
 </section>
 
 {{-- ===== TRUSTED BY (vendor logo strip) ===== --}}
-<section class="cp-logos">
+<section class="cp-logos" data-animate="fade-up">
   <div class="container">
     <p class="cp-logos-label">Preferred Vendor Partners — Vetted &amp; Negotiated for Members</p>
     <div class="cp-logos-row">
@@ -109,7 +109,7 @@
   <div class="container">
     <div class="cp-about-inner">
 
-      <div class="cp-about-graphic">
+      <div class="cp-about-graphic" data-animate="fade-right">
         <div class="cp-about-badge">
           <div class="cp-about-badge-num">20+</div>
           <div class="cp-about-badge-label">Years Serving Dentists</div>
@@ -130,7 +130,7 @@
         </div>
       </div>
 
-      <div class="cp-about-content">
+      <div class="cp-about-content" data-animate="fade-left">
         <div class="cp-eyebrow">Our Story</div>
         <h2>Helping Private Practice Dentists Make More Money with Less Stress.</h2>
         <p>Since 2006, we've grown our network to 1,100+ dentists across 650 member locations. With over a billion dollars of purchasing power, Smile Source delivers deep discounts and rebates that increase profitability — without sacrificing your independence.</p>
@@ -151,12 +151,12 @@
 {{-- ===== TESTIMONIALS ===== --}}
 <section class="cp-testimonials">
   <div class="container">
-    <div class="cp-section-head">
+    <div class="cp-section-head" data-animate="fade-up">
       <div class="cp-eyebrow">What Members Are Saying</div>
       <h2>Community Over Competition.</h2>
       <p>When you join Smile Source, you'll find colleagues who care and are willing to share their experience so your practice grows faster.</p>
     </div>
-    <div class="cp-testimonials-grid">
+    <div class="cp-testimonials-grid" data-stagger>
 
       <div class="cp-testimonial-card">
         <div class="cp-stars">★★★★★</div>
@@ -188,7 +188,7 @@
 </section>
 
 {{-- ===== GUARANTEE ===== --}}
-<section class="cp-guarantee">
+<section class="cp-guarantee" data-animate="zoom-in">
   <div class="container">
     <div class="cp-guarantee-inner">
       <div class="cp-guarantee-icon">🤝</div>
@@ -211,7 +211,7 @@
 <section class="cp-event">
   <div class="container">
     <div class="cp-event-inner">
-      <div class="cp-event-content">
+      <div class="cp-event-content" data-animate="fade-right">
         <div class="cp-eyebrow">Annual Conference</div>
         <h2>Join Us at The Exchange 2026</h2>
         <div class="cp-event-meta">
@@ -226,7 +226,7 @@
         </ul>
         <a href="/v1/exchange-2026" class="cp-btn cp-btn-primary cp-btn-lg">Register Now</a>
       </div>
-      <div class="cp-event-badge">
+      <div class="cp-event-badge" data-animate="fade-left">
         <div class="cp-event-badge-inner">
           <div class="cp-event-year">2026</div>
           <div class="cp-event-name">The Exchange</div>
@@ -242,12 +242,12 @@
 {{-- ===== BLOG ===== --}}
 <section class="cp-blog">
   <div class="container">
-    <div class="cp-section-head">
+    <div class="cp-section-head" data-animate="fade-up">
       <div class="cp-eyebrow">Resources &amp; Education</div>
       <h2>Practice-Building Resources and Education</h2>
       <p>Stay up-to-date on how independent dentists like you are tackling the challenges of private practice dentistry.</p>
     </div>
-    <div class="cp-blog-grid">
+    <div class="cp-blog-grid" data-stagger>
 
       <a href="#" class="cp-blog-card">
         <img src="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Blog/ss_blog_cherry.png" alt="Restoring Wellness Through Financial Empathy" class="cp-blog-img">
@@ -311,7 +311,7 @@
 </section>
 
 {{-- ===== BOTTOM CTA ===== --}}
-<section class="cp-cta-band">
+<section class="cp-cta-band" data-animate="zoom-in">
   <div class="container">
     <h2>More thrive, less strive.</h2>
     <p>Join 1,100+ independent dentists who've found their competitive edge through the Smile Source network.</p>
