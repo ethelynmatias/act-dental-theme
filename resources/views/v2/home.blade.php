@@ -160,7 +160,36 @@
       </div>
 
       <div class="v2-media-col">
-        <img src="{{ asset('images/v2/challenges.png') }}" alt="Practice Challenges" class="v2-challenges-img">
+        <div class="v2-challenge-cards">
+          <div class="v2-challenge-card">
+            <div class="v2-challenge-card__icon"><i class="fas fa-arrow-trend-up"></i></div>
+            <div>
+              <div class="v2-challenge-card__title">Rising Overhead</div>
+              <div class="v2-challenge-card__fix">Save up to 40% on supplies &amp; 30% on lab work</div>
+            </div>
+          </div>
+          <div class="v2-challenge-card">
+            <div class="v2-challenge-card__icon"><i class="fas fa-user-slash"></i></div>
+            <div>
+              <div class="v2-challenge-card__title">Team Retention</div>
+              <div class="v2-challenge-card__fix">Recruiting, benefits &amp; payroll support included</div>
+            </div>
+          </div>
+          <div class="v2-challenge-card">
+            <div class="v2-challenge-card__icon"><i class="fas fa-building"></i></div>
+            <div>
+              <div class="v2-challenge-card__title">Corporate Competition</div>
+              <div class="v2-challenge-card__fix">Compete at scale with 1,100+ independent peers</div>
+            </div>
+          </div>
+          <div class="v2-challenge-card">
+            <div class="v2-challenge-card__icon"><i class="fas fa-compress-arrows-alt"></i></div>
+            <div>
+              <div class="v2-challenge-card__title">Practice Consolidation</div>
+              <div class="v2-challenge-card__fix">DSO-level benefits without giving up ownership</div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -173,7 +202,26 @@
     <div class="v2-two-col">
 
       <div class="v2-media-col">
-        <img src="{{ asset('images/v2/dentist-2.png') }}" alt="Member Savings" class="v2-savings-img">
+        <div class="v2-savings-panel">
+          <div class="v2-savings-panel__label">Members Save On Average</div>
+          <div class="v2-savings-stat">
+            <div class="v2-savings-stat__pct">40%</div>
+            <div class="v2-savings-stat__desc">on dental supplies &amp; materials</div>
+          </div>
+          <div class="v2-savings-divider"></div>
+          <div class="v2-savings-stat">
+            <div class="v2-savings-stat__pct">30%</div>
+            <div class="v2-savings-stat__desc">on dental laboratory work</div>
+          </div>
+          <div class="v2-savings-divider"></div>
+          <div class="v2-savings-stat">
+            <div class="v2-savings-stat__pct">45%</div>
+            <div class="v2-savings-stat__desc">with dental manufacturers</div>
+          </div>
+          <div class="v2-savings-panel__footer">
+            <i class="fas fa-shield-alt"></i> 90+ vetted vendors — negotiated for you
+          </div>
+        </div>
       </div>
 
       <div class="v2-text-col">

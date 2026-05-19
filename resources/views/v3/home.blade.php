@@ -70,7 +70,7 @@
       <a href="#" class="pwr-btn pwr-btn--primary pwr-btn--large pwr-btn--long">
         Let's Talk
       </a>
-      <a href="#" class="pwr-btn pwr-btn--outline-white">
+      <a href="#" class="pwr-btn pwr-btn--outline-white pwr-btn--large pwr-btn--long">
         <i class="fas fa-play-circle"></i>&ensp;Why Smile Source
       </a>
     </div>

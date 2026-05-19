@@ -143,6 +143,13 @@
 }
 .pwr-btn--outline-primary:hover { background-color: var(--clr-primary); color: #fff; opacity: 1; }
 
+/* compensate outline border when combined with --large */
+.pwr-btn--large.pwr-btn--outline-white,
+.pwr-btn--large.pwr-btn--outline-primary { padding: 20px 30px; }
+
+.pwr-btn--large.pwr-btn--long.pwr-btn--outline-white,
+.pwr-btn--large.pwr-btn--long.pwr-btn--outline-primary { padding: 20px 39px; }
+
 /* ================================================================
    1. HERO — pwr-hero--full-height pwr--dark
    Full viewport height, dark bg, centered text, particle animation
