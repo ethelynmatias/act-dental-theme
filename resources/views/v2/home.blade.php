@@ -94,7 +94,20 @@
   </div>
 
 {{-- ===== ABOUT SMILE SOURCE ===== --}}
-<section class="v2-meet">
+<section class="v2-meet v2-about-section">
+  <div class="v2-about-blob" aria-hidden="true">
+    <svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg">
+      <path d="M480,30 C540,60 590,130 580,210 C570,290 510,340 460,390 C410,440 350,480 280,470 C210,460 150,400 120,330 C90,260 100,170 150,110 C200,50 290,10 370,5 C420,2 420,0 480,30 Z" fill="url(#aboutBlobGrad)"/>
+      <path d="M510,20 C555,55 575,120 560,195 C545,270 490,320 448,372 C406,424 355,468 292,462 C229,456 172,400 145,336 C118,272 128,184 172,122 C216,60 300,18 374,10 C425,4 465,-15 510,20 Z" fill="rgba(0,164,189,.06)"/>
+      <defs>
+        <radialGradient id="aboutBlobGrad" cx="40%" cy="40%" r="60%">
+          <stop offset="0%"   stop-color="rgba(26,111,196,.16)"/>
+          <stop offset="60%"  stop-color="rgba(0,164,189,.09)"/>
+          <stop offset="100%" stop-color="rgba(26,111,196,.02)"/>
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
   <div class="sr-container">
     <div class="v2-two-col">
 
@@ -155,6 +168,7 @@
 
 {{-- ===== CHALLENGES ===== --}}
 <section class="v2-meet v2-challenges-section">
+
   <div class="sr-container">
     <div class="v2-two-col v2-two-col--reversed">
 
@@ -213,7 +227,20 @@
 </div>{{-- /v2-connected-wrap --}}
 
 {{-- ===== SAVINGS BENEFIT ===== --}}
-<section class="v2-meet">
+<section class="v2-meet v2-savings-section">
+  <div class="v2-savings-blob" aria-hidden="true">
+    <svg viewBox="0 0 520 560" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50,500 C-10,445 -30,350 20,265 C70,180 175,150 245,105 C315,60 375,10 445,45 C515,80 530,175 510,255 C490,335 430,385 368,438 C306,491 255,535 180,548 C125,558 110,555 50,500 Z" fill="url(#savingsBlobGrad)"/>
+      <path d="M75,515 C18,462 -5,372 42,290 C89,208 188,176 255,132 C322,88 378,40 444,72 C510,104 520,196 502,272 C484,348 426,396 366,446 C306,496 258,538 186,550 C134,558 132,568 75,515 Z" fill="rgba(0,164,189,.05)"/>
+      <defs>
+        <radialGradient id="savingsBlobGrad" cx="50%" cy="45%" r="58%">
+          <stop offset="0%"   stop-color="rgba(26,111,196,.15)"/>
+          <stop offset="55%"  stop-color="rgba(0,164,189,.08)"/>
+          <stop offset="100%" stop-color="rgba(26,111,196,.01)"/>
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
   <div class="sr-container">
     <div class="v2-two-col">
 
@@ -260,7 +287,37 @@
 </section>
 
 {{-- ===== MEMBERSHIP BENEFITS GRID ===== --}}
-<section class="v2-modules">
+<section class="v2-modules v2-modules--blobs">
+  <div class="v2-blob-bg" aria-hidden="true">
+    <svg class="v2-blob v2-blob--tr" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      <path d="M430,80 C480,130 510,210 490,290 C470,370 400,420 330,430 C260,440 190,410 150,360 C110,310 110,240 140,180 C170,120 240,80 310,70 C380,60 380,30 430,80 Z" fill="url(#blobGradTR)"/>
+      <defs>
+        <radialGradient id="blobGradTR" cx="50%" cy="50%" r="50%">
+          <stop offset="0%"   stop-color="rgba(26,111,196,.18)"/>
+          <stop offset="100%" stop-color="rgba(0,164,189,.06)"/>
+        </radialGradient>
+      </defs>
+    </svg>
+    <svg class="v2-blob v2-blob--bl" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      <path d="M70,420 C20,370 -10,290 10,210 C30,130 100,80 170,70 C240,60 310,90 350,140 C390,190 390,260 360,320 C330,380 260,420 190,430 C120,440 120,470 70,420 Z" fill="url(#blobGradBL)"/>
+      <defs>
+        <radialGradient id="blobGradBL" cx="50%" cy="50%" r="50%">
+          <stop offset="0%"   stop-color="rgba(0,164,189,.16)"/>
+          <stop offset="100%" stop-color="rgba(26,111,196,.05)"/>
+        </radialGradient>
+      </defs>
+    </svg>
+    {{-- Connecting line between blobs --}}
+    <svg class="v2-blob-connector" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M85,5 Q50,50 15,95" stroke="url(#connectorGrad)" stroke-width=".4" fill="none" vector-effect="non-scaling-stroke"/>
+      <defs>
+        <linearGradient id="connectorGrad" x1="85%" y1="5%" x2="15%" y2="95%">
+          <stop offset="0%"   stop-color="rgba(26,111,196,.25)"/>
+          <stop offset="100%" stop-color="rgba(0,164,189,.25)"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
   <div class="sr-container">
     <div class="v2-modules__header">
       <span class="v2-section-tag">Membership Benefits</span>
@@ -361,7 +418,20 @@
 </section>
 
 {{-- ===== TESTIMONIALS ===== --}}
-<section class="v2-reviews">
+<section class="v2-reviews v2-reviews--blob">
+  <div class="v2-reviews-blob" aria-hidden="true">
+    <svg viewBox="0 0 560 580" xmlns="http://www.w3.org/2000/svg">
+      <path d="M60,520 C10,470 -20,380 15,295 C50,210 140,165 210,120 C280,75 340,30 410,55 C480,80 510,160 500,240 C490,320 440,380 380,430 C320,480 260,520 190,535 C140,545 110,570 60,520 Z" fill="url(#reviewsBlobGrad)"/>
+      <path d="M40,540 C-15,488 -30,395 8,308 C46,221 130,172 198,128 C266,84 322,36 396,58 C470,80 498,158 492,236 C486,314 440,376 382,424 C324,472 268,518 200,534 C155,544 95,592 40,540 Z" fill="rgba(26,111,196,.05)"/>
+      <defs>
+        <radialGradient id="reviewsBlobGrad" cx="55%" cy="55%" r="55%">
+          <stop offset="0%"   stop-color="rgba(26,111,196,.16)"/>
+          <stop offset="55%"  stop-color="rgba(0,164,189,.09)"/>
+          <stop offset="100%" stop-color="rgba(26,111,196,.02)"/>
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
   <div class="sr-container">
 
     <div class="v2-reviews__header">

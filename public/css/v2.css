@@ -555,6 +555,129 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid var(--border);
 }
 
+/* Savings section blob — lower left */
+.v2-savings-section {
+  position: relative;
+  overflow: hidden;
+}
+.v2-savings-section .sr-container {
+  position: relative;
+  z-index: 1;
+}
+.v2-savings-blob {
+  position: absolute;
+  bottom: -80px;
+  left: -90px;
+  width: 440px;
+  height: 480px;
+  pointer-events: none;
+  z-index: 0;
+  animation: blobFloat 11s ease-in-out infinite;
+}
+.v2-savings-blob svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Reviews section blob — lower left */
+.v2-reviews--blob {
+  position: relative;
+  overflow: hidden;
+}
+.v2-reviews--blob .sr-container {
+  position: relative;
+  z-index: 1;
+}
+.v2-reviews-blob {
+  position: absolute;
+  bottom: -70px;
+  left: -90px;
+  width: 460px;
+  height: 500px;
+  pointer-events: none;
+  z-index: 0;
+  animation: blobFloat 13s ease-in-out infinite reverse;
+}
+.v2-reviews-blob svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* About section blob — upper right */
+.v2-about-section {
+  position: relative;
+  overflow: hidden;
+}
+.v2-about-section .sr-container {
+  position: relative;
+  z-index: 1;
+}
+.v2-about-blob {
+  position: absolute;
+  top: -60px;
+  right: -80px;
+  width: 480px;
+  height: 420px;
+  pointer-events: none;
+  z-index: 0;
+  animation: blobFloat 12s ease-in-out infinite;
+}
+.v2-about-blob svg {
+  width: 100%;
+  height: 100%;
+}
+
+.v2-modules--blobs {
+  position: relative;
+  overflow: hidden;
+}
+.v2-modules--blobs .sr-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Blob background layer */
+.v2-blob-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Upper-right blob */
+.v2-blob--tr {
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 420px;
+  height: 420px;
+  animation: blobFloat 9s ease-in-out infinite;
+}
+
+/* Lower-left blob */
+.v2-blob--bl {
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 380px;
+  height: 380px;
+  animation: blobFloat 11s ease-in-out infinite reverse;
+}
+
+/* Diagonal connector */
+.v2-blob-connector {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes blobFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40%       { transform: translate(-18px, 16px) scale(1.05); }
+  70%       { transform: translate(12px, -12px) scale(.96); }
+}
+
 .v2-modules__header {
   text-align: center;
   max-width: 640px;
@@ -1105,27 +1228,56 @@ h1, h2, h3, h4, h5, h6 {
    ============================================================ */
 .v2-challenges-section {
   position: relative;
-  background-color: #f0f4fa;
-  background-image:
-    linear-gradient(rgba(26,111,196,.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26,111,196,.06) 1px, transparent 1px),
-    linear-gradient(rgba(26,111,196,.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26,111,196,.03) 1px, transparent 1px);
-  background-size: 80px 80px, 80px 80px, 20px 20px, 20px 20px;
-  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
-}
-.v2-challenges-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at 0% 50%, rgba(26,111,196,.08) 0%, transparent 55%),
-    radial-gradient(ellipse at 100% 50%, rgba(0,164,189,.07) 0%, transparent 55%);
-  pointer-events: none;
+  background-color: var(--white);
+  overflow: hidden;
+  border-top: none;
+  border-bottom: none;
 }
 .v2-challenges-section .sr-container {
   position: relative;
   z-index: 1;
+}
+
+/* Wave elements */
+.v2-wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+.v2-wave svg { display: block; width: 100%; }
+.v2-wave--top {
+  top: 0;
+  height: 100px;
+  animation: waveUpDown 5s ease-in-out infinite;
+}
+.v2-wave--bottom {
+  bottom: 0;
+  height: 100px;
+  transform: scaleY(-1);
+  animation: waveUpDown 6s ease-in-out infinite reverse;
+}
+.v2-wave--mid {
+  top: 50%;
+  transform: translateY(-50%);
+  height: 140px;
+  opacity: .5;
+  animation: waveMid 7s ease-in-out infinite;
+}
+
+@keyframes waveUpDown {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-12px); }
+}
+@keyframes waveMid {
+  0%, 100% { transform: translateY(-50%) scaleX(1); }
+  50%       { transform: translateY(calc(-50% - 10px)) scaleX(1.03); }
+}
+
+.v2-challenges-section {
+  padding-top: calc(var(--pad-full) + 24px);
+  padding-bottom: calc(var(--pad-full) + 24px);
 }
 
 /* ============================================================
