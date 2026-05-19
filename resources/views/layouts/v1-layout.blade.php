@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ $metaDesc ?? 'ACT Dental — Exceptional care for your entire family. General, cosmetic, and orthodontic dentistry.' }}">
-  <title>{{ $title ?? 'Smile Source' }} | Smile Source</title>
+  <title>Smile Source{{ isset($title) ? ' | ' . $title : '' }}</title>
 
   <!-- Favicon -->
   <link rel="icon" href="https://23372339.fs1.hubspotusercontent-na1.net/hubfs/23372339/Branding/Logos%20(2024)/Smile%20Source%202024%20Favicon.png">

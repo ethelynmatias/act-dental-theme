@@ -1,4 +1,4 @@
-@extends('layouts.v1-layout')
+@extends('layouts.v1-layout', ['title' => 'Home'])
 
 @push('styles')
   <link rel="stylesheet" href="{{ asset('css/v1.css') }}">
@@ -65,25 +65,25 @@
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-piggy-bank"></i></div>
         <h3>Supercharge Your Savings</h3>
-        <p>Say goodbye to paying full price. Deep discounts and rebates from the industry's top vendors go straight to your bottom line.</p>
+        <p>Save up to 40% on dental supplies, up to 30% on lab work, and up to 45% with manufacturers. Vetted vendor rates negotiated with the industry's largest partners go straight to your bottom line.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-chart-line"></i></div>
         <h3>Practice Growth</h3>
-        <p>Position your practice for unstoppable growth with technology, staffing, and proven marketing solutions.</p>
+        <p>Access recruiting, benefits, payroll, patient financing, strategic consulting, and proven technology solutions — the same support DSOs give their dentists, without giving up your ownership.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-users"></i></div>
         <h3>Powerful Networking</h3>
-        <p>Connect to knowledgeable, friendly colleagues committed to strengthening and promoting independent dentistry.</p>
+        <p>Local group leaders organize in-person meetings in cities across America. Crowdsource the knowledge of hundreds of highly qualified peers online 24/7 through forums and virtual fireside chats.</p>
       </div>
 
       <div class="cp-feature-card">
         <div class="cp-feature-icon"><i class="fas fa-graduation-cap"></i></div>
         <h3>Continuing Education</h3>
-        <p>Access industry-leading CE and incredible resources for your entire dental team — anytime, anywhere.</p>
+        <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff. Topics span practice management, new procedures, 3D technology, and more.</p>
       </div>
 
     </div>
@@ -133,13 +133,13 @@
       <div class="cp-about-content">
         <div class="cp-eyebrow">Our Story</div>
         <h2>Helping Private Practice Dentists Make More Money with Less Stress.</h2>
-        <p>Since 2006, we've grown our network to 1,100+ dentists helping dentists. With over a billion dollars of purchasing power, Smile Source delivers deep discounts to members that increase profitability.</p>
-        <p>Owning a private dental practice is challenging. We understand the pressures you're facing — rising overhead, staffing shortages, and the growing pressures of corporate dentistry. That's exactly why we exist.</p>
+        <p>Since 2006, we've grown our network to 1,100+ dentists helping dentists across 650 member locations. With over a billion dollars of purchasing power, Smile Source delivers deep discounts and rebates that increase profitability — without sacrificing your independence.</p>
+        <p>Smile Source is not a DSO. We offer DSO-level support services — group purchasing, staff recruiting, in-house dental plans, patient financing, dental practice marketing, and strategic practice consulting — while you maintain 100% ownership and complete autonomy.</p>
         <div class="cp-check-list">
-          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Rising overhead — solved with vendor discounts</div>
-          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Dental team retention — resources and support</div>
-          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Corporate competition — strength in numbers</div>
-          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Practice consolidation — stay independently strong</div>
+          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Rising overhead — up to 40% off supplies, 30% off lab work</div>
+          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Dental team retention — recruiting, benefits &amp; payroll support</div>
+          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Corporate competition — 86% of the dental market is still independent</div>
+          <div class="cp-check-item"><i class="fas fa-check-circle"></i> Practice consolidation — stay strong with 1,100+ peers behind you</div>
         </div>
         <a href="/v1/why-smile-source/our-story" class="cp-btn cp-btn-primary">Learn Our Story</a>
       </div>

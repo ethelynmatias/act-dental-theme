@@ -663,6 +663,16 @@
 .v4-testimonial-card .author strong { font-family: Jost, sans-serif; font-size: .83rem; font-weight: 600; color: var(--text-dark); display: block; }
 .v4-testimonial-card .author span  { font-size: .77rem; color: var(--body-text); }
 
+.v4-avatar-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--accent);
+  display: block;
+}
+
 /* ================================================================
    PATIENT GALLERY — grid of result cards (act3 "customer sites" style)
    ================================================================ */

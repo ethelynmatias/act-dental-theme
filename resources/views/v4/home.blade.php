@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout', ['title' => 'Home'])
 
 @push('styles')
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +32,7 @@
       </div>
 
       <div class="v4-hero-img-col">
-        <div class="v4-hero-img"><i class="fas fa-tooth"></i></div>
+        <div class="v4-hero-img"><img src="{{ asset('images/v4/hero-home.gif') }}" alt="Smile Source Network"></div>
         <div class="v4-hero-overlay">
           <div class="icon"><i class="fas fa-users"></i></div>
           <div>
@@ -144,7 +144,7 @@
     <div class="v4-showcase-scroll">
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--1">
-          <i class="fas fa-arrow-up"></i>
+          <img src="{{ asset('images/v4/challenges.png') }}" alt="Rising Overhead">
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #1</div>
@@ -154,7 +154,7 @@
       </div>
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--2">
-          <i class="fas fa-user-slash"></i>
+          <img src="{{ asset('images/v4/challenges.png') }}" alt="Team Retention">
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #2</div>
@@ -164,7 +164,7 @@
       </div>
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--3">
-          <i class="fas fa-compress-arrows-alt"></i>
+          <img src="{{ asset('images/v4/challenges.png') }}" alt="Practice Consolidation">
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #3</div>
@@ -174,7 +174,7 @@
       </div>
       <div class="v4-showcase-card">
         <div class="v4-showcase-card__thumb v4-showcase-card__thumb--4">
-          <i class="fas fa-building"></i>
+          <img src="{{ asset('images/v4/challenges.png') }}" alt="Corporate Competition">
         </div>
         <div class="v4-showcase-card__body">
           <div class="v4-showcase-card__label">Challenge #4</div>
@@ -219,7 +219,7 @@
         </div>
         <a href="#" class="btn-accent">Learn More About Us</a>
       </div>
-      <div class="v4-about-img-col"><i class="fas fa-handshake"></i></div>
+      <div class="v4-about-img-col"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Dentists Helping Dentists"></div>
     </div>
   </div>
 </section>
@@ -262,7 +262,7 @@
         <div class="stars">★★★★★</div>
         <blockquote>"I would have never thought about my dental practice as the business it is today. It's exciting to be connected with other colleagues struggling and succeeding in similar ways. To know I have a professional family to lean on or be leaned on is priceless."</blockquote>
         <div class="author">
-          <div class="avatar">JH</div>
+          <img src="{{ asset('images/v4/dentist-1.png') }}" alt="Jeff Henneberg, DDS" class="v4-avatar-img">
           <div>
             <strong>Jeff Henneberg, DDS</strong>
             <span>Smile Source Spokane</span>
@@ -273,7 +273,7 @@
         <div class="stars">★★★★★</div>
         <blockquote>"I now enjoy dentistry so much more. I have more appreciation for the team, the patients, and the colleagues I have. Smile Source has given me the support, confidence, and desire to be my best by surrounding myself with the best dentists and humans in the industry."</blockquote>
         <div class="author">
-          <div class="avatar">KB</div>
+          <img src="{{ asset('images/v4/dentist-2.png') }}" alt="Dr. Kyle Benton" class="v4-avatar-img">
           <div>
             <strong>Dr. Kyle Benton</strong>
             <span>Benton Family Dentistry</span>
@@ -306,56 +306,56 @@
     </div>
     <div class="v4-gallery-grid">
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--1"><i class="fas fa-tag"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--1"><img src="{{ asset('images/v4/hero-home.gif') }}" alt="Savings Program"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">Savings Program</div>
           <div class="v4-gallery-card__sub">Discounts · Rebates · Vetted vendors</div>
         </div>
       </div>
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--2"><i class="fas fa-chart-line"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--2"><img src="{{ asset('images/v4/challenges.png') }}" alt="Practice Growth"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">Practice Growth</div>
           <div class="v4-gallery-card__sub">Technology · Staffing · Strategy</div>
         </div>
       </div>
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--3"><i class="fas fa-bullhorn"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--3"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Marketing Support"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">Marketing Support</div>
           <div class="v4-gallery-card__sub">Brand specialists · Patient growth</div>
         </div>
       </div>
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--4"><i class="fas fa-users"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--4"><img src="{{ asset('images/v4/dentist-2.png') }}" alt="Peer Networking"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">Peer Networking</div>
           <div class="v4-gallery-card__sub">1,100+ colleagues · Community</div>
         </div>
       </div>
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--5"><i class="fas fa-graduation-cap"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--5"><img src="{{ asset('images/v4/hero-home.gif') }}" alt="Education and CE"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">Education &amp; CE</div>
           <div class="v4-gallery-card__sub">Clinical &amp; business · Whole team</div>
         </div>
       </div>
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--6"><i class="fas fa-calendar-alt"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--6"><img src="{{ asset('images/v4/challenges.png') }}" alt="The Exchange 2026"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">The Exchange 2026</div>
           <div class="v4-gallery-card__sub">San Antonio · Sept 9–12, 2026</div>
         </div>
       </div>
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--7"><i class="fas fa-user-check"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--7"><img src="{{ asset('images/v4/dentist-1.png') }}" alt="Member Success Specialist"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">Member Success Specialist</div>
           <div class="v4-gallery-card__sub">Dedicated support · Personalized</div>
         </div>
       </div>
       <div class="v4-gallery-card">
-        <div class="v4-gallery-card__img v4-gallery-card__img--8"><i class="fas fa-shield-alt"></i></div>
+        <div class="v4-gallery-card__img v4-gallery-card__img--8"><img src="{{ asset('images/v4/dentist-2.png') }}" alt="Your Independence"></div>
         <div class="v4-gallery-card__body">
           <div class="v4-gallery-card__name">Your Independence</div>
           <div class="v4-gallery-card__sub">DSO benefits · Zero sacrifice</div>

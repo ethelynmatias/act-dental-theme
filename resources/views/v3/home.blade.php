@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout', ['title' => 'Home'])
 
 @push('styles')
   <link rel="stylesheet" href="{{ asset('css/v3.css') }}">
@@ -143,19 +143,19 @@
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-tag"></i></div>
           <h3>Vendor Discounts &amp; Rebates</h3>
-          <p>Negotiated rates with the industry's largest vendors — dental technology, supplies, labs, and services all at reduced cost.</p>
+          <p>Save up to 40% on dental supplies, 30% on laboratory work, and 45% with manufacturers. Vetted and negotiated rates with the industry's largest vendors — active from day one of membership.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-dollar-sign"></i></div>
           <h3>Over $1 Billion Purchasing Power</h3>
-          <p>No solo practice can negotiate what 1,100+ members can. Our collective buying power delivers savings that move the needle.</p>
+          <p>No solo practice can negotiate what 1,100+ members across 650 locations can. Our collective buying power delivers savings on technology, supplies, labs, and services that directly move your bottom line.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-shield-alt"></i></div>
-          <h3>Vetted Vendors Only</h3>
-          <p>Every vendor in the Smile Source network has been carefully evaluated — only the best make the cut so you can buy with confidence.</p>
+          <h3>Over 90 Vetted Vendors</h3>
+          <p>Every vendor in the Smile Source network has been carefully evaluated — only the best make the cut. Members also save thousands on medical coverage for their teams every year.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -167,19 +167,19 @@
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-laptop-medical"></i></div>
           <h3>Technology Solutions</h3>
-          <p>Access the latest practice management, imaging, and clinical technology with member pricing and expert implementation support.</p>
+          <p>Access the latest practice management, imaging, and clinical technology at member pricing — including 3D imaging, digital workflows, and implementation support from experts who know private practice.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-user-nurse"></i></div>
-          <h3>Staffing Solutions</h3>
-          <p>Get support hiring, training, and retaining your dental team with resources designed specifically for independent practices.</p>
+          <h3>Staffing &amp; HR Solutions</h3>
+          <p>Group health insurance, recruiting, benefits, and payroll support help you attract, train, and retain your best team members — saving thousands annually on coverage alone.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-chart-line"></i></div>
-          <h3>Proven Growth Strategies</h3>
-          <p>Position your practice for unstoppable growth with time-tested solutions used by 1,100+ successful independent practices.</p>
+          <h3>Strategic Practice Consulting</h3>
+          <p>One Smile Source member grew their practice from $500K to nearly $2 million annually. Member Success Specialists connect you with top consultants and proven systems used by 1,100+ practices.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -190,20 +190,20 @@
       <div class="pwr-tabs-grid">
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-bullhorn"></i></div>
-          <h3>Expert Marketing Strategies</h3>
-          <p>Access expert-driven marketing strategies designed to attract and retain more patients in your specific market.</p>
+          <h3>Geodemographic Targeting</h3>
+          <p>Smile Source studies where people live, work, and travel — then helps you target marketing using demographics, income data, and consumer spending patterns around your practice.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-paint-brush"></i></div>
-          <h3>Brand Specialists</h3>
-          <p>Work with brand specialists who understand private dental practices and help you stand out from corporate competition.</p>
+          <h3>Brand &amp; Digital Presence</h3>
+          <p>Identify opportunities in your website, SEO, and social media strategy. Expert brand specialists help you define your identity, win more new patients, and stand out from corporate dentistry.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-users"></i></div>
-          <h3>Patient Attraction &amp; Retention</h3>
-          <p>From digital presence to patient experience, get the tools and guidance to grow your patient base and keep them coming back.</p>
+          <h3>High-Intent Patient Campaigns</h3>
+          <p>Emergency and pain-driven Google Ads, SMS campaigns for existing patients, and targeted digital audiences that convert — practical marketing that generates real new-patient appointments.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -251,7 +251,7 @@
     <div class="pwr-image-boxes-grid">
 
       <div class="pwr-image-box pwr-image-box--tall">
-        <div class="pwr-image-box__img pwr-img--indigo"><i class="fas fa-piggy-bank"></i></div>
+        <div class="pwr-image-box__img pwr-img--indigo"><img src="{{ asset('images/v3/hero-home.gif') }}" alt="Reduce Overhead"></div>
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--hot">TOP BENEFIT</span>
           <h3>Reduce Overhead</h3>
@@ -260,7 +260,7 @@
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--purple"><i class="fas fa-chart-line"></i></div>
+        <div class="pwr-image-box__img pwr-img--purple"><img src="{{ asset('images/v3/challenges.png') }}" alt="Practice Growth"></div>
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--trending">POPULAR</span>
           <h3>Practice Growth</h3>
@@ -269,7 +269,7 @@
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--dark"><i class="fas fa-bullhorn"></i></div>
+        <div class="pwr-image-box__img pwr-img--dark"><img src="{{ asset('images/v3/dentist-1.png') }}" alt="Expert Marketing"></div>
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--hot">HIGH VALUE</span>
           <h3>Expert Marketing</h3>
@@ -278,7 +278,7 @@
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--navy"><i class="fas fa-users"></i></div>
+        <div class="pwr-image-box__img pwr-img--navy"><img src="{{ asset('images/v3/dentist-2.png') }}" alt="Peer Networking"></div>
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--new">COMMUNITY</span>
           <h3>Peer Networking</h3>
@@ -287,7 +287,7 @@
       </div>
 
       <div class="pwr-image-box pwr-image-box--tall">
-        <div class="pwr-image-box__img pwr-img--purple"><i class="fas fa-graduation-cap"></i></div>
+        <div class="pwr-image-box__img pwr-img--purple"><img src="{{ asset('images/v3/hero-home.gif') }}" alt="Continuing Education"></div>
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--hot">INCLUDED</span>
           <h3>Continuing Education</h3>
@@ -296,7 +296,7 @@
       </div>
 
       <div class="pwr-image-box">
-        <div class="pwr-image-box__img pwr-img--dark"><i class="fas fa-calendar-star"></i></div>
+        <div class="pwr-image-box__img pwr-img--dark"><img src="{{ asset('images/v3/challenges.png') }}" alt="The Exchange 2026"></div>
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--trending">LIVE EVENT</span>
           <h3>The Exchange 2026</h3>
@@ -326,7 +326,7 @@
           To know I have a professional family to lean on or be leaned on is priceless."
         </blockquote>
         <div class="pwr-testimonial-card__author">
-          <div class="pwr-testimonial-card__avatar">JH</div>
+          <img src="{{ asset('images/v3/dentist-1.png') }}" alt="Jeff Henneberg, DDS" class="pwr-testimonial-card__avatar-img">
           <div>
             <strong>Jeff Henneberg, DDS</strong>
             <span>Smile Source Spokane</span>
@@ -343,7 +343,7 @@
           dentists and humans in the industry."
         </blockquote>
         <div class="pwr-testimonial-card__author">
-          <div class="pwr-testimonial-card__avatar">KB</div>
+          <img src="{{ asset('images/v3/dentist-2.png') }}" alt="Dr. Kyle Benton" class="pwr-testimonial-card__avatar-img">
           <div>
             <strong>Dr. Kyle Benton</strong>
             <span>Benton Family Dentistry</span>

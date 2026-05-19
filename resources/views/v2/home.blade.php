@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout', ['title' => 'Home'])
 
 @push('styles')
   <link rel="stylesheet" href="{{ asset('css/v2.css') }}">
@@ -28,9 +28,7 @@
     </div>
 
     <div class="v2-hero__visual">
-      <div class="v2-media-img v2-media-img--dark">
-        <i class="fas fa-tooth"></i>
-      </div>
+      <img src="{{ asset('images/v2/hero-home.gif') }}" alt="Smile Source Network" class="v2-hero-img">
     </div>
 
   </div>
@@ -90,26 +88,21 @@
     <div class="v2-two-col">
 
       <div class="v2-media-col">
-        <div class="v2-media-img v2-media-img--blue">
-          <i class="fas fa-handshake"></i>
-        </div>
+        <img src="{{ asset('images/v2/hero-home.gif') }}" alt="About Smile Source" class="v2-about-img">
       </div>
 
       <div class="v2-text-col">
         <span class="v2-section-tag">About Smile Source</span>
         <h2 class="v2-section-title">Helping Private Practice Dentists Make More Money With Less Stress.</h2>
         <p class="v2-section-body">
-          Since 2006, Smile Source has grown its network to 1,100+ dentists helping dentists.
-          With over a billion dollars of purchasing power, Smile Source delivers deep discounts
-          to members that increase profitability. We believe you deserve benefits like a DSO
-          without sacrificing ownership.
+          Since 2006, Smile Source has grown its network to 1,100+ dentists helping dentists across 650 member locations. Smile Source is not a DSO — you keep 100% ownership and complete autonomy while accessing DSO-level support: group purchasing, staff recruiting, in-house dental plans, patient financing, dental practice marketing, and strategic practice consulting.
         </p>
         <ul class="v2-list">
           <li><i class="fas fa-check-circle"></i> Founded in 2006 — nearly two decades of proven results</li>
-          <li><i class="fas fa-check-circle"></i> 1,100+ independent member dentists across the country</li>
+          <li><i class="fas fa-check-circle"></i> 1,100+ independent member dentists across 650 locations</li>
           <li><i class="fas fa-check-circle"></i> Over $1 billion in collective purchasing power</li>
           <li><i class="fas fa-check-circle"></i> Dedicated Member Success Specialist for every member</li>
-          <li><i class="fas fa-check-circle"></i> DSO-level benefits without giving up your independence</li>
+          <li><i class="fas fa-check-circle"></i> 86% of the dental market is still independent — and thriving</li>
         </ul>
         <a href="#" class="sr-btn sr-btn-primary">Learn More About Us</a>
       </div>
@@ -127,23 +120,19 @@
         <span class="v2-section-tag">We Understand Your Challenges</span>
         <h2 class="v2-section-title">Owning a Private Dental Practice Is Challenging.</h2>
         <p class="v2-section-body">
-          We understand the pressures you're facing. Rising overhead, staffing shortages,
-          and the growing pressures of corporate dentistry are making it harder than ever
-          to run a thriving independent practice. Smile Source was built specifically to solve these problems.
+          Running a private dental practice can often feel overwhelming. By joining a supportive network of colleagues, you'll find others who truly understand your unique challenges — and have real, proven solutions. 86% of the dental market is still independent. You're not alone, and you don't have to figure it out alone.
         </p>
         <ul class="v2-list">
-          <li><i class="fas fa-check-circle"></i> Rising overhead eating into your margins</li>
-          <li><i class="fas fa-check-circle"></i> Dental team retention and staffing shortages</li>
-          <li><i class="fas fa-check-circle"></i> Practice consolidation and DSO pressure</li>
-          <li><i class="fas fa-check-circle"></i> Growing competition from corporate dentistry</li>
+          <li><i class="fas fa-check-circle"></i> Rising overhead — save up to 40% on supplies and 30% on lab work</li>
+          <li><i class="fas fa-check-circle"></i> Dental team retention — recruiting, benefits &amp; payroll support included</li>
+          <li><i class="fas fa-check-circle"></i> Practice consolidation — compete at scale without selling to a DSO</li>
+          <li><i class="fas fa-check-circle"></i> Growing corporate competition — strength in 1,100+ independent peers</li>
         </ul>
         <a href="#" class="sr-btn sr-btn-primary">See How We Help</a>
       </div>
 
       <div class="v2-media-col">
-        <div class="v2-media-img v2-media-img--light">
-          <i class="fas fa-chart-bar"></i>
-        </div>
+        <img src="{{ asset('images/v2/challenges.png') }}" alt="Practice Challenges" class="v2-challenges-img">
       </div>
 
     </div>
@@ -156,24 +145,20 @@
     <div class="v2-two-col">
 
       <div class="v2-media-col">
-        <div class="v2-media-img v2-media-img--blue" style="background:linear-gradient(135deg,#ede9fe,#ddd6fe); color:#7c3aed;">
-          <i class="fas fa-piggy-bank"></i>
-        </div>
+        <img src="{{ asset('images/v2/dentist-2.png') }}" alt="Member Savings" class="v2-savings-img">
       </div>
 
       <div class="v2-text-col">
         <span class="v2-section-tag">Membership Savings</span>
         <h2 class="v2-section-title">Supercharge Your Savings With Discounts That Move the Needle.</h2>
         <p class="v2-section-body">
-          Smile Source has vetted and negotiated rates with the industry's largest vendors
-          to save on dental technology, supplies, labs, and services. Our collective
-          purchasing power means every member enjoys rates no solo practice could negotiate alone.
+          Smile Source has vetted and negotiated rates with the industry's largest vendors to save on dental technology, supplies, labs, and services. Our collective purchasing power means every member enjoys rates no solo practice could negotiate alone — immediately upon joining.
         </p>
         <ul class="v2-list">
-          <li><i class="fas fa-check-circle"></i> Deeply discounted dental supplies and materials</li>
-          <li><i class="fas fa-check-circle"></i> Rebates on equipment and technology purchases</li>
-          <li><i class="fas fa-check-circle"></i> Lab and specialty services at negotiated rates</li>
-          <li><i class="fas fa-check-circle"></i> Vetted vendors — only the best make the cut</li>
+          <li><i class="fas fa-check-circle"></i> Save up to 40% on dental supplies and materials</li>
+          <li><i class="fas fa-check-circle"></i> Save up to 30% on dental laboratory work on average</li>
+          <li><i class="fas fa-check-circle"></i> Save up to 45% with dental manufacturers</li>
+          <li><i class="fas fa-check-circle"></i> Over 90 vetted vendors — only the best make the cut</li>
         </ul>
         <a href="#" class="sr-btn sr-btn-primary">Explore Member Savings</a>
       </div>
@@ -199,37 +184,37 @@
       <div class="v2-module-card">
         <div class="v2-module-card__icon"><i class="fas fa-tag"></i></div>
         <h3>Savings</h3>
-        <p>Discounts and rebates across dental technology, supplies, labs, and services that directly reduce overhead.</p>
+        <p>Save up to 40% on supplies, 30% on lab work, and 45% with manufacturers. Vetted and negotiated rates across dental technology, supplies, labs, and services — immediately upon joining.</p>
       </div>
 
       <div class="v2-module-card">
         <div class="v2-module-card__icon"><i class="fas fa-rocket"></i></div>
         <h3>Practice Growth</h3>
-        <p>Position your practice for unstoppable growth with technology, staffing solutions, and proven strategies.</p>
+        <p>Recruiting, benefits, payroll, patient financing, and strategic practice consulting — DSO-level support services that help you scale while keeping 100% ownership.</p>
       </div>
 
       <div class="v2-module-card">
         <div class="v2-module-card__icon"><i class="fas fa-bullhorn"></i></div>
         <h3>Marketing</h3>
-        <p>Expert-driven marketing strategies and brand specialists to help you attract and retain more patients.</p>
+        <p>Geodemographic targeting, consumer travel pattern analysis, digital presence optimization, and expert-led marketing courses to attract and retain more patients in your market.</p>
       </div>
 
       <div class="v2-module-card">
         <div class="v2-module-card__icon"><i class="fas fa-users"></i></div>
         <h3>Networking</h3>
-        <p>Connect with knowledgeable, friendly colleagues committed to strengthening independent dentistry.</p>
+        <p>Local group leaders organize in-person meetings across America. Online forums, virtual fireside chats, and The Exchange annual meeting — crowdsource 1,100+ peers 24/7.</p>
       </div>
 
       <div class="v2-module-card">
         <div class="v2-module-card__icon"><i class="fas fa-graduation-cap"></i></div>
         <h3>Education</h3>
-        <p>Industry-leading continuing education and incredible resources for your entire dental team.</p>
+        <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff, covering practice management, new procedures, 3D technology, and more.</p>
       </div>
 
       <div class="v2-module-card">
         <div class="v2-module-card__icon"><i class="fas fa-user-check"></i></div>
         <h3>Member Success Specialist</h3>
-        <p>A dedicated specialist who helps you optimize every benefit and maximize your membership value.</p>
+        <p>A dedicated specialist connects you with top consultants and vendors, helps you optimize every benefit, and ensures you get full value from your membership from day one.</p>
       </div>
 
     </div>
@@ -300,7 +285,7 @@
         <h4>A Professional Family</h4>
         <blockquote>"I would have never thought about my dental practice as the business it is today. It's exciting to be connected with other colleagues struggling and succeeding in similar ways. To know I have a professional family to lean on or be leaned on is priceless."</blockquote>
         <div class="v2-review-author">
-          <div class="v2-review-avatar">JH</div>
+          <img src="{{ asset('images/v2/dentist-1.png') }}" alt="Jeff Henneberg, DDS" class="v2-review-avatar-img">
           <div>
             <strong>Jeff Henneberg, DDS</strong>
             <span>Smile Source Spokane</span>
@@ -313,7 +298,7 @@
         <h4>Enjoying Dentistry Again</h4>
         <blockquote>"I now enjoy dentistry so much more. I have more appreciation for the team, the patients, and the colleagues I have. Smile Source has given me the support, confidence, and desire to be my best by surrounding myself with the best dentists and humans in the industry."</blockquote>
         <div class="v2-review-author">
-          <div class="v2-review-avatar">KB</div>
+          <img src="{{ asset('images/v2/dentist-2.png') }}" alt="Dr. Kyle Benton" class="v2-review-avatar-img">
           <div>
             <strong>Dr. Kyle Benton</strong>
             <span>Benton Family Dentistry</span>

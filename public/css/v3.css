@@ -702,6 +702,16 @@
   flex-shrink: 0;
 }
 
+.pwr-testimonial-card__avatar-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid rgba(62,53,241,.4);
+  display: block;
+}
+
 .pwr-testimonial-card__author strong {
   display: block;
   font-size: 14px;

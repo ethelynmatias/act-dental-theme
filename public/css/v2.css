@@ -601,6 +601,16 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
 }
 
+.v2-review-avatar-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--primary);
+  display: block;
+}
+
 .v2-review-author strong {
   display: block;
   font-family: var(--font-display);

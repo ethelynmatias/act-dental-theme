@@ -1,4 +1,4 @@
-@extends('layouts.v1-layout')
+@extends('layouts.v1-layout', ['title' => $pageTitle ?? 'Page'])
 
 @push('styles')
   <link rel="stylesheet" href="{{ asset('css/v1.css') }}">
