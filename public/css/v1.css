@@ -108,6 +108,20 @@
   overflow: hidden;
 }
 
+/* Typewriter */
+.cp-typewriter { border-right: none; }
+.cp-cursor {
+  display: inline-block;
+  color: var(--cp-primary);
+  font-weight: 900;
+  margin-left: 2px;
+  animation: cpBlink .75s step-end infinite;
+}
+@keyframes cpBlink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
 /* ── Hero background layer ── */
 .cp-hero { position: relative; }
 .cp-hero .container { position: relative; z-index: 1; }
@@ -199,9 +213,16 @@
   letter-spacing: -.02em;
 }
 
+.cp-hero-highlight-line {
+  display: block;
+}
 .cp-hero-highlight {
   color: var(--cp-primary);
-  display: block;
+  display: inline;
+}
+.cp-cursor {
+  display: inline;
+  vertical-align: baseline;
 }
 
 .cp-hero-content p {
@@ -593,7 +614,7 @@
    TESTIMONIALS
    ============================================================ */
 .cp-testimonials {
-  background: var(--cp-bg);
+  background: linear-gradient(to left, rgba(0,164,189,.12) 0%, rgba(12,99,255,.07) 40%, #f7f9fc 100%);
   padding: 96px 0;
   border-top: 1px solid var(--cp-border);
 }

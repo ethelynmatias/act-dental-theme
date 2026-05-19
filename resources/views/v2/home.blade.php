@@ -80,6 +80,19 @@
   </div>
 </section>
 
+{{-- ===== ABOUT + CHALLENGES (connected) ===== --}}
+<div class="v2-connected-wrap">
+
+  {{-- Shared background decoration --}}
+  <div class="v2-connected-bg" aria-hidden="true">
+    <i class="fas fa-tooth v2-bg-icon v2-bg-icon--1"></i>
+    <i class="fas fa-user-md v2-bg-icon v2-bg-icon--2"></i>
+    <i class="fas fa-heartbeat v2-bg-icon v2-bg-icon--3"></i>
+    <i class="fas fa-clinic-medical v2-bg-icon v2-bg-icon--4"></i>
+    <div class="v2-bg-orb v2-bg-orb--1"></div>
+    <div class="v2-bg-orb v2-bg-orb--2"></div>
+  </div>
+
 {{-- ===== ABOUT SMILE SOURCE ===== --}}
 <section class="v2-meet">
   <div class="sr-container">
@@ -141,7 +154,7 @@
 </section>
 
 {{-- ===== CHALLENGES ===== --}}
-<section class="v2-meet" style="background:var(--off-white);">
+<section class="v2-meet v2-challenges-section">
   <div class="sr-container">
     <div class="v2-two-col v2-two-col--reversed">
 
@@ -196,6 +209,8 @@
     </div>
   </div>
 </section>
+
+</div>{{-- /v2-connected-wrap --}}
 
 {{-- ===== SAVINGS BENEFIT ===== --}}
 <section class="v2-meet">

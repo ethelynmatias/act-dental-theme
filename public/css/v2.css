@@ -783,8 +783,24 @@ h1, h2, h3, h4, h5, h6 {
    ================================================================ */
 .v2-cta {
   background-color: var(--black);
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(26,111,196,.18) 0%, transparent 55%),
+    radial-gradient(circle at 80% 20%, rgba(0,164,189,.14) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 100%, rgba(26,111,196,.1) 0%, transparent 60%),
+    linear-gradient(135deg, transparent 25%, rgba(255,255,255,.015) 25%, rgba(255,255,255,.015) 50%, transparent 50%, transparent 75%, rgba(255,255,255,.015) 75%);
+  background-size: auto, auto, auto, 40px 40px;
   padding: var(--pad-full) 0;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.v2-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
 }
 
 .v2-cta__inner {
@@ -1083,6 +1099,93 @@ h1, h2, h3, h4, h5, h6 {
 .sr-blog-cat { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--sr-primary); margin-bottom: 8px; }
 .sr-blog-body h4 { font-size: 17px; font-weight: 700; line-height: 1.4; margin: 0 0 10px; color: var(--text-dark); }
 .sr-blog-date { font-size: 13px; color: var(--text-mid); }
+
+/* ============================================================
+   V2 CHALLENGES SECTION — professional pattern bg
+   ============================================================ */
+.v2-challenges-section {
+  position: relative;
+  background-color: #f0f4fa;
+  background-image:
+    linear-gradient(rgba(26,111,196,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,111,196,.06) 1px, transparent 1px),
+    linear-gradient(rgba(26,111,196,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,111,196,.03) 1px, transparent 1px);
+  background-size: 80px 80px, 80px 80px, 20px 20px, 20px 20px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+.v2-challenges-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 0% 50%, rgba(26,111,196,.08) 0%, transparent 55%),
+    radial-gradient(ellipse at 100% 50%, rgba(0,164,189,.07) 0%, transparent 55%);
+  pointer-events: none;
+}
+.v2-challenges-section .sr-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================================
+   V2 CONNECTED SECTIONS — shared decorative bg
+   ============================================================ */
+.v2-connected-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.v2-connected-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure sections sit above bg */
+.v2-connected-wrap .v2-meet {
+  position: relative;
+  z-index: 1;
+}
+
+/* Large faded icons */
+.v2-bg-icon {
+  position: absolute;
+  color: var(--primary, #1a6fc4);
+  opacity: .12;
+  animation: v2BgFloat 10s ease-in-out infinite;
+}
+.v2-bg-icon--1 { font-size: 280px; top: 2%;  left: -50px;  animation-delay: 0s;   animation-duration: 14s; }
+.v2-bg-icon--2 { font-size: 240px; top: 45%; right: -30px; animation-delay: 3s;   animation-duration: 18s; }
+.v2-bg-icon--3 { font-size: 160px; top: 75%; left: 38%;    animation-delay: 1.5s; animation-duration: 12s; }
+.v2-bg-icon--4 { font-size: 140px; top: 18%; right: 28%;   animation-delay: 5s;   animation-duration: 16s; }
+
+/* Soft gradient orbs for depth */
+.v2-bg-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  animation: v2BgFloat 14s ease-in-out infinite;
+}
+.v2-bg-orb--1 {
+  width: 600px; height: 600px;
+  top: -80px; right: -120px;
+  background: radial-gradient(circle, rgba(26,111,196,.18) 0%, transparent 70%);
+  animation-delay: 0s;
+}
+.v2-bg-orb--2 {
+  width: 500px; height: 500px;
+  bottom: -60px; left: -100px;
+  background: radial-gradient(circle, rgba(0,164,189,.15) 0%, transparent 70%);
+  animation-delay: -6s;
+}
+
+@keyframes v2BgFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40%       { transform: translate(20px, -24px) scale(1.04); }
+  70%       { transform: translate(-14px, 16px) scale(.97); }
+}
 
 /* ============================================================
    V2 NAV — fixed, transparent over hero, solid on scroll

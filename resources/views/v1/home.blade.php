@@ -25,7 +25,7 @@
         <div class="cp-hero-eyebrow">#1 Network for Independent Dentists</div>
         <h1>
           We Help Independent Dentists
-          <span class="cp-hero-highlight">Thrive Together.</span>
+          <span class="cp-hero-highlight-line"><span class="cp-hero-highlight cp-typewriter" id="cpTypewriter"></span><span class="cp-cursor">|</span></span>
         </h1>
         <p>Save time, money, and headaches. Smile Source connects you to the right people, products, and services to boost profitability and accelerate your growth.</p>
         <ul class="cp-hero-checks">
@@ -109,6 +109,30 @@
     </div>
   </div>
 </section>
+
+{{-- Typewriter script --}}
+<script>
+(function(){
+  const el = document.getElementById('cpTypewriter');
+  const cursor = document.querySelector('.cp-cursor');
+  if (!el) return;
+  const phrases = ['Thrive Together.', 'Grow Together.', 'Succeed Together.'];
+  let pi = 0, ci = 0, deleting = false;
+  const typeSpeed = 80, deleteSpeed = 45, pauseEnd = 1800, pauseStart = 400;
+  function tick() {
+    const phrase = phrases[pi];
+    if (!deleting) {
+      el.textContent = phrase.slice(0, ++ci);
+      if (ci === phrase.length) { deleting = true; setTimeout(tick, pauseEnd); return; }
+    } else {
+      el.textContent = phrase.slice(0, --ci);
+      if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; setTimeout(tick, pauseStart); return; }
+    }
+    setTimeout(tick, deleting ? deleteSpeed : typeSpeed);
+  }
+  tick();
+})();
+</script>
 
 {{-- ===== TRUSTED BY (vendor logo carousel) ===== --}}
 <section class="cp-logos" data-animate="fade-up">
