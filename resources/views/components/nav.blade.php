@@ -19,8 +19,13 @@
 
         <!-- Logo -->
         <a href="{{ $vp }}/home" class="nav-logo">
-          <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/Smile%20Source%202024%20Logo.png"
-               alt="Smile Source" height="38" style="height:38px; width:auto; display:block;">
+          @if($seg === 'v2')
+            <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/SS_full_rev.png"
+                 alt="Smile Source" height="38" style="height:38px; width:auto; display:block;">
+          @else
+            <img src="https://23372339.fs1.hubspotusercontent-na1.net/hub/23372339/hubfs/Branding/Logos%20(2024)/Smile%20Source%202024%20Logo.png"
+                 alt="Smile Source" height="38" style="height:38px; width:auto; display:block;">
+          @endif
         </a>
 
         <!-- Desktop Menu -->
@@ -64,16 +69,12 @@
             <a href="{{ $vp }}/blog" class="nav-link">Blog</a>
           </li>
 
-          <li class="nav-item">
-            <a href="{{ $vp }}/lets-talk" class="nav-link">Let's Talk</a>
-          </li>
-
         </ul>
 
         <!-- Desktop CTA -->
         <div class="nav-cta">
           <a href="https://members.smilesource.com/login" class="btn btn-outline btn-sm">Member Login</a>
-          <a href="{{ $vp }}/join" class="btn btn-primary btn-sm">Join Now</a>
+          <a href="{{ $vp }}/lets-talk" class="btn btn-primary btn-sm">Let's Talk</a>
         </div>
 
         <!-- Hamburger -->
@@ -120,10 +121,9 @@
         </ul>
       </li>
       <li><a href="{{ $vp }}/blog" style="display:block; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">Blog</a></li>
-      <li><a href="{{ $vp }}/lets-talk" style="display:block; padding:12px 0; font-size:15px; font-weight:500; border-bottom:1px solid var(--border);">Let's Talk</a></li>
       <li style="padding-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
         <a href="https://members.smilesource.com/login" class="btn btn-outline btn-sm" style="flex:1; justify-content:center;">Member Login</a>
-        <a href="{{ $vp }}/join" class="btn btn-primary btn-sm" style="flex:1; justify-content:center;">Join Now</a>
+        <a href="{{ $vp }}/lets-talk" class="btn btn-primary btn-sm" style="flex:1; justify-content:center;">Let's Talk</a>
       </li>
     </ul>
 

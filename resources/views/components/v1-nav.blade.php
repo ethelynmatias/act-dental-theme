@@ -135,17 +135,12 @@
           <a href="/v1/blog" class="v1-nav-link">Blog</a>
         </li>
 
-        {{-- Let's Talk --}}
-        <li class="v1-nav-item">
-          <a href="/v1/lets-talk" class="v1-nav-link">Let's Talk</a>
-        </li>
-
       </ul>
 
       {{-- Desktop CTAs --}}
       <div class="v1-nav-cta">
         <a href="https://members.smilesource.com/login" class="v1-login-link">Member Login</a>
-        <a href="/v1/join" class="v1-btn-start">Join Now</a>
+        <a href="/v1/lets-talk" class="v1-btn-start">Let's Talk</a>
       </div>
 
       {{-- Hamburger --}}
@@ -199,11 +194,10 @@
     </li>
 
     <li><a href="/v1/blog" style="display:block;padding:14px 0;font-size:15px;font-weight:600;color:#1e2d40;border-bottom:1px solid #e2e8f0;">Blog</a></li>
-    <li><a href="/v1/lets-talk" style="display:block;padding:14px 0;font-size:15px;font-weight:600;color:#1e2d40;border-bottom:1px solid #e2e8f0;">Let's Talk</a></li>
 
     <li class="v1-mobile-cta">
       <a href="https://members.smilesource.com/login" class="v1-login-link" style="flex:1;text-align:center;">Member Login</a>
-      <a href="/v1/join" class="v1-btn-start" style="flex:1;text-align:center;justify-content:center;">Join Now</a>
+      <a href="/v1/lets-talk" class="v1-btn-start" style="flex:1;text-align:center;justify-content:center;">Let's Talk</a>
     </li>
 
   </ul>

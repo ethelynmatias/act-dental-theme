@@ -777,9 +777,26 @@
    BOTTOM CTA BAND
    ============================================================ */
 .cp-cta-band {
-  background: var(--cp-navy);
+  background-color: var(--cp-navy);
+  background-image: url('/images/v1/hero-home.gif');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
   padding: 96px 0;
   text-align: center;
+  overflow: hidden;
+}
+.cp-cta-band::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,22,60,.88) 0%, rgba(0,164,189,.45) 100%);
+  z-index: 0;
+}
+.cp-cta-band .container {
+  position: relative;
+  z-index: 1;
 }
 
 .cp-cta-band h2 {
