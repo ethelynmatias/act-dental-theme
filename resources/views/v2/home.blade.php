@@ -27,9 +27,6 @@
 
     </div>
 
-    <div class="v2-hero__visual">
-      <img src="{{ asset('images/v2/hero-home.gif') }}" alt="Smile Source Network" class="v2-hero-img">
-    </div>
 
   </div>
 </section>
@@ -88,7 +85,38 @@
     <div class="v2-two-col">
 
       <div class="v2-media-col">
-        <img src="{{ asset('images/v2/hero-home.gif') }}" alt="About Smile Source" class="v2-about-img">
+        <div class="v2-icon-grid">
+          <div class="v2-icon-grid__item">
+            <div class="v2-icon-grid__icon"><i class="fas fa-tooth"></i></div>
+            <div class="v2-icon-grid__stat">1,100+</div>
+            <div class="v2-icon-grid__label">Member Dentists</div>
+          </div>
+          <div class="v2-icon-grid__item">
+            <div class="v2-icon-grid__icon"><i class="fas fa-calendar-alt"></i></div>
+            <div class="v2-icon-grid__stat">Since 2006</div>
+            <div class="v2-icon-grid__label">Trusted Network</div>
+          </div>
+          <div class="v2-icon-grid__item">
+            <div class="v2-icon-grid__icon"><i class="fas fa-dollar-sign"></i></div>
+            <div class="v2-icon-grid__stat">$1B+</div>
+            <div class="v2-icon-grid__label">Purchasing Power</div>
+          </div>
+          <div class="v2-icon-grid__item">
+            <div class="v2-icon-grid__icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="v2-icon-grid__stat">650</div>
+            <div class="v2-icon-grid__label">Member Locations</div>
+          </div>
+          <div class="v2-icon-grid__item">
+            <div class="v2-icon-grid__icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="v2-icon-grid__stat">100%</div>
+            <div class="v2-icon-grid__label">Your Ownership</div>
+          </div>
+          <div class="v2-icon-grid__item">
+            <div class="v2-icon-grid__icon"><i class="fas fa-handshake"></i></div>
+            <div class="v2-icon-grid__stat">90+</div>
+            <div class="v2-icon-grid__label">Vetted Vendors</div>
+          </div>
+        </div>
       </div>
 
       <div class="v2-text-col">

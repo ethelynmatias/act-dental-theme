@@ -215,19 +215,19 @@
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-handshake"></i></div>
           <h3>Peer Networking</h3>
-          <p>Connect with knowledgeable, friendly colleagues committed to strengthening and promoting independent dentistry nationwide.</p>
+          <p>Local group leaders organize in-person meetings in cities across America. Online forums, virtual fireside chats, and the ability to crowdsource the knowledge of hundreds of highly qualified peers online 24/7.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-graduation-cap"></i></div>
           <h3>Continuing Education</h3>
-          <p>Industry-leading CE and resources for your entire team — clinical, business, and leadership education all in one place.</p>
+          <p>Hundreds of CE courses annually — in-person and online — for dentists, hygienists, dental assistants, and front office staff. Topics include practice management, case planning, new procedures, and 3D technology.</p>
           <a href="#" class="pwr-service-card__link">Learn more <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="pwr-service-card">
           <div class="pwr-service-card__icon"><i class="fas fa-calendar-alt"></i></div>
           <h3>The Exchange 2026</h3>
-          <p>San Antonio, TX — September 9–12, 2026. The ultimate hub for inspiration, connection, and innovation for independent dentists.</p>
+          <p>San Antonio, TX — September 9–12, 2026. Where private practice dentists ignite their passion, learn about new products and procedures, get vendor deals, and connect with 1,100+ peers.</p>
           <a href="#" class="pwr-service-card__link">Register Now <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -255,7 +255,7 @@
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--hot">TOP BENEFIT</span>
           <h3>Reduce Overhead</h3>
-          <p>Over $1 billion in purchasing power means negotiated discounts across supplies, equipment, and services that directly impact your bottom line.</p>
+          <p>Save up to 40% on supplies, 30% on lab work, and 45% with manufacturers. Over $1 billion in purchasing power means negotiated discounts that directly impact your bottom line — immediately upon joining.</p>
         </div>
       </div>
 
@@ -264,7 +264,7 @@
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--trending">POPULAR</span>
           <h3>Practice Growth</h3>
-          <p>Technology, staffing, and proven strategies to position your practice for unstoppable growth.</p>
+          <p>Recruiting, benefits, payroll, patient financing, and strategic consulting — proven systems that helped one member grow from $500K to nearly $2 million annually.</p>
         </div>
       </div>
 
@@ -273,7 +273,7 @@
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--hot">HIGH VALUE</span>
           <h3>Expert Marketing</h3>
-          <p>Brand specialists and marketing strategies to attract and retain more patients in your market.</p>
+          <p>Geodemographic targeting, consumer travel analysis, digital presence optimization, and high-intent Google Ads — built specifically for private dental practices.</p>
         </div>
       </div>
 
@@ -282,7 +282,7 @@
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--new">COMMUNITY</span>
           <h3>Peer Networking</h3>
-          <p>1,100+ colleagues who care, share experience, and help your practice grow faster together.</p>
+          <p>In-person meetings in cities across America, online forums, virtual fireside chats — crowdsource 1,100+ peers 24/7 in the true spirit of community over competition.</p>
         </div>
       </div>
 
@@ -291,7 +291,7 @@
         <div class="pwr-image-box__body">
           <span class="pwr-image-box__badge badge--hot">INCLUDED</span>
           <h3>Continuing Education</h3>
-          <p>Industry-leading CE for your entire team — clinical excellence and business leadership, all under one membership roof.</p>
+          <p>Hundreds of CE courses annually for dentists, hygienists, assistants, and front office staff. Practice management, case planning, new procedures, 3D technology — available in-person and online.</p>
         </div>
       </div>
 
